@@ -1,0 +1,13 @@
+
+diaodeng.png
+size: 293,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+diaodeng
+  rotate: false
+  xy: 2, 2
+  size: 289, 298
+  orig: 289, 298
+  offset: 0, 0
+  index: -1

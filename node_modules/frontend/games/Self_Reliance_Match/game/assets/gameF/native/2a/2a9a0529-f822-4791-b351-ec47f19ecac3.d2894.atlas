@@ -1,0 +1,132 @@
+
+guoguan.png
+size: 759, 540
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+!
+  rotate: false
+  xy: 469, 139
+  size: 41, 76
+  orig: 45, 80
+  offset: 2, 2
+  index: -1
+body
+  rotate: true
+  xy: 0, 24
+  size: 191, 259
+  orig: 191, 259
+  offset: 0, 0
+  index: -1
+di2
+  rotate: false
+  xy: 0, 365
+  size: 561, 175
+  orig: 561, 175
+  offset: 0, 0
+  index: -1
+guang
+  rotate: true
+  xy: 261, 137
+  size: 78, 206
+  orig: 82, 210
+  offset: 2, 2
+  index: -1
+hand_1
+  rotate: false
+  xy: 563, 419
+  size: 194, 121
+  orig: 194, 121
+  offset: 0, 0
+  index: -1
+hand_2
+  rotate: true
+  xy: 512, 127
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+houfa
+  rotate: true
+  xy: 261, 0
+  size: 135, 126
+  orig: 137, 128
+  offset: 1, 1
+  index: -1
+piaodai
+  rotate: false
+  xy: 0, 217
+  size: 560, 146
+  orig: 560, 146
+  offset: 0, 0
+  index: -1
+shouzhang
+  rotate: false
+  xy: 389, 2
+  size: 36, 38
+  orig: 38, 40
+  offset: 1, 1
+  index: -1
+tou
+  rotate: true
+  xy: 562, 214
+  size: 121, 146
+  orig: 123, 148
+  offset: 1, 1
+  index: -1
+toufa1
+  rotate: false
+  xy: 654, 129
+  size: 83, 79
+  orig: 83, 79
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 717, 325
+  size: 41, 92
+  orig: 41, 92
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 563, 337
+  size: 80, 152
+  orig: 80, 152
+  offset: 0, 0
+  index: -1
+toufa4
+  rotate: false
+  xy: 710, 210
+  size: 49, 113
+  orig: 49, 113
+  offset: 0, 0
+  index: -1
+发
+  rotate: false
+  xy: 480, 36
+  size: 90, 89
+  orig: 90, 89
+  offset: 0, 0
+  index: -1
+喜
+  rotate: false
+  xy: 572, 36
+  size: 87, 89
+  orig: 91, 93
+  offset: 2, 2
+  index: -1
+恭
+  rotate: true
+  xy: 389, 42
+  size: 93, 89
+  orig: 95, 89
+  offset: 1, 0
+  index: -1
+财
+  rotate: false
+  xy: 661, 39
+  size: 84, 88
+  orig: 86, 90
+  offset: 1, 1
+  index: -1

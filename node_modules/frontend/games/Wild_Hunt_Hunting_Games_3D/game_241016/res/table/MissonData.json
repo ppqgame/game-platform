@@ -1,0 +1,857 @@
+[
+    {
+        "id": "0",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill a stag",
+        "shotAnimal": [
+            1,
+            1
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Recently, there was an abnormal reaction of the buck in the forest. One buck was killed for investigation."
+    },
+    {
+        "id": "1",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Collect three fruits and vegetables",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            -9,
+            3
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            0,
+            5
+        ],
+        "introduce1": "To make sure you have food for the winter, gather three fruits and vegetables. (Collecting plants)"
+    },
+    {
+        "id": "2",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 2 lemurs",
+        "shotAnimal": [
+            2,
+            2
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            12,
+            2
+        ],
+        "introduce1": "The lemurs in the forest are very active, which affects the investigation work. Please go and kill 2 lemurs."
+    },
+    {
+        "id": "3",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 1 serving of any food",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            -20,
+            1
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Making food is a must for life in the jungle. Try cooking and making a meal."
+    },
+    {
+        "id": "4",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Two barrels of crude oil were collected",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            11,
+            2
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "You can find the resources you need in the forest and go to collect 2 barrels of oil. (Collecting ore)"
+    },
+    {
+        "id": "5",
+        "levelType": "5",
+        "dailyType": "3",
+        "introduce": "Make 1 bucket of gasoline",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            31,
+            1
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            10,
+            5
+        ],
+        "introduce1": "Vehicle fuel is an indispensable resource for survival here. Try to make a barrel of gasoline."
+    },
+    {
+        "id": "6",
+        "levelType": "2",
+        "dailyType": "3",
+        "introduce": "Refuel the vehicle once",
+        "shotAnimal": "",
+        "useGood": [
+            -7,
+            2
+        ],
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Refuel departure, refuel the vehicle once."
+    },
+    {
+        "id": "7",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill three bucks",
+        "shotAnimal": [
+            1,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": [
+            79,
+            2
+        ],
+        "introduce1": "The number of bucks seems to be out of balance. Go and kill 3 bucks to control the number."
+    },
+    {
+        "id": "8",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 wild boars",
+        "shotAnimal": [
+            4,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "There was a report of a possible pathogen on the wild boar, and 3 wild boar were killed for investigation."
+    },
+    {
+        "id": "9",
+        "levelType": "2",
+        "dailyType": "1",
+        "introduce": "Apply the Hawk-Eye Potion 3 times",
+        "shotAnimal": "",
+        "useGood": [
+            29,
+            3
+        ],
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            29,
+            2
+        ],
+        "introduce1": "Proficiency in slow motion is the foundation of the hunter, using 3 Hawk-eye Potions."
+    },
+    {
+        "id": "10",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 foxes",
+        "shotAnimal": [
+            3,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            13,
+            1
+        ],
+        "introduce1": "Recently, the fox population has increased greatly. Go to kill 3 foxes to control the population."
+    },
+    {
+        "id": "11",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Two medicinal materials were collected",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            -10,
+            2
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            25,
+            1
+        ],
+        "introduce1": "Having a few herbs isn't a bad thing. Gather 2 herbs."
+    },
+    {
+        "id": "12",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 wild boars",
+        "shotAnimal": [
+            4,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Recently, a wild boar was found near his home, and he tried to destroy the fence and went to kill three wild boars."
+    },
+    {
+        "id": "13",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 giraffes",
+        "shotAnimal": [
+            5,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            39,
+            1
+        ],
+        "introduce1": "The animal society called and said they needed some blood samples from the giraffes to kill three of them."
+    },
+    {
+        "id": "14",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Gather 5 pieces of wood",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            1,
+            5
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Collect some wood, it will always be used, go to collect 5 wood."
+    },
+    {
+        "id": "15",
+        "levelType": "5",
+        "dailyType": "3",
+        "introduce": "Make 1 bucket of gasoline",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            31,
+            1
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Vehicle fuel is an indispensable resource for survival here. Try to make a barrel of gasoline."
+    },
+    {
+        "id": "16",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 foxes",
+        "shotAnimal": [
+            3,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "The fox in the forest repeatedly appears crazy situation, go to kill 5 foxes for investigation."
+    },
+    {
+        "id": "17",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Three rocks were acquired",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            8,
+            3
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "You need some materials to build your home. Go and collect 3 rocks. (Collecting ore)"
+    },
+    {
+        "id": "18",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Two iron ores were collected",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            9,
+            2
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Go to the forest to collect two iron ore, it will certainly come in handy. (Collecting ore)"
+    },
+    {
+        "id": "19",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 2 skewers of assorted meat",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            24,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Try cooking 2 skewers of assorted meat. As for the taste, it depends on your skill."
+    },
+    {
+        "id": "20",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 wild boars",
+        "shotAnimal": [
+            4,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Recently, the boar's destructive behavior is more serious. Go to kill 5 wild boars."
+    },
+    {
+        "id": "21",
+        "levelType": "1",
+        "dailyType": "3",
+        "introduce": "Kill 3 brown bears",
+        "shotAnimal": [
+            6,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Need some solid fur for the winter. Bear fur should be good. Go kill 3 brown bears."
+    },
+    {
+        "id": "22",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Two copper ores were collected",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            37,
+            2
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Now you need some COPPER to MAKE items. Go and collect 2 copper ores. (Collecting ore)"
+    },
+    {
+        "id": "23",
+        "levelType": "5",
+        "dailyType": "3",
+        "introduce": "Make 2 regular iron",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            15,
+            1
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Make 2 ordinary iron on the workbench, that is the premise of making some other tools."
+    },
+    {
+        "id": "24",
+        "levelType": "5",
+        "dailyType": "3",
+        "introduce": "Make 2 black powder",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            14,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Hunters need gunpowder. Make two black powder."
+    },
+    {
+        "id": "25",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 rhinos",
+        "shotAnimal": [
+            7,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Rhino attack in the forest, kill 5 rhinos for control."
+    },
+    {
+        "id": "26",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Collect 2 fine animal meat",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            60,
+            2
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Pay attention to the quality when collecting, and get 2 fine animal meat. (Collecting animals)"
+    },
+    {
+        "id": "27",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 leopards",
+        "shotAnimal": [
+            8,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "To keep the animal population balanced, go and kill 3 leopards."
+    },
+    {
+        "id": "28",
+        "levelType": "2",
+        "dailyType": "1",
+        "introduce": "Apply the Hawk-Eye Potion 3 times",
+        "shotAnimal": "",
+        "useGood": [
+            29,
+            3
+        ],
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": [
+            29,
+            2
+        ],
+        "introduce1": "Proficiency in slow motion is the foundation of the hunter, using 3 Hawk-eye Potions."
+    },
+    {
+        "id": "29",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 2 vegetable salads",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            21,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Take care of your vitamins and cook 2 vegetable salads."
+    },
+    {
+        "id": "30",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill any 5 non-attacking animals",
+        "shotAnimal": [
+            -2,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Safety first, start with non-attacking animals and kill any 5 non-attacking animals."
+    },
+    {
+        "id": "31",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 3 servings of any food",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            -20,
+            3
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Prepare some food, cook and make 3 portions of any food."
+    },
+    {
+        "id": "32",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 leopards",
+        "shotAnimal": [
+            8,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Last time the leopard population did not seem to be well controlled, please kill 5 more leopards."
+    },
+    {
+        "id": "33",
+        "levelType": "5",
+        "dailyType": "3",
+        "introduce": "Make 1 soft head bullet",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            26,
+            1
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Make sure you have enough ammunition at all times to make a soft head bullet."
+    },
+    {
+        "id": "34",
+        "levelType": "1",
+        "dailyType": "3",
+        "introduce": "Kill any 5 attacking animals",
+        "shotAnimal": [
+            -1,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Attack is the best defense. Kill any 5 attacking animals."
+    },
+    {
+        "id": "35",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill three lionesses",
+        "shotAnimal": [
+            10,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Looks like a big challenge. Go and kill 3 lionesses."
+    },
+    {
+        "id": "36",
+        "levelType": "3",
+        "dailyType": "1",
+        "introduce": "Collect 1 monster meat",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": [
+            60,
+            1
+        ],
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Try a few more times will always appear advanced goods, collect and obtain 1 extrema animal meat. (Collecting animals)"
+    },
+    {
+        "id": "37",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 2 pieces of fried meat",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            23,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Try a new dish, cook 2 pieces of fried meat."
+    },
+    {
+        "id": "38",
+        "levelType": "1",
+        "dailyType": "3",
+        "introduce": "Kill 5 lionesses",
+        "shotAnimal": [
+            10,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Recently a lioness in the vicinity of the home, to kill five lioness."
+    },
+    {
+        "id": "39",
+        "levelType": "1",
+        "dailyType": "3",
+        "introduce": "Kill 5 brown bears",
+        "shotAnimal": [
+            6,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "Need more bear skins, and go kill 5 brown bears."
+    },
+    {
+        "id": "40",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 2 vegetable soups",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            20,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Introduce a soup dish for you, try cooking 2 vegetable soup."
+    },
+    {
+        "id": "41",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 male lions",
+        "shotAnimal": [
+            9,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "This is more of a threat than a lioness, but I believe you can successfully kill three male lions."
+    },
+    {
+        "id": "42",
+        "levelType": "4",
+        "dailyType": "1",
+        "introduce": "Cook 2 potato cakes",
+        "shotAnimal": "",
+        "useGood": "",
+        "pick": "",
+        "make": [
+            22,
+            2
+        ],
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Try this again. The potatoes won't be bad. Cook 2 potato cakes."
+    },
+    {
+        "id": "43",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 giraffes",
+        "shotAnimal": [
+            5,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "We need more giraffe blood samples and five more giraffes to kill."
+    },
+    {
+        "id": "44",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 3 rhinos",
+        "shotAnimal": [
+            7,
+            3
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "100",
+        "itemReward": 0,
+        "introduce1": "Recently, the rhinos began to become extremely fierce. We killed 3 rhinos for investigation."
+    },
+    {
+        "id": "45",
+        "levelType": "1",
+        "dailyType": "1",
+        "introduce": "Kill 5 male lions",
+        "shotAnimal": [
+            9,
+            5
+        ],
+        "useGood": "",
+        "pick": "",
+        "make": "",
+        "buy": "",
+        "sell": "",
+        "levelReward": "150",
+        "itemReward": 0,
+        "introduce1": "In order to keep the animal population balanced, go to kill 5 male lions."
+    }
+]

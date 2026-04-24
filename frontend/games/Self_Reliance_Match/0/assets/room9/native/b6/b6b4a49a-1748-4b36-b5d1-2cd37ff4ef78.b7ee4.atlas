@@ -1,0 +1,62 @@
+
+jingtou2.png
+size: 1008,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuohua0
+  rotate: true
+  xy: 484, 3
+  size: 69, 195
+  orig: 69, 195
+  offset: 0, 0
+  index: -1
+shuohua1
+  rotate: true
+  xy: 962, 100
+  size: 69, 44
+  orig: 69, 44
+  offset: 0, 0
+  index: -1
+shuohua2
+  rotate: false
+  xy: 681, 25
+  size: 68, 47
+  orig: 68, 47
+  offset: 0, 0
+  index: -1
+shuohua3
+  rotate: true
+  xy: 786, 2
+  size: 167, 174
+  orig: 167, 174
+  offset: 0, 0
+  index: -1
+shuohua4
+  rotate: true
+  xy: 2, 28
+  size: 293, 480
+  orig: 293, 480
+  offset: 0, 0
+  index: -1
+shuohua5
+  rotate: false
+  xy: 484, 74
+  size: 300, 247
+  orig: 300, 247
+  offset: 0, 0
+  index: -1
+shuohua6
+  rotate: true
+  xy: 2, 323
+  size: 183, 802
+  orig: 183, 802
+  offset: 0, 0
+  index: -1
+shuohua7
+  rotate: false
+  xy: 806, 171
+  size: 188, 335
+  orig: 188, 335
+  offset: 0, 0
+  index: -1

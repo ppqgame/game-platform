@@ -1,0 +1,897 @@
+{
+    "x": 0,
+    "type": "View",
+    "selectedBox": 2,
+    "selecteID": 74,
+    "searchKey": "View",
+    "props": {
+        "width": 2160,
+        "runtime": "Sginin.ts",
+        "height": 1080
+    },
+    "nodeParent": -1,
+    "maxID": 115,
+    "loadList3D": [],
+    "loadList": [
+        "UI/other/qiche1.png",
+        "UI/other/motu1.png",
+        "UI/other/shezhi/di.png",
+        "UI/other/qiandao/diban.png",
+        "UI/other/ziyuan/dia.png",
+        "UI/other/qiandao/yilingqu.png",
+        "UI/other/ziyuan/dia2.png",
+        "UI/other/choujiang/anniuhuang.png",
+        "UI/other/qiandao/lingqu.png",
+        "UI/other/choujiang/anniulv.png",
+        "UI/other/qiandao/shipinlingqu.png"
+    ],
+    "label": "View",
+    "isOpen": true,
+    "isDirectory": true,
+    "isAniNode": true,
+    "hasChild": true,
+    "compId": 2,
+    "child": [
+        {
+            "x": 15,
+            "type": "Image",
+            "searchKey": "Image,Carbg",
+            "props": {
+                "y": 684,
+                "x": -200,
+                "var": "Carbg",
+                "skin": "UI/other/qiche1.png",
+                "scaleY": 2,
+                "scaleX": 2,
+                "centerX": 0,
+                "bottom": 0
+            },
+            "nodeParent": 2,
+            "label": "Carbg",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 113,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Image",
+            "searchKey": "Image,Motobg",
+            "props": {
+                "y": 638,
+                "x": 127,
+                "var": "Motobg",
+                "skin": "UI/other/motu1.png",
+                "scaleY": 2,
+                "scaleX": 2,
+                "centerX": 0,
+                "bottom": -180
+            },
+            "nodeParent": 2,
+            "label": "Motobg",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 114,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Image",
+            "searchKey": "Image",
+            "props": {
+                "x": 0,
+                "skin": "UI/other/shezhi/di.png",
+                "right": 0,
+                "left": 0,
+                "height": 700,
+                "bottom": 120
+            },
+            "nodeParent": 2,
+            "label": "Image",
+            "isOpen": true,
+            "isDirectory": true,
+            "isAniNode": true,
+            "hasChild": true,
+            "compId": 74,
+            "child": [
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D1",
+                    "props": {
+                        "var": "D1",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": -804,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D1",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 18,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 146,
+                                "x": 125,
+                                "skin": "UI/other/ziyuan/dia.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5,
+                                "centerY": -30,
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "nodeParent": 18,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 46,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 10",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 18,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 56,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 18,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 19,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "1",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 18,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 79,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D2",
+                    "props": {
+                        "y": 0,
+                        "var": "D2",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": -536,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D2",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 80,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 146,
+                                "x": 125,
+                                "skin": "UI/other/ziyuan/dia.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5,
+                                "centerY": -30,
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "nodeParent": 80,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 81,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 15",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 80,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 82,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 80,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 83,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "2",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 80,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 84,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D3",
+                    "props": {
+                        "y": 0,
+                        "var": "D3",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": -268,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D3",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 85,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 146,
+                                "x": 125,
+                                "skin": "UI/other/ziyuan/dia.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5,
+                                "centerY": -30,
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "nodeParent": 85,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 86,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 20",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 85,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 87,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 85,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 88,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "3",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 85,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 89,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D4",
+                    "props": {
+                        "y": 0,
+                        "var": "D4",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": 0,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D4",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 90,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 146,
+                                "x": 125,
+                                "skin": "UI/other/ziyuan/dia.png",
+                                "scaleY": 1.5,
+                                "scaleX": 1.5,
+                                "centerY": -30,
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "nodeParent": 90,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 91,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 25",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 90,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 92,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 90,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 93,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "4",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 90,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 94,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D5",
+                    "props": {
+                        "y": 0,
+                        "var": "D5",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": 268,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D5",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 95,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "skin": "UI/other/ziyuan/dia2.png",
+                                "centerY": -30,
+                                "centerX": 0
+                            },
+                            "nodeParent": 95,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 96,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 30",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 95,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 97,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 95,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 98,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "5",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 95,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 99,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D6",
+                    "props": {
+                        "y": 0,
+                        "var": "D6",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": 536,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D6",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 100,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 97,
+                                "x": 60,
+                                "skin": "UI/other/ziyuan/dia2.png",
+                                "centerY": -30,
+                                "centerX": 0
+                            },
+                            "nodeParent": 100,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 101,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 30",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 100,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 102,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 100,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 103,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "6",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 100,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 104,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Image",
+                    "searchKey": "Image,D7",
+                    "props": {
+                        "y": 0,
+                        "var": "D7",
+                        "skin": "UI/other/qiandao/diban.png",
+                        "gray": true,
+                        "centerY": -69,
+                        "centerX": 804,
+                        "anchorY": 0.5,
+                        "anchorX": 0.5
+                    },
+                    "nodeParent": 74,
+                    "label": "D7",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 105,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "y": 146,
+                                "x": 125,
+                                "skin": "UI/other/ziyuan/dia.png",
+                                "scaleY": 2,
+                                "scaleX": 2,
+                                "centerY": -30,
+                                "centerX": 0,
+                                "anchorY": 0.5,
+                                "anchorX": 0.5
+                            },
+                            "nodeParent": 105,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 106,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "× 50",
+                                "fontSize": 50,
+                                "color": "#0e2a76",
+                                "centerY": 80,
+                                "centerX": 0
+                            },
+                            "nodeParent": 105,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 107,
+                            "child": []
+                        },
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "visible": false,
+                                "skin": "UI/other/qiandao/yilingqu.png",
+                                "centerY": 0,
+                                "centerX": 0
+                            },
+                            "nodeParent": 105,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 108,
+                            "child": []
+                        },
+                        {
+                            "type": "Label",
+                            "searchKey": "Label",
+                            "props": {
+                                "text": "7",
+                                "fontSize": 40,
+                                "color": "#ffffff",
+                                "centerY": 132,
+                                "centerX": -90,
+                                "bold": true
+                            },
+                            "nodeParent": 105,
+                            "label": "Label",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 109,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Button",
+                    "searchKey": "Button,Get",
+                    "props": {
+                        "var": "Get",
+                        "stateNum": 1,
+                        "skin": "UI/other/choujiang/anniuhuang.png",
+                        "left": 200,
+                        "bottom": 35
+                    },
+                    "nodeParent": 74,
+                    "label": "Get",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 38,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "top": 25,
+                                "skin": "UI/other/qiandao/lingqu.png",
+                                "centerX": 0
+                            },
+                            "nodeParent": 38,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 110,
+                            "child": []
+                        }
+                    ]
+                },
+                {
+                    "x": 30,
+                    "type": "Button",
+                    "searchKey": "Button,AD",
+                    "props": {
+                        "var": "AD",
+                        "stateNum": 1,
+                        "skin": "UI/other/choujiang/anniulv.png",
+                        "right": 200,
+                        "bottom": 35
+                    },
+                    "nodeParent": 74,
+                    "label": "AD",
+                    "isOpen": null,
+                    "isDirectory": true,
+                    "isAniNode": true,
+                    "hasChild": true,
+                    "compId": 39,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "searchKey": "Image",
+                            "props": {
+                                "top": 35,
+                                "skin": "UI/other/qiandao/shipinlingqu.png",
+                                "centerX": 0
+                            },
+                            "nodeParent": 39,
+                            "label": "Image",
+                            "isDirectory": false,
+                            "isAniNode": true,
+                            "hasChild": false,
+                            "compId": 71,
+                            "child": []
+                        }
+                    ]
+                }
+            ],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Script",
+            "source": "laya.ui.Widget",
+            "searchKey": "Script,lostScript",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "top": 0,
+                "runtime": "laya.ui.Widget",
+                "right": 0,
+                "left": 0,
+                "bottom": 0
+            },
+            "nodeParent": 2,
+            "label": "lostScript",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 68,
+            "child": []
+        }
+    ],
+    "animations": [
+        {
+            "nodes": [],
+            "name": "ani1",
+            "id": 1,
+            "frameRate": 24,
+            "action": 0
+        }
+    ]
+}

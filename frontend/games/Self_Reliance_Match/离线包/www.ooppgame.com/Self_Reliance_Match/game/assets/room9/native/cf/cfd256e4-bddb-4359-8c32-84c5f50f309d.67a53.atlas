@@ -1,0 +1,76 @@
+
+jingtou26.png
+size: 868, 868
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+123
+  rotate: false
+  xy: 687, 688
+  size: 44, 178
+  orig: 44, 178
+  offset: 0, 0
+  index: -1
+juqing0
+  rotate: true
+  xy: 687, 615
+  size: 71, 37
+  orig: 71, 37
+  offset: 0, 0
+  index: -1
+juqing1
+  rotate: false
+  xy: 81, 3
+  size: 45, 36
+  orig: 45, 36
+  offset: 0, 0
+  index: -1
+juqing2
+  rotate: false
+  xy: 2, 41
+  size: 340, 825
+  orig: 340, 825
+  offset: 0, 0
+  index: -1
+juqing3
+  rotate: false
+  xy: 2, 2
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+juqing4
+  rotate: false
+  xy: 733, 835
+  size: 72, 31
+  orig: 72, 31
+  offset: 0, 0
+  index: -1
+juqing5
+  rotate: false
+  xy: 687, 595
+  size: 33, 18
+  orig: 33, 18
+  offset: 0, 0
+  index: -1
+juqing6
+  rotate: false
+  xy: 733, 816
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+juqing7
+  rotate: false
+  xy: 344, 279
+  size: 341, 587
+  orig: 341, 587
+  offset: 0, 0
+  index: -1
+juqing8
+  rotate: true
+  xy: 344, 15
+  size: 262, 355
+  orig: 262, 355
+  offset: 0, 0
+  index: -1

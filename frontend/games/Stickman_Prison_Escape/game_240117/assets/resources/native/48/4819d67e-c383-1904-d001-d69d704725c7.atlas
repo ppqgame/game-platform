@@ -1,0 +1,90 @@
+
+Shark.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 702
+  size: 674, 317
+  orig: 848, 330
+  offset: 0, 11
+  index: -1
+eye
+  rotate: false
+  xy: 666, 582
+  size: 82, 64
+  orig: 82, 65
+  offset: 0, 1
+  index: -1
+eye_1
+  rotate: false
+  xy: 750, 597
+  size: 53, 49
+  orig: 54, 50
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 886, 607
+  size: 38, 38
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+eye_pupil
+  rotate: true
+  xy: 805, 600
+  size: 15, 17
+  orig: 16, 17
+  offset: 1, 0
+  index: -1
+fin_left
+  rotate: true
+  xy: 895, 647
+  size: 105, 124
+  orig: 107, 127
+  offset: 1, 2
+  index: -1
+fin_right
+  rotate: false
+  xy: 559, 576
+  size: 105, 124
+  orig: 107, 127
+  offset: 1, 2
+  index: -1
+mouth
+  rotate: true
+  xy: 895, 754
+  size: 265, 122
+  orig: 294, 123
+  offset: 14, 1
+  index: -1
+mouth_1
+  rotate: true
+  xy: 678, 648
+  size: 371, 215
+  orig: 373, 215
+  offset: 2, 0
+  index: -1
+mouth_2
+  rotate: false
+  xy: 2, 486
+  size: 340, 214
+  orig: 341, 215
+  offset: 1, 1
+  index: -1
+mouth_3
+  rotate: false
+  xy: 344, 512
+  size: 213, 188
+  orig: 213, 189
+  offset: 0, 1
+  index: -1
+noise_1
+  rotate: false
+  xy: 805, 617
+  size: 79, 29
+  orig: 80, 30
+  offset: 0, 0
+  index: -1

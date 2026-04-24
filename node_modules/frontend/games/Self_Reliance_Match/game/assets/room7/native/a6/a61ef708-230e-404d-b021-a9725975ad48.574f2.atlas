@@ -1,0 +1,76 @@
+
+jingtou7.png
+size: 1622, 752
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 1527, 264
+  size: 77, 108
+  orig: 82, 114
+  offset: 4, 3
+  index: -1
+10
+  rotate: true
+  xy: 1247, 374
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 1527, 213
+  size: 49, 76
+  orig: 52, 78
+  offset: 2, 1
+  index: -1
+3
+  rotate: true
+  xy: 1527, 72
+  size: 139, 72
+  orig: 143, 77
+  offset: 2, 3
+  index: -1
+4
+  rotate: true
+  xy: 1247, 101
+  size: 271, 278
+  orig: 281, 289
+  offset: 1, 7
+  index: -1
+5
+  rotate: true
+  xy: 1247, 9
+  size: 61, 55
+  orig: 67, 60
+  offset: 3, 2
+  index: -1
+6
+  rotate: true
+  xy: 1247, 564
+  size: 188, 375
+  orig: 188, 375
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1304, 25
+  size: 43, 45
+  orig: 45, 47
+  offset: 1, 1
+  index: -1
+8
+  rotate: false
+  xy: 1583, 525
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1
+9
+  rotate: true
+  xy: 0, 0
+  size: 752, 1245
+  orig: 752, 1245
+  offset: 0, 0
+  index: -1

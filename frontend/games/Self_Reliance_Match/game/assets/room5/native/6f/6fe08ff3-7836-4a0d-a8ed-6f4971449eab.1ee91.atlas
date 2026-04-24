@@ -1,0 +1,27 @@
+
+yugang.png
+size: 787, 434
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+24
+  rotate: false
+  xy: 733, 281
+  size: 46, 78
+  orig: 50, 83
+  offset: 2, 3
+  index: -1
+25
+  rotate: true
+  xy: 733, 361
+  size: 73, 54
+  orig: 75, 56
+  offset: 1, 1
+  index: -1
+26
+  rotate: true
+  xy: 0, 0
+  size: 434, 731
+  orig: 440, 736
+  offset: 5, 4
+  index: -1

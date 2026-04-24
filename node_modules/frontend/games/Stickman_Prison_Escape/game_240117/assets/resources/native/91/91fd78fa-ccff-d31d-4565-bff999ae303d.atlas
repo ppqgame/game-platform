@@ -1,0 +1,48 @@
+
+shark_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Smoke
+  rotate: false
+  xy: 782, 806
+  size: 95, 93
+  orig: 111, 111
+  offset: 7, 8
+  index: -1
+angry
+  rotate: false
+  xy: 879, 864
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+mini_shark
+  rotate: false
+  xy: 595, 800
+  size: 185, 99
+  orig: 185, 99
+  offset: 0, 0
+  index: -1
+shark_1
+  rotate: false
+  xy: 2, 774
+  size: 591, 245
+  orig: 591, 245
+  offset: 0, 0
+  index: -1
+shark_2
+  rotate: false
+  xy: 595, 901
+  size: 211, 118
+  orig: 211, 118
+  offset: 0, 0
+  index: -1
+shark_3
+  rotate: false
+  xy: 808, 901
+  size: 211, 118
+  orig: 211, 118
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+boar.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boar_eye1
+  rotate: true
+  xy: 331, 96
+  size: 175, 107
+  orig: 229, 219
+  offset: 24, 56
+  index: -1
+boar_eye2
+  rotate: false
+  xy: 2, 51
+  size: 186, 180
+  orig: 229, 219
+  offset: 19, 19
+  index: -1
+lonrung_body
+  rotate: true
+  xy: 331, 273
+  size: 225, 167
+  orig: 225, 167
+  offset: 0, 0
+  index: -1
+lonrung_body1
+  rotate: false
+  xy: 259, 119
+  size: 47, 42
+  orig: 47, 42
+  offset: 0, 0
+  index: -1
+lonrung_ear_1
+  rotate: false
+  xy: 228, 34
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+lonrung_ear_2
+  rotate: false
+  xy: 190, 27
+  size: 36, 53
+  orig: 36, 53
+  offset: 0, 0
+  index: -1
+lonrung_hair
+  rotate: true
+  xy: 190, 113
+  size: 118, 67
+  orig: 118, 67
+  offset: 0, 0
+  index: -1
+lonrung_leg_1
+  rotate: false
+  xy: 281, 35
+  size: 39, 82
+  orig: 39, 82
+  offset: 0, 0
+  index: -1
+lonrung_leg_3
+  rotate: false
+  xy: 259, 163
+  size: 46, 68
+  orig: 46, 68
+  offset: 0, 0
+  index: -1
+lonrung_tail
+  rotate: false
+  xy: 190, 82
+  size: 89, 29
+  orig: 89, 29
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 233
+  size: 327, 265
+  orig: 327, 265
+  offset: 0, 0
+  index: -1

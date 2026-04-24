@@ -1,0 +1,27 @@
+
+snake.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+snake_1
+  rotate: false
+  xy: 2, 401
+  size: 586, 516
+  orig: 586, 551
+  offset: 0, 18
+  index: -1
+snake_die
+  rotate: false
+  xy: 2, 263
+  size: 505, 136
+  orig: 538, 180
+  offset: 16, 12
+  index: -1
+star
+  rotate: false
+  xy: 590, 652
+  size: 327, 265
+  orig: 327, 265
+  offset: 0, 0
+  index: -1

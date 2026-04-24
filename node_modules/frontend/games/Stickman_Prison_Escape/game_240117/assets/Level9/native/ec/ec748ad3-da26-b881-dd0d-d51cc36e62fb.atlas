@@ -1,0 +1,97 @@
+
+spider.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 156
+  size: 203, 98
+  orig: 203, 98
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 82, 8
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 139, 49
+  size: 29, 22
+  orig: 29, 23
+  offset: 0, 1
+  index: -1
+leg_b_1
+  rotate: false
+  xy: 197, 59
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+leg_b_2
+  rotate: false
+  xy: 192, 110
+  size: 35, 44
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+leg_b_3
+  rotate: false
+  xy: 82, 29
+  size: 27, 37
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+leg_b_4
+  rotate: true
+  xy: 2, 2
+  size: 64, 78
+  orig: 64, 78
+  offset: 0, 0
+  index: -1
+leg_f_1
+  rotate: false
+  xy: 207, 163
+  size: 40, 91
+  orig: 40, 91
+  offset: 0, 0
+  index: -1
+leg_f_2
+  rotate: true
+  xy: 88, 73
+  size: 34, 107
+  orig: 34, 107
+  offset: 0, 0
+  index: -1
+leg_f_3
+  rotate: true
+  xy: 88, 109
+  size: 45, 102
+  orig: 45, 102
+  offset: 0, 0
+  index: -1
+leg_f_4
+  rotate: false
+  xy: 2, 68
+  size: 84, 86
+  orig: 84, 86
+  offset: 0, 0
+  index: -1
+mouth_01
+  rotate: false
+  xy: 111, 39
+  size: 26, 32
+  orig: 26, 33
+  offset: 0, 1
+  index: -1
+mouth_02
+  rotate: true
+  xy: 229, 129
+  size: 32, 12
+  orig: 32, 12
+  offset: 0, 0
+  index: -1

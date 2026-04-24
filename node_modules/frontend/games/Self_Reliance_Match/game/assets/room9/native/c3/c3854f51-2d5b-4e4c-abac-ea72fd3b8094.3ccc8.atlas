@@ -1,0 +1,125 @@
+
+jingtou13.png
+size: 806, 806
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG
+  rotate: true
+  xy: 264, 76
+  size: 188, 346
+  orig: 188, 346
+  offset: 0, 0
+  index: -1
+nanzhu0_0
+  rotate: false
+  xy: 776, 546
+  size: 28, 15
+  orig: 28, 15
+  offset: 0, 0
+  index: -1
+nanzhu0_1
+  rotate: false
+  xy: 720, 149
+  size: 26, 12
+  orig: 26, 12
+  offset: 0, 0
+  index: -1
+nanzhu0_2
+  rotate: false
+  xy: 2, 79
+  size: 105, 108
+  orig: 105, 108
+  offset: 0, 0
+  index: -1
+nanzhu0_3
+  rotate: false
+  xy: 612, 140
+  size: 106, 124
+  orig: 107, 124
+  offset: 1, 0
+  index: -1
+nanzhu0_4
+  rotate: true
+  xy: 2, 2
+  size: 72, 166
+  orig: 72, 166
+  offset: 0, 0
+  index: -1
+nanzhu0_5
+  rotate: false
+  xy: 196, 90
+  size: 64, 97
+  orig: 64, 97
+  offset: 0, 0
+  index: -1
+nanzhu0_6
+  rotate: true
+  xy: 612, 53
+  size: 85, 102
+  orig: 85, 102
+  offset: 0, 0
+  index: -1
+nanzhu0_7
+  rotate: true
+  xy: 264, 435
+  size: 183, 510
+  orig: 183, 510
+  offset: 0, 0
+  index: -1
+nanzhuyingzi
+  rotate: false
+  xy: 2, 189
+  size: 260, 615
+  orig: 260, 615
+  offset: 0, 0
+  index: -1
+nvzhu0
+  rotate: false
+  xy: 109, 84
+  size: 85, 103
+  orig: 85, 103
+  offset: 0, 0
+  index: -1
+nvzhu1
+  rotate: true
+  xy: 776, 563
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+nvzhu2
+  rotate: true
+  xy: 170, 2
+  size: 49, 25
+  orig: 49, 25
+  offset: 0, 0
+  index: -1
+nvzhu3
+  rotate: false
+  xy: 724, 415
+  size: 27, 18
+  orig: 27, 18
+  offset: 0, 0
+  index: -1
+nvzhu4
+  rotate: false
+  xy: 720, 163
+  size: 82, 101
+  orig: 82, 101
+  offset: 0, 0
+  index: -1
+nvzhu5
+  rotate: true
+  xy: 264, 266
+  size: 167, 458
+  orig: 167, 458
+  offset: 0, 0
+  index: -1
+nvzhuyingzi
+  rotate: true
+  xy: 264, 620
+  size: 184, 540
+  orig: 184, 540
+  offset: 0, 0
+  index: -1

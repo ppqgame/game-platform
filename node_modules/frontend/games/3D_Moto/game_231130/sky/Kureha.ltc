@@ -1,0 +1,8 @@
+{
+	"front":"Kureha_PositiveZ.png",
+	"back":"Kureha_NegativeZ.png",
+	"left":"Kureha_PositiveX.png",
+	"right":"Kureha_NegativeX.png",
+	"up":"Kureha_PositiveY.png",
+	"down":"Kureha_NegativeY.png"
+}

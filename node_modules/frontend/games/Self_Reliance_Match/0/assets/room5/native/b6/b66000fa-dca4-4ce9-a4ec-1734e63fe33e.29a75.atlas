@@ -1,0 +1,111 @@
+
+jingtou3.png
+size: 1369, 759
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+12
+  rotate: false
+  xy: 848, 5
+  size: 363, 271
+  orig: 363, 271
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 0, 472
+  size: 287, 848
+  orig: 289, 850
+  offset: 1, 1
+  index: -1
+S
+  rotate: true
+  xy: 850, 278
+  size: 217, 401
+  orig: 219, 404
+  offset: 1, 2
+  index: -1
+S2
+  rotate: true
+  xy: 0, 331
+  size: 139, 632
+  orig: 139, 632
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 850, 497
+  size: 262, 438
+  orig: 264, 440
+  offset: 1, 1
+  index: -1
+bg
+  rotate: true
+  xy: 0, 141
+  size: 188, 510
+  orig: 188, 518
+  offset: 0, 8
+  index: -1
+e
+  rotate: false
+  xy: 512, 0
+  size: 114, 329
+  orig: 114, 329
+  offset: 0, 0
+  index: -1
+i
+  rotate: false
+  xy: 634, 133
+  size: 212, 337
+  orig: 212, 337
+  offset: 0, 0
+  index: -1
+r
+  rotate: true
+  xy: 343, 10
+  size: 129, 139
+  orig: 129, 139
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 1213, 145
+  size: 115, 131
+  orig: 115, 131
+  offset: 0, 0
+  index: -1
+u
+  rotate: false
+  xy: 1253, 326
+  size: 116, 169
+  orig: 116, 169
+  offset: 0, 0
+  index: -1
+w
+  rotate: true
+  xy: 0, 14
+  size: 125, 341
+  orig: 125, 341
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 1213, 67
+  size: 76, 76
+  orig: 91, 91
+  offset: 7, 8
+  index: -1
+y
+  rotate: true
+  xy: 628, 17
+  size: 114, 144
+  orig: 114, 144
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: true
+  xy: 1290, 624
+  size: 135, 40
+  orig: 135, 40
+  offset: 0, 0
+  index: -1

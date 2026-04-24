@@ -1,0 +1,48 @@
+
+jingtou15.png
+size: 859, 859
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG
+  rotate: true
+  xy: 523, 439
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1
+da
+  rotate: false
+  xy: 2, 3
+  size: 429, 382
+  orig: 429, 382
+  offset: 0, 0
+  index: -1
+qianshou
+  rotate: false
+  xy: 2, 387
+  size: 519, 470
+  orig: 521, 472
+  offset: 1, 1
+  index: -1
+toi
+  rotate: true
+  xy: 433, 218
+  size: 167, 143
+  orig: 169, 148
+  offset: 1, 4
+  index: -1
+xiao
+  rotate: false
+  xy: 523, 629
+  size: 332, 228
+  orig: 332, 228
+  offset: 0, 0
+  index: -1
+图层 8
+  rotate: false
+  xy: 433, 75
+  size: 109, 141
+  orig: 111, 143
+  offset: 1, 1
+  index: -1

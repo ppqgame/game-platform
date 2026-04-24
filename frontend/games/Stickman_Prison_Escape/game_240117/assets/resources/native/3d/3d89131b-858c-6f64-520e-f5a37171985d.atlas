@@ -1,0 +1,370 @@
+
+animal.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bee/ong_body
+  rotate: true
+  xy: 433, 225
+  size: 102, 97
+  orig: 102, 97
+  offset: 0, 0
+  index: -1
+bee/winga_1
+  rotate: true
+  xy: 625, 672
+  size: 43, 66
+  orig: 45, 70
+  offset: 1, 2
+  index: -1
+bee/winga_2
+  rotate: false
+  xy: 348, 688
+  size: 61, 98
+  orig: 63, 101
+  offset: 1, 2
+  index: -1
+bee/winga_3
+  rotate: false
+  xy: 348, 620
+  size: 58, 66
+  orig: 62, 69
+  offset: 2, 2
+  index: -1
+bee/wingb_1
+  rotate: true
+  xy: 348, 499
+  size: 38, 42
+  orig: 40, 45
+  offset: 1, 2
+  index: -1
+bee/wingb_2
+  rotate: true
+  xy: 876, 689
+  size: 44, 83
+  orig: 47, 87
+  offset: 2, 3
+  index: -1
+bee/wingb_3
+  rotate: true
+  xy: 821, 685
+  size: 48, 53
+  orig: 52, 57
+  offset: 2, 2
+  index: -1
+fish/fish_2
+  rotate: false
+  xy: 696, 700
+  size: 123, 77
+  orig: 123, 77
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_arm1
+  rotate: false
+  xy: 688, 100
+  size: 107, 91
+  orig: 109, 93
+  offset: 1, 1
+  index: -1
+godzilla/Godzilla_arm1a
+  rotate: true
+  xy: 813, 255
+  size: 87, 109
+  orig: 89, 111
+  offset: 1, 1
+  index: -1
+godzilla/Godzilla_arm2
+  rotate: false
+  xy: 863, 443
+  size: 84, 71
+  orig: 86, 73
+  offset: 1, 1
+  index: -1
+godzilla/Godzilla_arm2a
+  rotate: true
+  xy: 348, 788
+  size: 86, 62
+  orig: 88, 64
+  offset: 1, 1
+  index: -1
+godzilla/Godzilla_body
+  rotate: true
+  xy: 199, 329
+  size: 159, 337
+  orig: 159, 337
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_head
+  rotate: false
+  xy: 797, 107
+  size: 122, 84
+  orig: 122, 89
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_jaw
+  rotate: false
+  xy: 914, 359
+  size: 98, 82
+  orig: 98, 82
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_leg1
+  rotate: false
+  xy: 538, 209
+  size: 126, 283
+  orig: 126, 283
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_leg2
+  rotate: true
+  xy: 609, 516
+  size: 151, 236
+  orig: 151, 236
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_obj
+  rotate: false
+  xy: 211, 490
+  size: 135, 384
+  orig: 135, 384
+  offset: 0, 0
+  index: -1
+godzilla/Godzilla_tail
+  rotate: true
+  xy: 412, 669
+  size: 349, 211
+  orig: 349, 211
+  offset: 0, 0
+  index: -1
+huou/huou_chansau1
+  rotate: false
+  xy: 363, 4
+  size: 45, 103
+  orig: 45, 103
+  offset: 0, 0
+  index: -1
+huou/huou_chantruoc1
+  rotate: false
+  xy: 145, 151
+  size: 34, 79
+  orig: 34, 79
+  offset: 0, 0
+  index: -1
+huou/huou_dau
+  rotate: true
+  xy: 949, 505
+  size: 87, 69
+  orig: 89, 71
+  offset: 1, 1
+  index: -1
+huou/huou_duoi
+  rotate: true
+  xy: 332, 169
+  size: 42, 22
+  orig: 42, 22
+  offset: 0, 0
+  index: -1
+huou/huou_mat
+  rotate: false
+  xy: 199, 644
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+huou/huou_tai1
+  rotate: true
+  xy: 410, 83
+  size: 24, 21
+  orig: 26, 23
+  offset: 1, 1
+  index: -1
+huou/huou_tai2
+  rotate: true
+  xy: 410, 55
+  size: 26, 16
+  orig: 28, 18
+  offset: 1, 1
+  index: -1
+huou/huou_than
+  rotate: false
+  xy: 531, 74
+  size: 155, 133
+  orig: 155, 133
+  offset: 0, 0
+  index: -1
+kong/Kong_arm1a
+  rotate: true
+  xy: 433, 44
+  size: 179, 96
+  orig: 179, 96
+  offset: 0, 0
+  index: -1
+kong/Kong_arm1b
+  rotate: false
+  xy: 688, 193
+  size: 123, 115
+  orig: 125, 117
+  offset: 1, 1
+  index: -1
+kong/Kong_arm1c
+  rotate: true
+  xy: 797, 36
+  size: 69, 86
+  orig: 74, 89
+  offset: 4, 1
+  index: -1
+kong/Kong_arm2a
+  rotate: true
+  xy: 833, 735
+  size: 111, 172
+  orig: 111, 172
+  offset: 0, 0
+  index: -1
+kong/Kong_arm2b
+  rotate: false
+  xy: 847, 594
+  size: 167, 89
+  orig: 169, 91
+  offset: 1, 1
+  index: -1
+kong/Kong_arm2c
+  rotate: false
+  xy: 847, 516
+  size: 91, 76
+  orig: 96, 86
+  offset: 1, 9
+  index: -1
+kong/Kong_arm2d
+  rotate: true
+  xy: 803, 344
+  size: 92, 109
+  orig: 95, 113
+  offset: 2, 2
+  index: -1
+kong/Kong_body
+  rotate: false
+  xy: 2, 426
+  size: 195, 226
+  orig: 279, 305
+  offset: 40, 79
+  index: -1
+kong/Kong_head
+  rotate: false
+  xy: 666, 310
+  size: 135, 126
+  orig: 135, 126
+  offset: 0, 0
+  index: -1
+kong/Kong_jaw_1
+  rotate: true
+  xy: 363, 109
+  size: 102, 65
+  orig: 102, 65
+  offset: 0, 0
+  index: -1
+kong/Kong_jaw_2
+  rotate: true
+  xy: 348, 539
+  size: 79, 56
+  orig: 79, 72
+  offset: 0, 0
+  index: -1
+kong/Kong_leg2
+  rotate: false
+  xy: 696, 779
+  size: 135, 145
+  orig: 135, 145
+  offset: 0, 0
+  index: -1
+kong/gorilla_eff
+  rotate: false
+  xy: 2, 876
+  size: 408, 142
+  orig: 438, 172
+  offset: 21, 10
+  index: -1
+kong/lupin_deplep
+  rotate: false
+  xy: 666, 438
+  size: 195, 76
+  orig: 204, 83
+  offset: 5, 7
+  index: -1
+monkey/Layer 2
+  rotate: false
+  xy: 625, 717
+  size: 69, 207
+  orig: 69, 207
+  offset: 0, 0
+  index: -1
+monkey/Layer 3
+  rotate: false
+  xy: 625, 926
+  size: 213, 92
+  orig: 213, 92
+  offset: 0, 0
+  index: -1
+monkey/Layer 4
+  rotate: false
+  xy: 2, 232
+  size: 179, 192
+  orig: 179, 192
+  offset: 0, 0
+  index: -1
+monkey/Layer 5
+  rotate: true
+  xy: 145, 11
+  size: 138, 216
+  orig: 138, 216
+  offset: 0, 0
+  index: -1
+monkey/Layer 6
+  rotate: false
+  xy: 2, 9
+  size: 141, 221
+  orig: 141, 221
+  offset: 0, 0
+  index: -1
+monkey/Layer 7
+  rotate: true
+  xy: 2, 654
+  size: 220, 207
+  orig: 222, 209
+  offset: 1, 1
+  index: -1
+monkey/Layer 8
+  rotate: true
+  xy: 840, 848
+  size: 170, 160
+  orig: 170, 160
+  offset: 0, 0
+  index: -1
+monkey/dua
+  rotate: false
+  xy: 408, 494
+  size: 199, 173
+  orig: 220, 191
+  offset: 10, 9
+  index: -1
+rua/rua_chansau
+  rotate: false
+  xy: 255, 160
+  size: 75, 51
+  orig: 75, 51
+  offset: 0, 0
+  index: -1
+rua/rua_chantruoc
+  rotate: false
+  xy: 181, 157
+  size: 72, 54
+  orig: 72, 54
+  offset: 0, 0
+  index: -1
+rua/rua_than
+  rotate: false
+  xy: 183, 213
+  size: 248, 114
+  orig: 248, 114
+  offset: 0, 0
+  index: -1

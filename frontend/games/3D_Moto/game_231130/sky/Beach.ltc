@@ -1,0 +1,8 @@
+{
+	"front":"Beach_PositiveZ.png",
+	"back":"Beach_NegativeZ.png",
+	"left":"Beach_PositiveX.png",
+	"right":"Beach_NegativeX.png",
+	"up":"Beach_PositiveY.png",
+	"down":"Beach_NegativeY.png"
+}

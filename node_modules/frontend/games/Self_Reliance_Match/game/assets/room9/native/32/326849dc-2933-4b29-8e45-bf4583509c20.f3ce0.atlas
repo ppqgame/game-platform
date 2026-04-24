@@ -1,0 +1,34 @@
+
+jingtou17.png
+size: 725,538
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuohua0
+  rotate: true
+  xy: 2, 348
+  size: 188, 708
+  orig: 188, 708
+  offset: 0, 0
+  index: -1
+shuohua1
+  rotate: true
+  xy: 2, 2
+  size: 32, 56
+  orig: 32, 56
+  offset: 0, 0
+  index: -1
+shuohua2
+  rotate: true
+  xy: 2, 36
+  size: 310, 531
+  orig: 310, 531
+  offset: 0, 0
+  index: -1
+shuohua3
+  rotate: false
+  xy: 535, 11
+  size: 188, 335
+  orig: 188, 335
+  offset: 0, 0
+  index: -1

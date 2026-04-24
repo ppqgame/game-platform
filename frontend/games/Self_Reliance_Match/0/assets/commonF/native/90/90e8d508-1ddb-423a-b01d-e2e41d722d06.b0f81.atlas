@@ -1,0 +1,27 @@
+
+yingdao.png
+size: 213, 273
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 145, 204
+  size: 68, 69
+  orig: 72, 74
+  offset: 3, 3
+  index: -1
+love2
+  rotate: true
+  xy: 0, 126
+  size: 147, 145
+  orig: 184, 184
+  offset: 19, 20
+  index: -1
+shouzhi
+  rotate: true
+  xy: 0, 0
+  size: 126, 194
+  orig: 126, 194
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+tiaozhanshibai.png
+size: 1105, 432
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 2
+  size: 448, 428
+  orig: 496, 468
+  offset: 24, 20
+  index: -1
+piaodai
+  rotate: false
+  xy: 452, 284
+  size: 560, 146
+  orig: 560, 146
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 452, 31
+  size: 251, 365
+  orig: 255, 367
+  offset: 3, 1
+  index: -1
+tiaozhanshibai
+  rotate: true
+  xy: 1014, 84
+  size: 346, 89
+  orig: 349, 93
+  offset: 1, 2
+  index: -1
+toufa1
+  rotate: false
+  xy: 899, 156
+  size: 60, 126
+  orig: 60, 126
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 819, 18
+  size: 103, 69
+  orig: 103, 69
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: true
+  xy: 961, 200
+  size: 82, 26
+  orig: 84, 28
+  offset: 1, 1
+  index: -1
+yanleiyou
+  rotate: true
+  xy: 961, 182
+  size: 6, 17
+  orig: 8, 19
+  offset: 1, 1
+  index: -1
+yanleizuo
+  rotate: true
+  xy: 961, 190
+  size: 8, 26
+  orig: 10, 28
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 819, 89
+  size: 141, 64
+  orig: 141, 64
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 819, 155
+  size: 127, 78
+  orig: 127, 78
+  offset: 0, 0
+  index: -1

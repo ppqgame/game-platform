@@ -1,0 +1,178 @@
+{
+  "task1": {
+    "id": "task1",
+    "taskName": "Defeat 1 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 1,
+    "taskGold": 50,
+    "taskType": 1
+  },
+  "task2": {
+    "id": "task2",
+    "taskName": "Fire 10 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 10,
+    "taskGold": 100,
+    "taskType": 2
+  },
+  "task3": {
+    "id": "task3",
+    "taskName": "Get 3 perfect hits",
+    "taskTips": "完成指定数量的完美击中",
+    "taskTipsValue": 3,
+    "taskGold": 50,
+    "taskType": 3
+  },
+  "task4": {
+    "id": "task4",
+    "taskName": "Get 300 gold coins",
+    "taskTips": "完成指定金币数量的获得",
+    "taskTipsValue": 300,
+    "taskGold": 100,
+    "taskType": 4
+  },
+  "task5": {
+    "id": "task5",
+    "taskName": "Defeat 5 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 5,
+    "taskGold": 60,
+    "taskType": 1
+  },
+  "task6": {
+    "id": "task6",
+    "taskName": "Fire 20 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 20,
+    "taskGold": 120,
+    "taskType": 2
+  },
+  "task7": {
+    "id": "task7",
+    "taskName": "Get 5 perfect hits",
+    "taskTips": "完成指定数量的完美击中",
+    "taskTipsValue": 5,
+    "taskGold": 600,
+    "taskType": 3
+  },
+  "task8": {
+    "id": "task8",
+    "taskName": "Get 500 gold coins",
+    "taskTips": "完成指定金币数量的获得",
+    "taskTipsValue": 500,
+    "taskGold": 120,
+    "taskType": 4
+  },
+  "task9": {
+    "id": "task9",
+    "taskName": "Defeat 9 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 9,
+    "taskGold": 70,
+    "taskType": 1
+  },
+  "task10": {
+    "id": "task10",
+    "taskName": "Fire 30 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 30,
+    "taskGold": 140,
+    "taskType": 2
+  },
+  "task11": {
+    "id": "task11",
+    "taskName": "Get 7 perfect hits",
+    "taskTips": "完成指定数量的完美击中",
+    "taskTipsValue": 7,
+    "taskGold": 70,
+    "taskType": 3
+  },
+  "task12": {
+    "id": "task12",
+    "taskName": "Get 700 gold coins",
+    "taskTips": "完成指定金币数量的获得",
+    "taskTipsValue": 700,
+    "taskGold": 140,
+    "taskType": 4
+  },
+  "task13": {
+    "id": "task13",
+    "taskName": "Defeat 13 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 13,
+    "taskGold": 80,
+    "taskType": 1
+  },
+  "task14": {
+    "id": "task14",
+    "taskName": "Fire 40 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 40,
+    "taskGold": 160,
+    "taskType": 2
+  },
+  "task15": {
+    "id": "task15",
+    "taskName": "Get 9 perfect hits",
+    "taskTips": "完成指定数量的完美击中",
+    "taskTipsValue": 9,
+    "taskGold": 80,
+    "taskType": 3
+  },
+  "task16": {
+    "id": "task16",
+    "taskName": "Get 900 gold coins",
+    "taskTips": "完成指定金币数量的获得",
+    "taskTipsValue": 900,
+    "taskGold": 160,
+    "taskType": 4
+  },
+  "task17": {
+    "id": "task17",
+    "taskName": "Defeat 17 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 17,
+    "taskGold": 90,
+    "taskType": 1
+  },
+  "task18": {
+    "id": "task18",
+    "taskName": "Fire 50 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 50,
+    "taskGold": 180,
+    "taskType": 2
+  },
+  "task19": {
+    "id": "task19",
+    "taskName": "Get 11 perfect hits",
+    "taskTips": "完成指定数量的完美击中",
+    "taskTipsValue": 11,
+    "taskGold": 90,
+    "taskType": 3
+  },
+  "task20": {
+    "id": "task20",
+    "taskName": "Get 1100 gold coins",
+    "taskTips": "完成指定金币数量的获得",
+    "taskTipsValue": 1100,
+    "taskGold": 180,
+    "taskType": 4
+  },
+  "task21": {
+    "id": "task21",
+    "taskName": "Defeat 21 enemies",
+    "taskTips": "击败指定数量NPC",
+    "taskTipsValue": 21,
+    "taskGold": 100,
+    "taskType": 1
+  },
+  "task22": {
+    "id": "task22",
+    "taskName": "Fire 60 bullets",
+    "taskTips": "发射指定数量子弹",
+    "taskTipsValue": 60,
+    "taskGold": 200,
+    "taskType": 2
+  }
+}

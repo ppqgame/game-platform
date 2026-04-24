@@ -1,0 +1,8 @@
+{
+	"front":"Agaric_PositiveZ.png",
+	"back":"Agaric_NegativeZ.png",
+	"left":"Agaric_PositiveX.png",
+	"right":"Agaric_NegativeX.png",
+	"up":"Agaric_PositiveY.png",
+	"down":"Agaric_NegativeY.png"
+}

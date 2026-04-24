@@ -1,0 +1,48 @@
+
+jingtou11.png
+size: 1405, 1438
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+nanzhu0
+  rotate: false
+  xy: 1256, 189
+  size: 131, 70
+  orig: 131, 70
+  offset: 0, 0
+  index: -1
+nanzhu1
+  rotate: true
+  xy: 1344, 1327
+  size: 109, 56
+  orig: 109, 56
+  offset: 0, 0
+  index: -1
+nanzhu2
+  rotate: false
+  xy: 1043, 140
+  size: 211, 119
+  orig: 211, 119
+  offset: 0, 0
+  index: -1
+nanzhu3
+  rotate: false
+  xy: 1043, 261
+  size: 360, 421
+  orig: 360, 421
+  offset: 0, 0
+  index: -1
+nanzhu4
+  rotate: true
+  xy: 2, 2
+  size: 680, 1039
+  orig: 680, 1039
+  offset: 0, 0
+  index: -1
+nanzhu5
+  rotate: true
+  xy: 2, 684
+  size: 752, 1340
+  orig: 752, 1340
+  offset: 0, 0
+  index: -1

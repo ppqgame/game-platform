@@ -1,0 +1,62 @@
+
+yanhua.png
+size: 381, 285
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+烟花/Klight_0
+  rotate: false
+  xy: 338, 49
+  size: 38, 38
+  orig: 256, 256
+  offset: 109, 109
+  index: -1
+烟花/Klight_1
+  rotate: true
+  xy: 272, 28
+  size: 59, 64
+  orig: 256, 256
+  offset: 99, 97
+  index: -1
+烟花/Klight_2
+  rotate: false
+  xy: 274, 176
+  size: 107, 109
+  orig: 256, 256
+  offset: 78, 73
+  index: -1
+烟花/Klight_3
+  rotate: false
+  xy: 146, 159
+  size: 126, 126
+  orig: 256, 256
+  offset: 62, 68
+  index: -1
+烟花/Klight_4
+  rotate: false
+  xy: 0, 141
+  size: 144, 144
+  orig: 256, 256
+  offset: 58, 53
+  index: -1
+烟花/Klight_5
+  rotate: false
+  xy: 0, 0
+  size: 137, 139
+  orig: 256, 256
+  offset: 61, 56
+  index: -1
+烟花/Klight_6
+  rotate: false
+  xy: 146, 33
+  size: 124, 124
+  orig: 256, 256
+  offset: 68, 63
+  index: -1
+烟花/Klight_7
+  rotate: false
+  xy: 274, 89
+  size: 92, 85
+  orig: 256, 256
+  offset: 85, 82
+  index: -1

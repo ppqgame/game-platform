@@ -1,0 +1,41 @@
+
+jingtou11.png
+size: 709, 709
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 445, 336
+  orig: 448, 338
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 451, 163
+  size: 207, 208
+  orig: 209, 210
+  offset: 1, 1
+  index: -1
+22
+  rotate: false
+  xy: 2, 340
+  size: 447, 367
+  orig: 449, 369
+  offset: 1, 1
+  index: -1
+xingxing
+  rotate: false
+  xy: 641, 652
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+图层 13
+  rotate: false
+  xy: 451, 373
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1

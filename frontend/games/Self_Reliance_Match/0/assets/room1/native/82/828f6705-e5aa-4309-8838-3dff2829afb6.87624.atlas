@@ -1,0 +1,48 @@
+
+chuanghu.png
+size: 1042, 329
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0
+  rotate: true
+  xy: 359, 112
+  size: 215, 338
+  orig: 217, 340
+  offset: 1, 1
+  index: -1
+1
+  rotate: true
+  xy: 699, 10
+  size: 104, 282
+  orig: 111, 282
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 359, 10
+  size: 100, 290
+  orig: 102, 290
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: true
+  xy: 2, 90
+  size: 237, 355
+  orig: 244, 361
+  offset: 4, 3
+  index: -1
+jiazi
+  rotate: true
+  xy: 699, 116
+  size: 211, 341
+  orig: 213, 343
+  offset: 1, 1
+  index: -1
+shang
+  rotate: true
+  xy: 2, 2
+  size: 86, 254
+  orig: 86, 255
+  offset: 0, 0
+  index: -1

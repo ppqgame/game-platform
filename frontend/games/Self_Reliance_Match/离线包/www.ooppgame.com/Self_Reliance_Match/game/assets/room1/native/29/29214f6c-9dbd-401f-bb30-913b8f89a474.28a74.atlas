@@ -1,0 +1,111 @@
+
+jingtou7.png
+size: 1111, 1111
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG
+  rotate: true
+  xy: 635, 432
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1
+houfa
+  rotate: false
+  xy: 866, 250
+  size: 188, 180
+  orig: 190, 182
+  offset: 1, 1
+  index: -1
+jiao
+  rotate: false
+  xy: 2, 478
+  size: 360, 631
+  orig: 360, 631
+  offset: 0, 0
+  index: -1
+lian
+  rotate: true
+  xy: 790, 36
+  size: 212, 226
+  orig: 214, 228
+  offset: 1, 1
+  index: -1
+qunzi
+  rotate: false
+  xy: 635, 622
+  size: 308, 487
+  orig: 308, 487
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 322, 118
+  size: 226, 358
+  orig: 228, 360
+  offset: 1, 1
+  index: -1
+toufa
+  rotate: false
+  xy: 945, 634
+  size: 149, 95
+  orig: 149, 95
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 550, 48
+  size: 238, 203
+  orig: 238, 203
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 945, 731
+  size: 130, 173
+  orig: 132, 173
+  offset: 2, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 550, 253
+  size: 314, 177
+  orig: 314, 177
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 2, 112
+  size: 364, 318
+  orig: 364, 318
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 364, 499
+  size: 269, 610
+  orig: 271, 612
+  offset: 1, 1
+  index: -1
+zui
+  rotate: false
+  xy: 273, 59
+  size: 44, 51
+  orig: 46, 53
+  offset: 1, 1
+  index: -1
+zuojian
+  rotate: false
+  xy: 945, 906
+  size: 160, 203
+  orig: 162, 206
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: true
+  xy: 2, 2
+  size: 108, 269
+  orig: 108, 269
+  offset: 0, 0
+  index: -1

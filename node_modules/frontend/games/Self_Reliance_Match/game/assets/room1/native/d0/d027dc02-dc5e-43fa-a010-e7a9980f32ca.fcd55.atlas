@@ -1,0 +1,62 @@
+
+jingtou8.png
+size: 1674, 1099
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: true
+  xy: 1471, 191
+  size: 137, 139
+  orig: 184, 154
+  offset: 21, 13
+  index: -1
+2
+  rotate: false
+  xy: 1471, 330
+  size: 153, 152
+  orig: 182, 183
+  offset: 17, 10
+  index: -1
+3
+  rotate: true
+  xy: 1471, 484
+  size: 166, 181
+  orig: 188, 207
+  offset: 16, 1
+  index: -1
+4
+  rotate: false
+  xy: 1471, 652
+  size: 185, 180
+  orig: 187, 196
+  offset: 1, 1
+  index: -1
+BG
+  rotate: false
+  xy: 2, 48
+  size: 8, 14
+  orig: 8, 14
+  offset: 0, 0
+  index: -1
+R
+  rotate: true
+  xy: 2, 64
+  size: 1033, 784
+  orig: 1033, 784
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 788, 2
+  size: 681, 1095
+  orig: 681, 1095
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 1471, 834
+  size: 201, 263
+  orig: 210, 283
+  offset: 5, 12
+  index: -1

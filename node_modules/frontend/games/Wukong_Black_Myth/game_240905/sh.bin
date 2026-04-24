@@ -1,0 +1,62 @@
+A<<<^^^RMC<<<struct RaymarchInfo{vec3 startPos;vec3 rayDir;float minDistance;float maxDistance;int maxLoop;int loop;vec3 endPos;float lastDistance;float totalLength;vec3 normal;vec4 color;};float _DistanceFunction(vec3 pos){return DISTANCE_FUNCTION(pos);}vec3 set_normal(vec3 p){return normalize(vec3(_DistanceFunction(p+vec3(0.01,0.0,0.0))-_DistanceFunction(p),_DistanceFunction(p+vec3(0.0,0.01,0.0))-_DistanceFunction(p),_DistanceFunction(p+vec3(0.0,0.0,0.01))-_DistanceFunction(p)));}bool _Raymarch(inout RaymarchInfo ray,vec3 u_CameraPos){ray.endPos=ray.startPos;ray.lastDistance=0.0;ray.totalLength=length(ray.endPos-u_CameraPos);for(ray.loop=0;ray.loop<ray.maxLoop;ray.loop++){ray.lastDistance=_DistanceFunction(ray.endPos);ray.totalLength+=ray.lastDistance;ray.endPos+=ray.rayDir*ray.lastDistance;if(ray.lastDistance<ray.minDistance||ray.totalLength>ray.maxDistance)break;}return ray.lastDistance<ray.minDistance;}bool Raymarch(inout RaymarchInfo ray,vec3 cam_p){if(_Raymarch(ray,cam_p)){ray.normal=set_normal(ray.endPos);return true;}else{return false;}}RaymarchInfo InitRaymarchObject(vec3 wp,vec3 cam_p,float mind,float maxd,int ml){RaymarchInfo ray;ray.startPos=wp;ray.rayDir=normalize(wp-cam_p);ray.minDistance=mind;ray.maxDistance=maxd;ray.maxLoop=ml;ray.color=vec4(0.0,0.0,0.0,0.0);return ray;}vec3 lighting(RaymarchInfo ray){vec3 AmbientLight=vec3(0.1,0.1,0.1);vec3 LightDirection=normalize(vec3(4.0,10.0,-10.0));vec3 LightColor=vec3(1.0,1.0,1.0);return max(dot(LightDirection,ray.normal),0.0)*LightColor+AmbientLight;}^^^RMM<<<float Sphere(vec3 p,float s){return length(p)-s;}float Box(vec3 p,vec3 b){return length(max(abs(p)-b,0.0));}float RoundBox(vec3 p,vec3 b,float r){return length(max(abs(p)-b,0.0))-r;}float RoundCylinder(vec3 p,float ra,float rb,float h){vec2 d=vec2(length(p.xz)-2.0*ra+rb,abs(p.y)-h);return min(max(d.x,d.y),0.0)+length(max(d,0.0))-rb;}float smin(float a,float b,float k){float h=clamp(0.5+0.5*(a-b)/k,0.0,1.0);return mix(a,b,h)-k*h*(1.0-h);}^^^RMP<<<RaymarchInfo pixel_shader(vec3 wp,vec3 cwp,float a,float b,int c){RaymarchInfo ray=InitRaymarchObject(wp,cwp,a,b,c);if(Raymarch(ray,u_CameraPos)){POST_EFFECT(ray);}return ray;}^^^UG<<<vec2 PolarCoordinates_float(vec2 in_uv,vec2 Center,float RadialScale,float LengthScale){vec2 delta=in_uv-Center;float radius=length(delta)*2.0*RadialScale;float angle=atan(delta.x,delta.y)*1.0/6.28*LengthScale;return vec2(radius,angle);}float Rectangle_float(vec2 in_uv,float Width,float Height){vec2 d=abs(in_uv*2.0-1.0)-vec2(Width,Height);d=1.0-d/fwidth(d);return clamp(min(d.x,d.y),0.0,1.0);}vec4 Split_float4(vec4 In){return vec4(In.x,In.y,0.0,0.0);}vec4 OneMinus_float4(vec4 In){return 1.0-In;}vec4 Remap_float4(vec4 In,vec2 InMinMax,vec2 OutMinMax){return OutMinMax.x+(In-InMinMax.x)*(OutMinMax.y-OutMinMax.x)/(InMinMax.y-InMinMax.x);}vec2 TilingAndOffset_float(vec2 in_uv,vec2 Tiling,vec2 Offset){return in_uv*Tiling+Offset;}float noise_randomValue(vec2 in_uv){return fract(sin(dot(in_uv,vec2(12.9898,78.233)))*43758.5453);}float noise_interpolate(float a,float b,float t){return(1.0-t)*a+(t*b);}float valueNoise(vec2 in_uv){vec2 i=floor(in_uv);vec2 f=fract(in_uv);f=f*f*(3.0-2.0*f);in_uv=abs(fract(in_uv)-0.5);vec2 c0=i+vec2(0.0,0.0);vec2 c1=i+vec2(1.0,0.0);vec2 c2=i+vec2(0.0,1.0);vec2 c3=i+vec2(1.0,1.0);float r0=noise_randomValue(c0);float r1=noise_randomValue(c1);float r2=noise_randomValue(c2);float r3=noise_randomValue(c3);float bottomOfGrid=noise_interpolate(r0,r1,f.x);float topOfGrid=noise_interpolate(r2,r3,f.x);float t=noise_interpolate(bottomOfGrid,topOfGrid,f.y);return t;}float SimpleNoise_float(vec2 in_uv,float Scale){float t=0.0;float freq=pow(2.0,0.0);float amp=pow(0.5,3.0);t+=valueNoise(vec2(in_uv.x*Scale/freq,in_uv.y*Scale/freq))*amp;freq=pow(2.0,1.0);amp=pow(0.5,2.0);t+=valueNoise(vec2(in_uv.x*Scale/freq,in_uv.y*Scale/freq))*amp;freq=pow(2.0,2.0);amp=pow(0.5,1.0);t+=valueNoise(vec2(in_uv.x*Scale/freq,in_uv.y*Scale/freq))*amp;return t;}vec2 gradientNoise_dir(vec2 p){p=mod(p,289.0);float x=mod((34.0*p.x+1.0)*p.x,289.0)+p.y;x=mod((34.0*x+1.0)*x,289.0);x=fract(x/41.0)*2.0-1.0;return normalize(vec2(x-floor(x+0.5),abs(x)-0.5));}float gradientNoise(vec2 p){vec2 ip=floor(p);vec2 fp=fract(p);float d00=dot(gradientNoise_dir(ip),fp);float d01=dot(gradientNoise_dir(ip+vec2(0.0,1.0)),fp-vec2(0.0,1.0));float d10=dot(gradientNoise_dir(ip+vec2(1.0,0.0)),fp-vec2(1.0,0.0));float d11=dot(gradientNoise_dir(ip+vec2(1.0,1.0)),fp-vec2(1.0,1.0));fp=fp*fp*fp*(fp*(fp*6.0-15.0)+10.0);return mix(mix(d00,d01,fp.y),mix(d10,d11,fp.y),fp.x);}float GradientNoise_float(vec2 in_uv,float Scale){return gradientNoise(in_uv*Scale)+0.5;}vec2 voronoi_noise_randomVector(vec2 in_uv,float offset){mat2 m=mat2(15.27,47.63,99.41,89.98);in_uv=fract(sin(in_uv*m)*46839.32);return vec2(sin(in_uv.y*+offset)*0.5+0.5,cos(in_uv.x*offset)*0.5+0.5);}float Voronoi_float(vec2 in_uv,float AngleOffset,float CellDensity){vec2 g=floor(in_uv*CellDensity);vec2 f=fract(in_uv*CellDensity);float t=8.0;float d=1.0;for(int y=-1;y<=1;y++){for(int x=-1;x<=1;x++){vec2 lattice=vec2(x,y);vec2 offset=voronoi_noise_randomVector(lattice+g,AngleOffset);float r=distance(lattice+offset,f);if(r<d){d=r;}}}return d;}^^^BPEdgeLightShader<<<uniform float u_EdgeIntensity;uniform float u_EdgeSmooth;uniform vec4 u_EdgeColor;uniform vec4 u_EdgeOffset;%%%vec3 toEyeDir=normalize(v_ViewDir+u_EdgeOffset.xyz);float Rim=1.0-max(0.0,dot(toEyeDir,v_Normal));vec3 lightColor=vec3(1.0,1.0,1.0);vec3 Emissive=u_EdgeIntensity*lightColor*u_EdgeColor.xyz*pow(Rim,u_EdgeSmooth);gl_FragColor.rgb+=Emissive;^^^BPOutLineShader<<<#include "Lighting.glsl";
+attribute vec4 a_Position;uniform float u_OutlineWidth;
+#ifdef GPU_INSTANCE 
+attribute mat4 a_MvpMatrix;
+#else
+uniform mat4 u_MvpMatrix;
+#endif
+#ifdef BONE 
+const int c_MaxBoneCount=24;attribute vec4 a_BoneIndices;attribute vec4 a_BoneWeights;uniform mat4 u_Bones[c_MaxBoneCount];
+#endif
+attribute vec3 a_Normal;varying vec3 v_Normal;void main(){vec4 pos=vec4(a_Position.xyz+a_Normal*u_OutlineWidth,1.0);vec4 position;
+#ifdef BONE 
+mat4 skinTransform=u_Bones[int(a_BoneIndices.x)]*a_BoneWeights.x;skinTransform+=u_Bones[int(a_BoneIndices.y)]*a_BoneWeights.y;skinTransform+=u_Bones[int(a_BoneIndices.z)]*a_BoneWeights.z;skinTransform+=u_Bones[int(a_BoneIndices.w)]*a_BoneWeights.w;position=skinTransform*pos;
+#else
+position=pos;
+#endif
+#ifdef GPU_INSTANCE 
+gl_Position=a_MvpMatrix*position;
+#else
+gl_Position=u_MvpMatrix*position;
+#endif
+gl_Position=remapGLPositionZ(gl_Position);}%%%#ifdef FSHIGHPRECISION 
+precision highp float;
+#else
+precision mediump float;
+#endif
+uniform vec4 u_OutlineColor;uniform float u_OutlineLightness;void main(){vec3 finalColor=u_OutlineColor.rgb*u_OutlineLightness;gl_FragColor=vec4(finalColor,0.0);}^^^BPRMTransformerShader<<<
+#define MAX_NUM 50 
+uniform int u_body_num;uniform float u_body_x[MAX_NUM];uniform float u_body_y[MAX_NUM];uniform float u_body_z[MAX_NUM];uniform float u_body_r[MAX_NUM];uniform float u_body_g[MAX_NUM];uniform float u_body_b[MAX_NUM];mat4 tmat4=mat4(1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0);int _i;float _j;float _ss;float d_body[MAX_NUM];mat4 getM4(int i){tmat4[3][0]=u_body_x[i];tmat4[3][1]=u_body_y[i];tmat4[3][2]=u_body_z[i];return tmat4;}
+#include "RMM.glsl";
+#define DISTANCE_FUNCTION DistanceFunction 
+float DistanceFunction(vec3 p){float s=Sphere((getM4(0)*vec4(p,1.0)).xyz,0.4);d_body[0]=s;for(_i=1;_i<u_body_num;_i++){d_body[_i]=Sphere((getM4(_i)*vec4(p,1.0)).xyz,0.4);s=smin(s,d_body[_i],0.3);}return s;}
+#include "RMC.glsl";
+#define POST_EFFECT PostEffect 
+void PostEffect(inout RaymarchInfo ray){ray.color=vec4(0.0,0.0,0.0,1.0);_ss=0.0;for(_i=0;_i<u_body_num;_i++){d_body[_i]=1.0/d_body[_i];_ss+=d_body[_i]*d_body[_i];}_ss=sqrt(_ss);for(_i=0;_i<u_body_num;_i++){_j=d_body[_i]/_ss;ray.color.r+=_j*u_body_r[_i];ray.color.g+=_j*u_body_g[_i];ray.color.b+=_j*u_body_b[_i];}}
+#include "RMP.glsl";
+RaymarchInfo rm(){return pixel_shader(v_PositionWorld,u_CameraPos,0.05,20.0,8);}%%%RaymarchInfo ray=rm();if(ray.color.a>0.0){ray.color.a=u_DiffuseColor.a;}^^^RM0<<<#include "Lighting.glsl";
+attribute vec4 a_Position;uniform mat4 u_MvpMatrix;uniform mat4 u_WorldMat;attribute vec3 a_Normal;varying vec3 v_Normal;varying vec3 v_PositionWorld;void main(){gl_Position=u_MvpMatrix*a_Position;mat3 worldMat=mat3(u_WorldMat);v_Normal=worldMat*a_Normal;v_PositionWorld=(u_WorldMat*a_Position).xyz;}%%%precision highp float;
+#define MAX_NUM 50
+
+#include "Lighting.glsl";
+varying vec3 v_Normal;uniform vec3 u_CameraPos;varying vec3 v_PositionWorld;uniform int u_body_num;uniform float u_body_x[MAX_NUM];uniform float u_body_y[MAX_NUM];uniform float u_body_z[MAX_NUM];uniform float u_body_r[MAX_NUM];uniform float u_body_g[MAX_NUM];uniform float u_body_b[MAX_NUM];mat4 tmat4=mat4(1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0);int _i;float _j;float _ss;float d_body[MAX_NUM];mat4 getM4(int i){tmat4[3][0]=u_body_x[i];tmat4[3][1]=u_body_y[i];tmat4[3][2]=u_body_z[i];return tmat4;}
+#include "RMP.glsl";
+#define DISTANCE_FUNCTION DistanceFunction 
+float DistanceFunction(vec3 p){float s=Sphere((getM4(0)*vec4(p,1.0)).xyz,0.4);d_body[0]=s;for(_i=1;_i<u_body_num;_i++){d_body[_i]=Sphere((getM4(_i)*vec4(p,1.0)).xyz,0.4);s=smin(s,d_body[_i],0.3);}return s;}
+#include "RM.glsl";
+#define POST_EFFECT PostEffect 
+void PostEffect(inout RaymarchInfo ray){ray.color=vec3(0.0,0.0,0.0,1.0);_ss=0.0;for(_i=0;_i<u_body_num;_i++){d_body[_i]=1.0/d_body[_i];_ss+=d_body[_i]*d_body[_i];}_ss=sqrt(_ss);for(_i=0;_i<u_body_num;_i++){_j=d_body[_i]/_ss;ray.color.r+=_j*u_body_r[_i];ray.color.g+=_j*u_body_g[_i];ray.color.b+=_j*u_body_b[_i];}}RaymarchInfo pixel_shader(){RaymarchInfo ray=InitRaymarchObject(v_PositionWorld,u_CameraPos,0.05,20.0,8);if(Raymarch(ray,u_CameraPos)){POST_EFFECT(ray);}return ray;}void main(){RaymarchInfo ray=pixel_shader();gl_FragColor=ray.color;}^^^TrailAlpha0Shader<<<uniform vec4 u_TilingOffset;uniform float u_CurTime;uniform vec4 _R_Color;uniform vec4 _G_Color;uniform vec4 _GB_Tiling;uniform vec4 _R_Panner;uniform vec4 _G_Panner;uniform vec4 _NoisePanner;uniform vec4 _RGBA_Scale;uniform vec4 _A_TilingOffset;%%%float tt=u_CurTime*_R_Panner.z;vec2 a1=(vec2(_R_Panner.x,_R_Panner.y));vec2 uv0_main_tex=v_Texcoord0.xy*u_TilingOffset.xy+u_TilingOffset.zw;vec2 p1=((tt+_R_Panner.w)*a1+uv0_main_tex);float m1=u_CurTime*_NoisePanner.z;vec2 a2=(vec2(_NoisePanner.x,_NoisePanner.y));vec2 a3=(vec2(_GB_Tiling.z,_GB_Tiling.w));vec2 u1=v_Texcoord0.xy*a3+vec2(0.0,0.0);vec2 p2=((m1+_NoisePanner.w)*a2+u1);float m2=u_CurTime*_G_Panner.z;vec2 a4=(vec2(_G_Panner.x,_G_Panner.y));vec2 a5=(vec2(_GB_Tiling.x,_GB_Tiling.y));vec2 u2=v_Texcoord0.xy*a5+vec2(0.0,0.0);vec2 p3=((m2+_G_Panner.w)*a4+u2);vec2 a6=(vec2(_A_TilingOffset.x,_A_TilingOffset.y));vec2 a7=(vec2(_A_TilingOffset.z,_A_TilingOffset.w));vec2 u3=v_Texcoord0.xy*a6+a7;float r=texture2D(u_MainTexture,(p1+(texture2D(u_MainTexture,p2).b*_RGBA_Scale.z))).r;float g=texture2D(u_MainTexture,p3).g;vec4 t=(v_Color*_R_Color*_RGBA_Scale.x*r)+(g*_G_Color*_RGBA_Scale.y);float a=texture2D(u_MainTexture,u3).a;gl_FragColor=vec4(t.rgb,a*_RGBA_Scale.w);^^^TrailSmokeShader<<<
+#if defined(SMOKE)
+vec2 fade(vec2 t){return t*t*t*(t*(t*6.0-15.0)+10.0);}vec4 permute(vec4 x){return mod(((x*34.0)+1.0)*x,289.0);}float cnoise(vec2 P){vec4 Pi=floor(P.xyxy)+vec4(0.0,0.0,1.0,1.0);vec4 Pf=fract(P.xyxy)-vec4(0.0,0.0,1.0,1.0);Pi=mod(Pi,289.0);vec4 ix=Pi.xzxz;vec4 iy=Pi.yyww;vec4 fx=Pf.xzxz;vec4 fy=Pf.yyww;vec4 i=permute(permute(ix)+iy);vec4 gx=2.0*fract(i*0.0243902439)-1.0;vec4 gy=abs(gx)-0.5;vec4 tx=floor(gx+0.5);gx=gx-tx;vec2 g00=vec2(gx.x,gy.x);vec2 g10=vec2(gx.y,gy.y);vec2 g01=vec2(gx.z,gy.z);vec2 g11=vec2(gx.w,gy.w);vec4 norm=1.79284291400159-0.85373472095314*vec4(dot(g00,g00),dot(g01,g01),dot(g10,g10),dot(g11,g11));g00*=norm.x;g01*=norm.y;g10*=norm.z;g11*=norm.w;float n00=dot(g00,vec2(fx.x,fy.x));float n10=dot(g10,vec2(fx.y,fy.y));float n01=dot(g01,vec2(fx.z,fy.z));float n11=dot(g11,vec2(fx.w,fy.w));vec2 fade_xy=fade(Pf.xy);vec2 n_x=mix(vec2(n00,n01),vec2(n10,n11),fade_xy.x);float n_xy=mix(n_x.x,n_x.y,fade_xy.y);return 2.3*n_xy;}uniform float u_xp;uniform float u_zp;
+#endif
+#if defined(LOCAL)
+uniform vec3 tag_pos;
+#endif%%%
+#if defined(SMOKE)
+float sTime=u_CurTime+a_BirthTime*1000.0;vec3 Coord=a_Position*u_xp+sTime;vec3 p=a_Position+(vec3(cnoise(Coord.yz),cnoise(Coord.xz),cnoise(Coord.xy))-0.5)*u_zp*normalizeTime;
+#else
+vec3 p=a_Position;
+#endif
+#if defined(LOCAL)
+p=p+tag_pos;
+#endif^^^

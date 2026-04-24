@@ -1,0 +1,485 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum GameStatus {
+  DRAFT // 草稿
+  REVIEW // 审核中
+  TESTING // 测试中（沙箱）
+  PUBLISHED // 已上线
+  ARCHIVED // 已下架
+}
+
+enum GameAssetType {
+  COVER
+  BANNER
+  SCREENSHOT
+}
+
+/// 游戏画面方向（用于详情展示与客户端布局提示）
+enum ScreenOrientation {
+  LANDSCAPE
+  PORTRAIT
+}
+
+enum HomeSectionKind {
+  HERO
+  GRID
+  LIST
+}
+
+enum UserRole {
+  USER
+  MODERATOR
+  ADMIN
+}
+
+enum MembershipStatus {
+  ACTIVE
+  EXPIRED
+  CANCELED
+}
+
+enum TaskType {
+  DAILY
+  NEWBIE
+}
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  auditLogs AuditLog[]
+}
+
+model Category {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  games Game[]
+}
+
+model Tag {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  games GameTag[]
+}
+
+model Game {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  title        String
+  shortPitch   String
+  description  String
+  playUrl      String?
+  embedUrl     String?
+  status       GameStatus @default(DRAFT)
+  publishedAt  DateTime?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  /// 软删除：有值则对用户侧隐藏
+  deletedAt    DateTime?
+  developer    String?
+  /// ALL | P12 | P16 | P18
+  ageRating    String?    @default("ALL")
+  screenOrientation ScreenOrientation @default(LANDSCAPE)
+  /// 多语言标题 JSON，如 {"zh":"..","en":".."}
+  titleI18nJson   String   @default("{}")
+  /// 游戏侧扩展：云存档/广告/包体URL/灰度/预告片等（JSON 字符串）
+  extConfigJson   String  @default("{}")
+  /// 全平台累计启动（近似，每次 /start 上报 +1）
+  launchCount  Int        @default(0)
+  /// 管理员可递增以触发 CDN/客户端刷新缓存
+  cacheBust    Int        @default(0)
+  /// 首页 HOT 栏候选（仍需已发布）
+  isHot        Boolean    @default(false)
+  /// 首页推荐栏候选（仍需已发布）
+  isHomeRecommended Boolean @default(false)
+  /// 最近审核批注/拒绝原因
+  lastReviewNote String?
+
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  tags   GameTag[]
+  assets GameAsset[]
+
+  homeItems HomeSectionItem[]
+  favorites UserFavorite[]
+  playHistory UserPlayHistory[]
+  ratings UserRating[]
+  comments Comment[]
+  banners BannerConfig[]
+  events EventLog[]
+  gameReports GameReport[]
+  gameBuilds  GameBuild[]
+
+  @@index([status, updatedAt])
+  @@index([deletedAt])
+  @@index([categoryId, status])
+}
+
+/// 用户举报游戏
+model GameReport {
+  id         String   @id @default(cuid())
+  gameId     String
+  reporterId String?
+  /// porn, violence, infringement, other
+  reason     String
+  detail     String   @default("")
+  status     String   @default("OPEN") // OPEN, RESOLVED, REJECTED
+  createdAt  DateTime @default(now())
+
+  game     Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  reporter EndUser? @relation(fields: [reporterId], references: [id], onDelete: SetNull)
+
+  @@index([gameId, status])
+  @@index([createdAt])
+}
+
+/// 版本/包体管理（全量/灰度占位）
+model GameBuild {
+  id        String   @id @default(cuid())
+  gameId    String
+  version   String
+  packageUrl String?
+  /// PENDING, APPROVED, LIVE, SUPERSEDED
+  status    String   @default("PENDING")
+  /// 灰度 0–100，null=未指定
+  rolloutPercent Int?
+  createdAt DateTime @default(now())
+  approvedAt DateTime?
+
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId, status])
+}
+
+model GameTag {
+  gameId String
+  tagId  String
+
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([gameId, tagId])
+  @@index([tagId])
+}
+
+model GameAsset {
+  id        String         @id @default(cuid())
+  gameId    String
+  type      GameAssetType
+  url       String
+  alt       String?
+  sortOrder Int            @default(0)
+  createdAt DateTime       @default(now())
+
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId, type])
+}
+
+model HomeSection {
+  id        String          @id @default(cuid())
+  key       String          @unique
+  title     String
+  kind      HomeSectionKind @default(GRID)
+  sortOrder Int             @default(0)
+  isActive  Boolean         @default(true)
+  maxItems  Int             @default(12)
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+
+  items HomeSectionItem[]
+}
+
+model HomeSectionItem {
+  id        String @id @default(cuid())
+  sectionId String
+  gameId    String
+  sortOrder Int    @default(0)
+
+  section HomeSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  game    Game        @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([sectionId, sortOrder])
+  @@index([gameId])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actorId   String?
+  action    String
+  entity    String
+  entityId  String?
+  details   String?
+  createdAt DateTime @default(now())
+
+  actor AdminUser? @relation(fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+}
+
+model EndUser {
+  id            String    @id @default(cuid())
+  email         String?   @unique
+  passwordHash  String?
+  nickname      String
+  avatarUrl     String?
+  role          UserRole  @default(USER)
+  locale        String    @default("zh-CN")
+  points        Int       @default(0)
+  totalPlayCnt  Int       @default(0)
+  totalPlaySecs Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  lastActiveAt  DateTime?
+  bannedAt      DateTime?
+
+  sessions      UserSession[]
+  favorites     UserFavorite[]
+  playHistory   UserPlayHistory[]
+  ratings       UserRating[]
+  comments      Comment[]
+  votes         CommentVote[]
+  taskProgress  UserTaskProgress[]
+  checkins      UserCheckin[]
+  ledgers       PointLedger[]
+  memberships   UserMembership[]
+  events        EventLog[]
+  gameReports   GameReport[]
+
+  @@index([bannedAt])
+  @@index([lastActiveAt])
+}
+
+model UserSession {
+  id           String   @id @default(cuid())
+  userId       String
+  refreshToken String   @unique
+  userAgent    String?
+  ip           String?
+  expiresAt    DateTime
+  createdAt    DateTime @default(now())
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+}
+
+model UserFavorite {
+  id        String   @id @default(cuid())
+  userId    String
+  gameId    String
+  createdAt DateTime @default(now())
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game Game    @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, gameId])
+}
+
+model UserPlayHistory {
+  id           String   @id @default(cuid())
+  userId       String
+  gameId       String
+  lastPlayedAt DateTime @default(now())
+  durationSec  Int      @default(0)
+  progress     Int      @default(0)
+  bestScore    Int?
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game Game    @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([userId, lastPlayedAt])
+}
+
+model UserRating {
+  id        String   @id @default(cuid())
+  userId    String
+  gameId    String
+  stars     Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game Game    @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, gameId])
+}
+
+model Comment {
+  id         String   @id @default(cuid())
+  userId     String
+  gameId     String
+  parentId   String?
+  stars      Int?
+  content    String
+  usefulCnt  Int      @default(0)
+  isHidden   Boolean  @default(false)
+  isPinned   Boolean  @default(false)
+  /// 被举报/标记敏感次数（运营排序用）
+  abuseReportCount Int @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  user      EndUser    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  game      Game       @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  parent    Comment?   @relation("CommentReplies", fields: [parentId], references: [id], onDelete: Cascade)
+  replies   Comment[]  @relation("CommentReplies")
+  votes     CommentVote[]
+
+  @@index([gameId, createdAt])
+  @@index([parentId])
+  @@index([abuseReportCount, createdAt])
+}
+
+model CommentVote {
+  id        String   @id @default(cuid())
+  userId    String
+  commentId String
+  createdAt DateTime @default(now())
+
+  user    EndUser  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  comment Comment  @relation(fields: [commentId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, commentId])
+}
+
+model BannerConfig {
+  id          String   @id @default(cuid())
+  title       String
+  imageUrl    String?
+  videoUrl    String?
+  gameId      String?
+  startsAt    DateTime?
+  endsAt      DateTime?
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  game Game? @relation(fields: [gameId], references: [id], onDelete: SetNull)
+}
+
+model SearchConfig {
+  id            String   @id @default(cuid())
+  hotKeywords   String   @default("[]")
+  enableHistory Boolean  @default(true)
+  updatedAt     DateTime @updatedAt
+}
+
+model TaskDefinition {
+  id          String   @id @default(cuid())
+  key         String   @unique
+  title       String
+  type        TaskType
+  targetValue Int
+  rewardPoint Int
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  progresses UserTaskProgress[]
+}
+
+model UserTaskProgress {
+  id         String   @id @default(cuid())
+  userId     String
+  taskId     String
+  progress   Int      @default(0)
+  completed  Boolean  @default(false)
+  claimed    Boolean  @default(false)
+  updatedAt  DateTime @updatedAt
+  createdAt  DateTime @default(now())
+
+  user EndUser        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  task TaskDefinition @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, taskId])
+}
+
+model UserCheckin {
+  id         String   @id @default(cuid())
+  userId     String
+  dayKey     String
+  streakDay  Int
+  rewardPoint Int
+  createdAt  DateTime @default(now())
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, dayKey])
+}
+
+model PointLedger {
+  id        String   @id @default(cuid())
+  userId    String
+  delta     Int
+  reason    String
+  createdAt DateTime @default(now())
+
+  user EndUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, createdAt])
+}
+
+model MembershipPlan {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  title       String
+  months      Int
+  priceCents  Int
+  benefits    String   @default("{}")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  memberships UserMembership[]
+}
+
+model UserMembership {
+  id         String           @id @default(cuid())
+  userId     String
+  planId     String
+  status     MembershipStatus @default(ACTIVE)
+  startedAt  DateTime         @default(now())
+  expiresAt  DateTime
+  createdAt  DateTime         @default(now())
+
+  user EndUser        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan MembershipPlan @relation(fields: [planId], references: [id], onDelete: Restrict)
+  @@index([userId, expiresAt])
+}
+
+model EventLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  gameId    String?
+  eventName String
+  payload   String   @default("{}")
+  createdAt DateTime @default(now())
+  processed Boolean  @default(false)
+
+  user EndUser? @relation(fields: [userId], references: [id], onDelete: SetNull)
+  game Game?    @relation(fields: [gameId], references: [id], onDelete: SetNull)
+  @@index([eventName, createdAt])
+}

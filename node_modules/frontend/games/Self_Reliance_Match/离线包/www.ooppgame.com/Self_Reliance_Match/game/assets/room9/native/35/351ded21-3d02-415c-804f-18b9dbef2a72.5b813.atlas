@@ -1,0 +1,34 @@
+
+jingtou3.png
+size: 1649, 1134
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 380
+  size: 752, 1340
+  orig: 752, 1340
+  offset: 0, 0
+  index: -1
+nv01
+  rotate: false
+  xy: 1486, 376
+  size: 161, 756
+  orig: 161, 756
+  offset: 0, 0
+  index: -1
+nv02
+  rotate: false
+  xy: 1344, 387
+  size: 140, 745
+  orig: 140, 745
+  offset: 0, 0
+  index: -1
+nv03
+  rotate: true
+  xy: 2, 2
+  size: 376, 1456
+  orig: 376, 1456
+  offset: 0, 0
+  index: -1

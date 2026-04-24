@@ -1,0 +1,8 @@
+{
+	"front":"Flower_PositiveZ.png",
+	"back":"Flower_NegativeZ.png",
+	"left":"Flower_PositiveX.png",
+	"right":"Flower_NegativeX.png",
+	"up":"Flower_PositiveY.png",
+	"down":"Flower_NegativeY.png"
+}

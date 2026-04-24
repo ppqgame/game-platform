@@ -1,0 +1,132 @@
+
+crab.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/crab/Layer 2
+  rotate: false
+  xy: 2, 403
+  size: 172, 107
+  orig: 172, 107
+  offset: 0, 0
+  index: -1
+images/crab/Layer 4
+  rotate: false
+  xy: 2, 317
+  size: 116, 84
+  orig: 118, 84
+  offset: 0, 0
+  index: -1
+images/crab/body
+  rotate: false
+  xy: 176, 401
+  size: 167, 109
+  orig: 168, 131
+  offset: 1, 22
+  index: -1
+images/crab/eye_1
+  rotate: true
+  xy: 399, 415
+  size: 31, 48
+  orig: 62, 109
+  offset: 8, 0
+  index: -1
+images/crab/eye_2
+  rotate: false
+  xy: 498, 358
+  size: 10, 42
+  orig: 52, 91
+  offset: 32, 0
+  index: -1
+images/crab/eye_l_1
+  rotate: false
+  xy: 120, 349
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/crab/eye_l_2
+  rotate: false
+  xy: 345, 394
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/crab/eye_r_1
+  rotate: false
+  xy: 345, 448
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+images/crab/eye_r_2
+  rotate: false
+  xy: 409, 448
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+images/crab/leg_b_1
+  rotate: false
+  xy: 445, 351
+  size: 24, 34
+  orig: 25, 34
+  offset: 1, 0
+  index: -1
+images/crab/leg_b_2
+  rotate: true
+  xy: 223, 373
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+images/crab/leg_b_3
+  rotate: true
+  xy: 174, 372
+  size: 27, 47
+  orig: 27, 47
+  offset: 0, 0
+  index: -1
+images/crab/leg_f_1
+  rotate: false
+  xy: 399, 362
+  size: 26, 51
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+images/crab/leg_f_2
+  rotate: false
+  xy: 471, 343
+  size: 25, 57
+  orig: 25, 57
+  offset: 0, 0
+  index: -1
+images/crab/leg_f_3
+  rotate: false
+  xy: 473, 402
+  size: 36, 50
+  orig: 36, 50
+  offset: 0, 0
+  index: -1
+images/crab/mouth_1
+  rotate: true
+  xy: 427, 386
+  size: 27, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+images/crab/mouth_2
+  rotate: true
+  xy: 473, 454
+  size: 56, 37
+  orig: 57, 37
+  offset: 1, 0
+  index: -1
+images/crab/mouth_3
+  rotate: true
+  xy: 449, 387
+  size: 59, 20
+  orig: 60, 21
+  offset: 0, 0
+  index: -1

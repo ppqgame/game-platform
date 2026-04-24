@@ -1,0 +1,13 @@
+
+dandao.png
+size: 64,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shechu
+  rotate: false
+  xy: 2, 2
+  size: 32, 347
+  orig: 32, 347
+  offset: 0, 0
+  index: -1

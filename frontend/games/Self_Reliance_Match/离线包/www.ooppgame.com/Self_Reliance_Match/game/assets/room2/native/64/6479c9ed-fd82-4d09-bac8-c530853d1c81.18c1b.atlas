@@ -1,0 +1,34 @@
+
+pojiuqiangbi.png
+size: 1091, 753
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+beijing
+  rotate: true
+  xy: 2, 2
+  size: 749, 869
+  orig: 751, 871
+  offset: 1, 1
+  index: -1
+men
+  rotate: false
+  xy: 873, 246
+  size: 57, 234
+  orig: 57, 234
+  offset: 0, 0
+  index: -1
+wang
+  rotate: false
+  xy: 873, 103
+  size: 19, 141
+  orig: 19, 141
+  offset: 0, 0
+  index: -1
+wangsi
+  rotate: true
+  xy: 873, 482
+  size: 269, 216
+  orig: 269, 242
+  offset: 0, 26
+  index: -1

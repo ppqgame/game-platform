@@ -1,0 +1,139 @@
+
+enemy04.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 111, 77
+  size: 20, 36
+  orig: 20, 36
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 111, 39
+  size: 20, 36
+  orig: 20, 36
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 133, 77
+  size: 20, 36
+  orig: 20, 36
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 133, 39
+  size: 20, 36
+  orig: 20, 36
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 234, 143
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 80, 115
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+07
+  rotate: true
+  xy: 119, 115
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 158, 121
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 2, 128
+  size: 76, 124
+  orig: 76, 124
+  offset: 0, 0
+  index: -1
+guang
+  rotate: true
+  xy: 185, 143
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+ss01
+  rotate: false
+  xy: 190, 182
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+ss01_1
+  rotate: false
+  xy: 97, 11
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+ss01_2
+  rotate: false
+  xy: 78, 39
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+ss01_3
+  rotate: false
+  xy: 158, 160
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+ss01_4
+  rotate: false
+  xy: 80, 205
+  size: 108, 47
+  orig: 108, 47
+  offset: 0, 0
+  index: -1
+ss02_1
+  rotate: false
+  xy: 78, 76
+  size: 31, 37
+  orig: 31, 37
+  offset: 0, 0
+  index: -1
+ss02_2
+  rotate: false
+  xy: 2, 29
+  size: 74, 97
+  orig: 74, 97
+  offset: 0, 0
+  index: -1
+ss03_1
+  rotate: true
+  xy: 80, 137
+  size: 66, 76
+  orig: 66, 76
+  offset: 0, 0
+  index: -1
+ss03_2
+  rotate: true
+  xy: 2, 4
+  size: 23, 93
+  orig: 23, 93
+  offset: 0, 0
+  index: -1

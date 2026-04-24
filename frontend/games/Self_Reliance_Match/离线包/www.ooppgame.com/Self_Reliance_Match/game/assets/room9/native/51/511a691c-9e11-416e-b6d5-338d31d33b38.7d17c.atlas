@@ -1,0 +1,48 @@
+
+jingtou14.png
+size: 1354, 1497
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+duihua0
+  rotate: true
+  xy: 1102, 420
+  size: 53, 33
+  orig: 53, 33
+  offset: 0, 0
+  index: -1
+duihua1
+  rotate: true
+  xy: 1102, 366
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+duihua2
+  rotate: false
+  xy: 1102, 475
+  size: 250, 268
+  orig: 250, 268
+  offset: 0, 0
+  index: -1
+duihua3
+  rotate: true
+  xy: 2, 279
+  size: 464, 1098
+  orig: 482, 1098
+  offset: 0, 0
+  index: -1
+duihua4
+  rotate: true
+  xy: 2, 2
+  size: 275, 1130
+  orig: 275, 1130
+  offset: 0, 0
+  index: -1
+duihua5
+  rotate: true
+  xy: 2, 745
+  size: 750, 1338
+  orig: 752, 1340
+  offset: 1, 1
+  index: -1

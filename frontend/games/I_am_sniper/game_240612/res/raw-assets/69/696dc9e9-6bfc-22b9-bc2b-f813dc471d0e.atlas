@@ -1,0 +1,125 @@
+
+juese01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+erji
+  rotate: true
+  xy: 329, 70
+  size: 92, 145
+  orig: 92, 145
+  offset: 0, 0
+  index: -1
+fagndianyi
+  rotate: false
+  xy: 2, 87
+  size: 325, 424
+  orig: 325, 424
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: false
+  xy: 731, 768
+  size: 139, 254
+  orig: 139, 254
+  offset: 0, 0
+  index: -1
+shou01
+  rotate: true
+  xy: 689, 520
+  size: 99, 124
+  orig: 99, 124
+  offset: 0, 0
+  index: -1
+shou02
+  rotate: true
+  xy: 329, 266
+  size: 238, 183
+  orig: 238, 183
+  offset: 0, 0
+  index: -1
+shou02_yiny
+  rotate: false
+  xy: 66, 39
+  size: 60, 46
+  orig: 60, 46
+  offset: 0, 0
+  index: -1
+shou03
+  rotate: true
+  xy: 66, 2
+  size: 35, 56
+  orig: 35, 56
+  offset: 0, 0
+  index: -1
+shou04
+  rotate: false
+  xy: 689, 621
+  size: 124, 129
+  orig: 124, 129
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 524, 527
+  size: 163, 223
+  orig: 163, 223
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 2, 513
+  size: 325, 509
+  orig: 325, 509
+  offset: 0, 0
+  index: -1
+tui_b
+  rotate: false
+  xy: 329, 506
+  size: 193, 516
+  orig: 193, 516
+  offset: 0, 0
+  index: -1
+tuidai
+  rotate: false
+  xy: 524, 752
+  size: 205, 270
+  orig: 205, 270
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: true
+  xy: 872, 723
+  size: 299, 98
+  orig: 299, 98
+  offset: 0, 0
+  index: -1
+yaodai_a
+  rotate: false
+  xy: 972, 957
+  size: 49, 65
+  orig: 49, 65
+  offset: 0, 0
+  index: -1
+yaodai_b
+  rotate: false
+  xy: 2, 12
+  size: 62, 73
+  orig: 62, 73
+  offset: 0, 0
+  index: -1
+yaodai_c
+  rotate: false
+  xy: 476, 67
+  size: 92, 95
+  orig: 92, 95
+  offset: 0, 0
+  index: -1
+yingy
+  rotate: true
+  xy: 329, 164
+  size: 100, 211
+  orig: 100, 211
+  offset: 0, 0
+  index: -1

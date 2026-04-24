@@ -1,0 +1,48 @@
+
+yuanzinvzhu2.png
+size: 259, 146
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+a
+  rotate: true
+  xy: 203, 94
+  size: 24, 41
+  orig: 26, 43
+  offset: 1, 1
+  index: -1
+e
+  rotate: true
+  xy: 203, 120
+  size: 26, 56
+  orig: 26, 56
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 137, 20
+  size: 67, 69
+  orig: 69, 71
+  offset: 1, 1
+  index: -1
+sss
+  rotate: true
+  xy: 0, 0
+  size: 89, 135
+  orig: 91, 137
+  offset: 1, 1
+  index: -1
+w
+  rotate: false
+  xy: 206, 50
+  size: 39, 42
+  orig: 41, 44
+  offset: 1, 1
+  index: -1
+图层 1
+  rotate: false
+  xy: 0, 91
+  size: 201, 55
+  orig: 233, 59
+  offset: 2, 2
+  index: -1

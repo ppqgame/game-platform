@@ -1,0 +1,181 @@
+
+crocodile.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+angry
+  rotate: false
+  xy: 74, 969
+  size: 26, 25
+  orig: 27, 25
+  offset: 1, 0
+  index: -1
+body
+  rotate: false
+  xy: 449, 776
+  size: 301, 108
+  orig: 301, 108
+  offset: 0, 0
+  index: -1
+eye_01
+  rotate: false
+  xy: 2, 975
+  size: 20, 19
+  orig: 22, 19
+  offset: 1, 0
+  index: -1
+eye_02
+  rotate: false
+  xy: 24, 975
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+eye_03
+  rotate: false
+  xy: 48, 973
+  size: 24, 21
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+glasses_2
+  rotate: false
+  xy: 826, 879
+  size: 168, 70
+  orig: 168, 70
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 758, 952
+  size: 49, 42
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+key
+  rotate: true
+  xy: 397, 966
+  size: 28, 60
+  orig: 28, 60
+  offset: 0, 0
+  index: -1
+leg_1
+  rotate: true
+  xy: 942, 951
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+leg_2
+  rotate: false
+  xy: 2, 926
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+leg_3
+  rotate: true
+  xy: 705, 953
+  size: 41, 51
+  orig: 42, 51
+  offset: 1, 0
+  index: -1
+mirror
+  rotate: true
+  xy: 175, 812
+  size: 91, 272
+  orig: 91, 272
+  offset: 0, 0
+  index: -1
+mouth_b
+  rotate: false
+  xy: 275, 967
+  size: 120, 27
+  orig: 120, 27
+  offset: 0, 0
+  index: -1
+mouth_f
+  rotate: false
+  xy: 809, 952
+  size: 131, 42
+  orig: 131, 42
+  offset: 0, 0
+  index: -1
+mouth_f_1
+  rotate: false
+  xy: 266, 914
+  size: 132, 50
+  orig: 132, 50
+  offset: 0, 0
+  index: -1
+mouth_f_2
+  rotate: false
+  xy: 400, 905
+  size: 132, 50
+  orig: 132, 50
+  offset: 0, 0
+  index: -1
+mouth_f_3
+  rotate: false
+  xy: 51, 920
+  size: 134, 47
+  orig: 135, 48
+  offset: 1, 0
+  index: -1
+rock_1
+  rotate: false
+  xy: 187, 919
+  size: 77, 48
+  orig: 77, 48
+  offset: 0, 0
+  index: -1
+scar
+  rotate: false
+  xy: 459, 957
+  size: 192, 37
+  orig: 192, 37
+  offset: 0, 0
+  index: -1
+shield_1
+  rotate: false
+  xy: 2, 845
+  size: 171, 73
+  orig: 171, 73
+  offset: 0, 0
+  index: -1
+shield_2
+  rotate: false
+  xy: 102, 969
+  size: 171, 25
+  orig: 171, 25
+  offset: 0, 0
+  index: -1
+spark_04
+  rotate: false
+  xy: 534, 888
+  size: 80, 67
+  orig: 83, 69
+  offset: 0, 2
+  index: -1
+tail_1
+  rotate: false
+  xy: 616, 886
+  size: 208, 64
+  orig: 209, 72
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: true
+  xy: 752, 761
+  size: 116, 148
+  orig: 116, 149
+  offset: 0, 1
+  index: -1
+tongue
+  rotate: true
+  xy: 653, 955
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1

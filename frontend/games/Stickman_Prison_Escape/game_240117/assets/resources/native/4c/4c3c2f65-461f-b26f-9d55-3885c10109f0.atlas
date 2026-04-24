@@ -1,0 +1,41 @@
+
+dog_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dog/body
+  rotate: false
+  xy: 2, 617
+  size: 468, 350
+  orig: 468, 350
+  offset: 0, 0
+  index: -1
+dog/chan_sau1
+  rotate: true
+  xy: 472, 765
+  size: 202, 238
+  orig: 202, 238
+  offset: 0, 0
+  index: -1
+dog/chan_sau_2
+  rotate: true
+  xy: 712, 835
+  size: 132, 255
+  orig: 132, 255
+  offset: 0, 0
+  index: -1
+dog/chan_truoc
+  rotate: false
+  xy: 901, 646
+  size: 64, 187
+  orig: 64, 187
+  offset: 0, 0
+  index: -1
+dog/chan_truoc_2
+  rotate: true
+  xy: 712, 769
+  size: 64, 187
+  orig: 64, 187
+  offset: 0, 0
+  index: -1

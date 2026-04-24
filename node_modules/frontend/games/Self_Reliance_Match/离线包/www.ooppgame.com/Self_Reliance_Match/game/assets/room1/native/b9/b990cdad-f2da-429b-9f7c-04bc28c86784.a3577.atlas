@@ -1,0 +1,104 @@
+
+jingtou6.png
+size: 1490, 362
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+R3
+  rotate: false
+  xy: 2, 7
+  size: 228, 353
+  orig: 232, 358
+  offset: 3, 3
+  index: -1
+jian
+  rotate: true
+  xy: 1361, 86
+  size: 49, 105
+  orig: 51, 107
+  offset: 1, 1
+  index: -1
+nv
+  rotate: false
+  xy: 232, 8
+  size: 288, 352
+  orig: 290, 354
+  offset: 1, 1
+  index: -1
+shou
+  rotate: true
+  xy: 1361, 137
+  size: 151, 120
+  orig: 151, 120
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 1310, 20
+  size: 54, 59
+  orig: 54, 59
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: true
+  xy: 993, 7
+  size: 17, 41
+  orig: 18, 42
+  offset: 1, 1
+  index: -1
+yan
+  rotate: false
+  xy: 945, 5
+  size: 46, 19
+  orig: 48, 21
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: true
+  xy: 1165, 15
+  size: 64, 143
+  orig: 64, 143
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 915, 2
+  size: 28, 22
+  orig: 30, 24
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: true
+  xy: 1361, 290
+  size: 70, 127
+  orig: 70, 127
+  offset: 0, 0
+  index: -1
+图层 10
+  rotate: false
+  xy: 522, 11
+  size: 391, 349
+  orig: 391, 349
+  offset: 0, 0
+  index: -1
+图层 6
+  rotate: false
+  xy: 915, 26
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1
+草莓
+  rotate: true
+  xy: 1105, 5
+  size: 74, 58
+  orig: 76, 61
+  offset: 1, 1
+  index: -1
+蛋糕
+  rotate: false
+  xy: 1105, 81
+  size: 254, 279
+  orig: 256, 282
+  offset: 1, 1
+  index: -1

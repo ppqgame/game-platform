@@ -1,0 +1,27 @@
+
+jingtou6.png
+size: 969,572
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+null0
+  rotate: true
+  xy: 2, 2
+  size: 291, 649
+  orig: 291, 649
+  offset: 0, 0
+  index: -1
+null1
+  rotate: true
+  xy: 2, 295
+  size: 275, 741
+  orig: 275, 741
+  offset: 0, 0
+  index: -1
+null2
+  rotate: false
+  xy: 745, 137
+  size: 222, 433
+  orig: 222, 433
+  offset: 0, 0
+  index: -1

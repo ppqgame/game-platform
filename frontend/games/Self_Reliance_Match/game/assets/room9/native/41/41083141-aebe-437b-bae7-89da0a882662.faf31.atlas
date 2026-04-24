@@ -1,0 +1,48 @@
+
+jingtou4.png
+size: 1806, 1072
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG
+  rotate: false
+  xy: 1322, 42
+  size: 482, 433
+  orig: 482, 433
+  offset: 0, 0
+  index: -1
+ren0
+  rotate: true
+  xy: 407, 2
+  size: 376, 913
+  orig: 376, 913
+  offset: 0, 0
+  index: -1
+ren1
+  rotate: false
+  xy: 407, 380
+  size: 501, 690
+  orig: 501, 690
+  offset: 0, 0
+  index: -1
+ren2
+  rotate: false
+  xy: 1322, 477
+  size: 470, 593
+  orig: 470, 593
+  offset: 0, 0
+  index: -1
+ren3
+  rotate: false
+  xy: 2, 114
+  size: 403, 956
+  orig: 403, 956
+  offset: 0, 0
+  index: -1
+ren4
+  rotate: false
+  xy: 910, 478
+  size: 380, 592
+  orig: 380, 592
+  offset: 0, 0
+  index: -1

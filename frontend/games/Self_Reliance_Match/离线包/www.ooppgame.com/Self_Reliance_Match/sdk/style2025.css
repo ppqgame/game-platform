@@ -1,0 +1,70 @@
+
+.loadingMc{margin:auto;width:100%;height:100%;z-index:99;position:absolute;background:#2980b9}
+.gameIconPanret{width:140px;height:140px;border-radius:100%;overflow:hidden;position:absolute;top:50%;left:50%;margin-top:-70px;margin-left:-70px;z-index:99}
+.loadNumPanret{width:140px;height:140px;position:absolute;top:50%;left:50%;margin-top:100px;z-index:99}
+.loadMc{width:140px;height:140px;position:absolute;top:50%;left:50%;margin-top:-75px;margin-left:-75px;z-index:99;border-radius:50%;border:5px solid #22618b;border-top:5px solid #08da4e;animation:load 2s linear infinite}@keyframes load{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.progress {
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c8e9ff;
+    border-radius: 7.5px;
+    overflow: hidden;
+    border: 1px solid #1c4c6c;
+    box-sizing: border-box; /* 关键 */
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%; /* 关键：继承父容器高度 */
+    background-color: #42db3d;
+    border-radius: 7.5px;
+    transition: width 0.3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%); 
+    box-sizing: border-box; /* 关键 */
+    background-image: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-size: 40px 40px;
+    box-shadow: none;       /* 强制移除阴影 */
+    border: none;           /* 移除边框 */
+}
+.progress-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	opacity: 0;
+    transition: opacity 2s ease-in-out,transform 3s ease;
+}
+
+.progress-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#08da4e 0%, #22618b 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle-overlay {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #2980b9;
+}

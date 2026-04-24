@@ -1,0 +1,118 @@
+
+mouse.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mouse/arm
+  rotate: true
+  xy: 65, 65
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+mouse/body
+  rotate: true
+  xy: 149, 125
+  size: 57, 91
+  orig: 57, 91
+  offset: 0, 0
+  index: -1
+mouse/eye_1
+  rotate: true
+  xy: 184, 64
+  size: 19, 15
+  orig: 21, 19
+  offset: 1, 1
+  index: -1
+mouse/eye_2
+  rotate: false
+  xy: 149, 54
+  size: 33, 29
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+mouse/eye_3
+  rotate: true
+  xy: 241, 230
+  size: 22, 11
+  orig: 24, 12
+  offset: 1, 1
+  index: -1
+mouse/hand
+  rotate: true
+  xy: 112, 44
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+mouse/head
+  rotate: false
+  xy: 2, 159
+  size: 145, 93
+  orig: 146, 93
+  offset: 1, 0
+  index: -1
+mouse/leg_b
+  rotate: false
+  xy: 149, 85
+  size: 50, 38
+  orig: 50, 38
+  offset: 0, 0
+  index: -1
+mouse/leg_f
+  rotate: false
+  xy: 65, 106
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+mouse/mouth_1
+  rotate: true
+  xy: 120, 69
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+mouse/mouth_2
+  rotate: false
+  xy: 2, 64
+  size: 46, 33
+  orig: 46, 33
+  offset: 0, 0
+  index: -1
+mouse/mouth_3
+  rotate: false
+  xy: 201, 92
+  size: 44, 31
+  orig: 45, 32
+  offset: 0, 0
+  index: -1
+mouse/mouth_4
+  rotate: true
+  xy: 120, 112
+  size: 45, 27
+  orig: 45, 28
+  offset: 0, 0
+  index: -1
+mouse/tail
+  rotate: false
+  xy: 149, 184
+  size: 90, 68
+  orig: 90, 68
+  offset: 0, 0
+  index: -1
+props/cheese
+  rotate: false
+  xy: 2, 99
+  size: 61, 58
+  orig: 61, 58
+  offset: 0, 0
+  index: -1
+props/rock
+  rotate: false
+  xy: 201, 59
+  size: 41, 31
+  orig: 41, 31
+  offset: 0, 0
+  index: -1

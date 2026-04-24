@@ -1,0 +1,146 @@
+
+yingerjiaose.png
+size: 666, 523
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0000/01
+  rotate: false
+  xy: 199, 181
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+0000/02
+  rotate: true
+  xy: 652, 64
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+0000/03
+  rotate: false
+  xy: 415, 2
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+0000/04
+  rotate: false
+  xy: 2, 165
+  size: 195, 356
+  orig: 195, 356
+  offset: 0, 0
+  index: -1
+0000/05
+  rotate: true
+  xy: 624, 86
+  size: 195, 40
+  orig: 195, 40
+  offset: 0, 0
+  index: -1
+js_st
+  rotate: false
+  xy: 425, 20
+  size: 197, 261
+  orig: 197, 261
+  offset: 0, 0
+  index: -1
+js_to
+  rotate: false
+  xy: 118, 42
+  size: 118, 121
+  orig: 118, 121
+  offset: 0, 0
+  index: -1
+js_ys_1
+  rotate: false
+  xy: 238, 75
+  size: 67, 125
+  orig: 67, 125
+  offset: 0, 0
+  index: -1
+js_ys_2
+  rotate: false
+  xy: 355, 2
+  size: 58, 102
+  orig: 58, 102
+  offset: 0, 0
+  index: -1
+js_zs_1
+  rotate: false
+  xy: 307, 80
+  size: 46, 120
+  orig: 46, 120
+  offset: 0, 0
+  index: -1
+js_zs_2
+  rotate: true
+  xy: 118, 4
+  size: 36, 104
+  orig: 36, 104
+  offset: 0, 0
+  index: -1
+ng_st
+  rotate: false
+  xy: 425, 283
+  size: 227, 238
+  orig: 227, 238
+  offset: 0, 0
+  index: -1
+ng_to
+  rotate: false
+  xy: 2, 37
+  size: 114, 126
+  orig: 114, 126
+  offset: 0, 0
+  index: -1
+ng_ys_1
+  rotate: false
+  xy: 355, 106
+  size: 67, 94
+  orig: 67, 94
+  offset: 0, 0
+  index: -1
+ng_ys_2
+  rotate: false
+  xy: 238, 17
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+yanjing2
+  rotate: true
+  xy: 624, 28
+  size: 56, 26
+  orig: 57, 26
+  offset: 0, 0
+  index: -1
+yanjing3
+  rotate: false
+  xy: 2, 11
+  size: 54, 24
+  orig: 54, 24
+  offset: 0, 0
+  index: -1
+zuiba2
+  rotate: true
+  xy: 654, 504
+  size: 17, 5
+  orig: 17, 5
+  offset: 0, 0
+  index: -1
+zuiba3
+  rotate: true
+  xy: 224, 18
+  size: 22, 11
+  orig: 23, 11
+  offset: 0, 0
+  index: -1
+求救1
+  rotate: false
+  xy: 199, 202
+  size: 224, 319
+  orig: 233, 322
+  offset: 6, 2
+  index: -1

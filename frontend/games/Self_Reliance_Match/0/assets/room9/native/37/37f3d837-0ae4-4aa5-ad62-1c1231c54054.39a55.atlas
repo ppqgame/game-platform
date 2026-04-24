@@ -1,0 +1,27 @@
+
+jingtou12.png
+size: 1870, 1132
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shou0
+  rotate: true
+  xy: 2, 2
+  size: 374, 492
+  orig: 374, 492
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 1344, 297
+  size: 524, 833
+  orig: 524, 833
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: true
+  xy: 2, 378
+  size: 752, 1340
+  orig: 752, 1340
+  offset: 0, 0
+  index: -1

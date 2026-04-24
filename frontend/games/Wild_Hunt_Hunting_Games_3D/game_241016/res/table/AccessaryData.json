@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "type": 1,
+        "name": "L-shaped 8 × lens",
+        "intruduce": "CS X8",
+        "enlarge": 8,
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 2,
+        "type": 1,
+        "name": "S-shaped 8 × lens",
+        "intruduce": "CS X8",
+        "enlarge": 8,
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 3,
+        "type": 1,
+        "name": "D type 8 × lens",
+        "intruduce": "CS X8",
+        "enlarge": 8,
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 4,
+        "type": 1,
+        "name": "C type 8 magnification",
+        "intruduce": "CS X8",
+        "enlarge": 8,
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 5,
+        "type": 1,
+        "name": "Double lens for bow and arrow",
+        "intruduce": "Rate of multiplication X2",
+        "enlarge": 2,
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 6,
+        "type": 2,
+        "name": "L expansion magazine",
+        "intruduce": "Capacity +2, carry +10",
+        "enlarge": "",
+        "clip": 2,
+        "clip_max": 10,
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 7,
+        "type": 2,
+        "name": "Model S expansion magazine",
+        "intruduce": "Capacity +3, carry +7",
+        "enlarge": "",
+        "clip": 3,
+        "clip_max": 7,
+        "stability": "",
+        "hurt": ""
+    },
+    {
+        "id": 8,
+        "type": 3,
+        "name": "Stable stock",
+        "intruduce": "Stable +20",
+        "enlarge": "",
+        "clip": "",
+        "clip_max": "",
+        "stability": 20,
+        "hurt": ""
+    },
+    {
+        "id": 9,
+        "type": 4,
+        "name": "Increase the muzzle",
+        "intruduce": "Damage +10%",
+        "enlarge": "",
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": 0.1
+    },
+    {
+        "id": 10,
+        "type": 5,
+        "name": "High strength string",
+        "intruduce": "Damage +10%",
+        "enlarge": "",
+        "clip": "",
+        "clip_max": "",
+        "stability": "",
+        "hurt": 0.1
+    }
+]

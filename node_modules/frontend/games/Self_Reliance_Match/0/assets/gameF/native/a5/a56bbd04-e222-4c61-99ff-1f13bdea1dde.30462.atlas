@@ -1,0 +1,146 @@
+
+secaihecheng.png
+size: 268, 524
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+daquan
+  rotate: false
+  xy: 128, 318
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+daquan2
+  rotate: false
+  xy: 128, 239
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+daquan3
+  rotate: false
+  xy: 128, 160
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+daquan4
+  rotate: false
+  xy: 128, 81
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+daquan5
+  rotate: false
+  xy: 128, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 0, 269
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+dian2
+  rotate: false
+  xy: 129, 398
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+dian3
+  rotate: false
+  xy: 0, 141
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+dian4
+  rotate: false
+  xy: 0, 397
+  size: 127, 127
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+dian5
+  rotate: false
+  xy: 0, 13
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+xiaoxingxing
+  rotate: false
+  xy: 207, 47
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+xiaoxingxing2
+  rotate: false
+  xy: 207, 22
+  size: 27, 23
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+xiaoxingxing3
+  rotate: true
+  xy: 207, 0
+  size: 20, 23
+  orig: 27, 25
+  offset: 3, 1
+  index: -1
+xiaoxingxing4
+  rotate: false
+  xy: 236, 22
+  size: 23, 23
+  orig: 27, 25
+  offset: 2, 1
+  index: -1
+xiaoxingxing5
+  rotate: false
+  xy: 236, 47
+  size: 25, 25
+  orig: 27, 25
+  offset: 1, 0
+  index: -1
+xingxing
+  rotate: true
+  xy: 207, 261
+  size: 66, 61
+  orig: 67, 61
+  offset: 0, 0
+  index: -1
+xingxing2
+  rotate: true
+  xy: 207, 329
+  size: 67, 57
+  orig: 67, 61
+  offset: 0, 1
+  index: -1
+xingxing3
+  rotate: false
+  xy: 207, 198
+  size: 61, 61
+  orig: 67, 61
+  offset: 3, 0
+  index: -1
+xingxing4
+  rotate: false
+  xy: 207, 135
+  size: 60, 61
+  orig: 67, 61
+  offset: 4, 0
+  index: -1
+xingxing5
+  rotate: false
+  xy: 207, 74
+  size: 59, 59
+  orig: 67, 61
+  offset: 4, 1
+  index: -1

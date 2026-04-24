@@ -1,0 +1,188 @@
+
+huojian.png
+size: 173, 284
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+801
+  rotate: true
+  xy: 91, 0
+  size: 56, 65
+  orig: 77, 77
+  offset: 11, 9
+  index: -1
+ranshao/huoxing0
+  rotate: true
+  xy: 133, 250
+  size: 34, 40
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ranshao/huoxing1
+  rotate: true
+  xy: 82, 214
+  size: 35, 38
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing10
+  rotate: false
+  xy: 135, 98
+  size: 38, 38
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing11
+  rotate: false
+  xy: 44, 139
+  size: 36, 36
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ranshao/huoxing12
+  rotate: true
+  xy: 0, 215
+  size: 34, 35
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+ranshao/huoxing13
+  rotate: true
+  xy: 0, 251
+  size: 33, 47
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+ranshao/huoxing14
+  rotate: true
+  xy: 42, 61
+  size: 37, 46
+  orig: 64, 64
+  offset: 11, 2
+  index: -1
+ranshao/huoxing15
+  rotate: true
+  xy: 82, 138
+  size: 36, 44
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing16
+  rotate: true
+  xy: 122, 213
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing17
+  rotate: true
+  xy: 0, 178
+  size: 35, 48
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing18
+  rotate: true
+  xy: 50, 177
+  size: 35, 46
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing19
+  rotate: true
+  xy: 98, 176
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing2
+  rotate: true
+  xy: 128, 138
+  size: 36, 42
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing20
+  rotate: true
+  xy: 0, 141
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing21
+  rotate: true
+  xy: 0, 22
+  size: 37, 46
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+ranshao/huoxing22
+  rotate: true
+  xy: 43, 100
+  size: 36, 44
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ranshao/huoxing23
+  rotate: true
+  xy: 89, 100
+  size: 36, 44
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ranshao/huoxing24
+  rotate: true
+  xy: 37, 215
+  size: 34, 43
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+ranshao/huoxing3
+  rotate: true
+  xy: 49, 251
+  size: 33, 41
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+ranshao/huoxing4
+  rotate: true
+  xy: 92, 251
+  size: 33, 39
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+ranshao/huoxing5
+  rotate: true
+  xy: 0, 102
+  size: 37, 41
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing6
+  rotate: true
+  xy: 0, 63
+  size: 37, 40
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing7
+  rotate: true
+  xy: 131, 58
+  size: 38, 40
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing8
+  rotate: true
+  xy: 48, 21
+  size: 38, 41
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+ranshao/huoxing9
+  rotate: true
+  xy: 90, 61
+  size: 37, 39
+  orig: 64, 64
+  offset: 13, 2
+  index: -1

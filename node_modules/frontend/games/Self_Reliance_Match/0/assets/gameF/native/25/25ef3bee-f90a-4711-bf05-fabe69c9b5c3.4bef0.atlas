@@ -1,0 +1,34 @@
+
+shitou.png
+size: 565, 225
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bg
+  rotate: false
+  xy: 0, 9
+  size: 451, 216
+  orig: 451, 216
+  offset: 0, 0
+  index: -1
+rock
+  rotate: true
+  xy: 453, 75
+  size: 75, 79
+  orig: 75, 80
+  offset: 0, 0
+  index: -1
+rock3
+  rotate: false
+  xy: 453, 0
+  size: 75, 73
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+shouzhi
+  rotate: true
+  xy: 453, 152
+  size: 73, 112
+  orig: 73, 112
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1 @@
+{"package":"gz.zsjsxx.nearme.gamecenter","name":"真实驾驶学校","versionName":"1.0.8","versionCode":8,"minPlatformVersion":1063,"icon":"./icon.png","features":[{"name":"system.prompt"},{"name":"system.router"},{"name":"system.shortcut"}],"permissions":[{"origin":"*"}],"type":"game","orientation":"landscape","config":{"logLevel":"log"},"subpackages":[{"name":"game3d","root":"game3d/"}]}

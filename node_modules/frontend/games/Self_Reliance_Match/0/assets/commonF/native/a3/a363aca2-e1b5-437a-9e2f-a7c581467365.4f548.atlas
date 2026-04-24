@@ -1,0 +1,20 @@
+
+zoumadeng.png
+size: 173, 48
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+xian
+  rotate: false
+  xy: 0, 0
+  size: 140, 48
+  orig: 140, 48
+  offset: 0, 0
+  index: -1
+xingxing02
+  rotate: true
+  xy: 142, 16
+  size: 32, 31
+  orig: 32, 33
+  offset: 0, 1
+  index: -1

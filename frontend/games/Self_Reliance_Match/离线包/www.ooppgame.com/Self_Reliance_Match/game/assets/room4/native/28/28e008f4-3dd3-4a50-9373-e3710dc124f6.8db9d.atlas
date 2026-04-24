@@ -1,0 +1,83 @@
+
+jiaose.png
+size: 648, 443
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+000
+  rotate: true
+  xy: 2, 274
+  size: 167, 528
+  orig: 167, 528
+  offset: 0, 0
+  index: -1
+111
+  rotate: true
+  xy: 2, 2
+  size: 270, 396
+  orig: 270, 396
+  offset: 0, 0
+  index: -1
+222
+  rotate: false
+  xy: 400, 14
+  size: 246, 258
+  orig: 246, 258
+  offset: 0, 0
+  index: -1
+bi
+  rotate: true
+  xy: 532, 283
+  size: 82, 54
+  orig: 82, 54
+  offset: 0, 0
+  index: -1
+meimao
+  rotate: false
+  xy: 588, 316
+  size: 40, 12
+  orig: 40, 12
+  offset: 0, 0
+  index: -1
+shouz
+  rotate: false
+  xy: 532, 367
+  size: 62, 74
+  orig: 62, 74
+  offset: 0, 0
+  index: -1
+shuohua01
+  rotate: false
+  xy: 616, 277
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+shuohua02
+  rotate: false
+  xy: 616, 295
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+zhang
+  rotate: false
+  xy: 588, 330
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+zhang2
+  rotate: true
+  xy: 588, 293
+  size: 21, 26
+  orig: 21, 27
+  offset: 0, 1
+  index: -1
+zui2
+  rotate: false
+  xy: 588, 282
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1

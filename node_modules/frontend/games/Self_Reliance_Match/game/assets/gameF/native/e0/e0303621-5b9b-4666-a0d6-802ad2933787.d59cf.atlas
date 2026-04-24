@@ -1,0 +1,55 @@
+
+fen.png
+size: 466, 466
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+anniu
+  rotate: false
+  xy: 231, 128
+  size: 40, 31
+  orig: 43, 33
+  offset: 1, 1
+  index: -1
+dian
+  rotate: false
+  xy: 276, 171
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+fen
+  rotate: false
+  xy: 276, 199
+  size: 38, 44
+  orig: 45, 52
+  offset: 1, 7
+  index: -1
+guang
+  rotate: false
+  xy: 2, 161
+  size: 272, 303
+  orig: 283, 314
+  offset: 5, 6
+  index: -1
+shaoguang
+  rotate: true
+  xy: 2, 51
+  size: 108, 227
+  orig: 110, 228
+  offset: 1, 1
+  index: -1
+shi
+  rotate: false
+  xy: 2, 35
+  size: 60, 14
+  orig: 62, 16
+  offset: 1, 1
+  index: -1
+zhong
+  rotate: false
+  xy: 276, 245
+  size: 188, 219
+  orig: 190, 221
+  offset: 1, 1
+  index: -1

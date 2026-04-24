@@ -1,0 +1,41 @@
+
+jingtou9.png
+size: 972,415
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nan0
+  rotate: false
+  xy: 2, 2
+  size: 106, 61
+  orig: 106, 61
+  offset: 0, 0
+  index: -1
+nan1
+  rotate: false
+  xy: 110, 33
+  size: 106, 30
+  orig: 106, 30
+  offset: 0, 0
+  index: -1
+nan2
+  rotate: false
+  xy: 757, 155
+  size: 213, 258
+  orig: 213, 258
+  offset: 0, 0
+  index: -1
+nan3
+  rotate: true
+  xy: 2, 65
+  size: 348, 526
+  orig: 348, 526
+  offset: 0, 0
+  index: -1
+nan4
+  rotate: false
+  xy: 530, 12
+  size: 225, 401
+  orig: 225, 401
+  offset: 0, 0
+  index: -1

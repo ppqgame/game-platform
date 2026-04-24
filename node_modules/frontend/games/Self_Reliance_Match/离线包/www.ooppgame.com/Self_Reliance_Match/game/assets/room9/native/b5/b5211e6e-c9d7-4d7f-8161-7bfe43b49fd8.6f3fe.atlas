@@ -1,0 +1,69 @@
+
+jingtou24.png
+size: 1995, 1621
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+baoan0
+  rotate: false
+  xy: 338, 14
+  size: 170, 181
+  orig: 170, 181
+  offset: 0, 0
+  index: -1
+baoan1
+  rotate: false
+  xy: 781, 5
+  size: 300, 253
+  orig: 300, 253
+  offset: 0, 0
+  index: -1
+baoan2
+  rotate: true
+  xy: 510, 2
+  size: 83, 67
+  orig: 83, 67
+  offset: 0, 0
+  index: -1
+baoan3
+  rotate: true
+  xy: 781, 260
+  size: 632, 1104
+  orig: 632, 1104
+  offset: 0, 0
+  index: -1
+baoan4
+  rotate: true
+  xy: 781, 894
+  size: 725, 1212
+  orig: 725, 1212
+  offset: 0, 0
+  index: -1
+baoan5
+  rotate: true
+  xy: 1083, 41
+  size: 217, 316
+  orig: 217, 316
+  offset: 0, 0
+  index: -1
+baoan6
+  rotate: true
+  xy: 510, 87
+  size: 108, 226
+  orig: 108, 226
+  offset: 0, 0
+  index: -1
+baoan7
+  rotate: false
+  xy: 2, 197
+  size: 777, 1422
+  orig: 819, 1422
+  offset: 42, 0
+  index: -1
+baoan8
+  rotate: true
+  xy: 2, 7
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1

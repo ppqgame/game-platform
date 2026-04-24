@@ -1,0 +1,41 @@
+
+waifaguang.png
+size: 1009, 173
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+guangdian01
+  rotate: true
+  xy: 673, 3
+  size: 168, 170
+  orig: 200, 200
+  offset: 16, 14
+  index: -1
+guangdian02
+  rotate: false
+  xy: 2, 19
+  size: 25, 27
+  orig: 40, 40
+  offset: 7, 7
+  index: -1
+guangdian06
+  rotate: false
+  xy: 845, 5
+  size: 162, 166
+  orig: 200, 200
+  offset: 19, 18
+  index: -1
+guangxian03
+  rotate: false
+  xy: 379, 2
+  size: 292, 169
+  orig: 300, 169
+  offset: 4, 0
+  index: -1
+guangzhu01
+  rotate: false
+  xy: 2, 48
+  size: 375, 123
+  orig: 410, 160
+  offset: 28, 18
+  index: -1

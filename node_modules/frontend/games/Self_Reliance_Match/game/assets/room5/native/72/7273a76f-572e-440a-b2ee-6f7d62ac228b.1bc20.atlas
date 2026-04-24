@@ -1,0 +1,195 @@
+
+yushi.png
+size: 1311, 781
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 509, 116
+  size: 32, 32
+  orig: 34, 35
+  offset: 1, 2
+  index: -1
+10
+  rotate: true
+  xy: 584, 154
+  size: 50, 64
+  orig: 52, 66
+  offset: 1, 1
+  index: -1
+11
+  rotate: true
+  xy: 650, 160
+  size: 44, 53
+  orig: 46, 56
+  offset: 1, 2
+  index: -1
+12
+  rotate: true
+  xy: 839, 378
+  size: 26, 36
+  orig: 28, 38
+  offset: 1, 1
+  index: -1
+13
+  rotate: false
+  xy: 791, 265
+  size: 44, 59
+  orig: 46, 62
+  offset: 1, 1
+  index: -1
+14
+  rotate: false
+  xy: 317, 0
+  size: 35, 41
+  orig: 37, 43
+  offset: 1, 1
+  index: -1
+15
+  rotate: false
+  xy: 705, 156
+  size: 49, 48
+  orig: 51, 50
+  offset: 1, 1
+  index: -1
+16
+  rotate: false
+  xy: 478, 100
+  size: 29, 43
+  orig: 32, 45
+  offset: 2, 1
+  index: -1
+17
+  rotate: false
+  xy: 837, 233
+  size: 38, 43
+  orig: 40, 45
+  offset: 1, 1
+  index: -1
+18
+  rotate: false
+  xy: 478, 74
+  size: 19, 24
+  orig: 22, 26
+  offset: 2, 1
+  index: -1
+19
+  rotate: true
+  xy: 791, 170
+  size: 39, 23
+  orig: 42, 25
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 354, 6
+  size: 58, 35
+  orig: 60, 37
+  offset: 1, 1
+  index: -1
+20
+  rotate: true
+  xy: 266, 43
+  size: 100, 210
+  orig: 102, 212
+  offset: 1, 1
+  index: -1
+21
+  rotate: false
+  xy: 0, 8
+  size: 264, 396
+  orig: 266, 398
+  offset: 1, 1
+  index: -1
+22
+  rotate: false
+  xy: 266, 145
+  size: 241, 259
+  orig: 241, 259
+  offset: 0, 0
+  index: -1
+23
+  rotate: true
+  xy: 509, 206
+  size: 198, 280
+  orig: 203, 289
+  offset: 1, 5
+  index: -1
+24
+  rotate: false
+  xy: 791, 326
+  size: 46, 78
+  orig: 50, 83
+  offset: 2, 3
+  index: -1
+25
+  rotate: false
+  xy: 509, 150
+  size: 73, 54
+  orig: 75, 56
+  offset: 1, 1
+  index: -1
+26
+  rotate: false
+  xy: 877, 50
+  size: 434, 731
+  orig: 440, 736
+  offset: 5, 4
+  index: -1
+27
+  rotate: true
+  xy: 0, 406
+  size: 375, 875
+  orig: 375, 875
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 266, 0
+  size: 49, 41
+  orig: 51, 43
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 839, 344
+  size: 32, 32
+  orig: 34, 35
+  offset: 1, 1
+  index: -1
+5
+  rotate: false
+  xy: 414, 4
+  size: 40, 37
+  orig: 42, 39
+  offset: 1, 1
+  index: -1
+6
+  rotate: false
+  xy: 756, 156
+  size: 33, 48
+  orig: 36, 50
+  offset: 1, 1
+  index: -1
+7
+  rotate: false
+  xy: 837, 278
+  size: 38, 46
+  orig: 40, 48
+  offset: 1, 1
+  index: -1
+8
+  rotate: false
+  xy: 791, 211
+  size: 32, 52
+  orig: 34, 54
+  offset: 1, 1
+  index: -1
+9
+  rotate: false
+  xy: 456, 10
+  size: 19, 31
+  orig: 22, 33
+  offset: 1, 1
+  index: -1

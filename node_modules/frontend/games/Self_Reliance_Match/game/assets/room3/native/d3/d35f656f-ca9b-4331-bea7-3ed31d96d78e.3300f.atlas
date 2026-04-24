@@ -1,0 +1,104 @@
+
+jingtou4.png
+size: 2033, 1124
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BG2
+  rotate: true
+  xy: 1042, 374
+  size: 750, 700
+  orig: 752, 702
+  offset: 1, 1
+  index: -1
+bg1
+  rotate: true
+  xy: 330, 374
+  size: 750, 710
+  orig: 752, 712
+  offset: 1, 1
+  index: -1
+houshou
+  rotate: false
+  xy: 1744, 428
+  size: 143, 171
+  orig: 145, 173
+  offset: 1, 1
+  index: -1
+lanse
+  rotate: false
+  xy: 1466, 268
+  size: 546, 104
+  orig: 557, 105
+  offset: 7, 0
+  index: -1
+laoren
+  rotate: true
+  xy: 1466, 0
+  size: 266, 468
+  orig: 268, 470
+  offset: 1, 1
+  index: -1
+na
+  rotate: false
+  xy: 1744, 601
+  size: 250, 523
+  orig: 250, 523
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 0, 17
+  size: 390, 319
+  orig: 397, 333
+  offset: 1, 1
+  index: -1
+shenti2
+  rotate: true
+  xy: 0, 338
+  size: 786, 328
+  orig: 786, 328
+  offset: 0, 0
+  index: -1
+shitou
+  rotate: false
+  xy: 1889, 492
+  size: 126, 107
+  orig: 128, 111
+  offset: 1, 3
+  index: -1
+shou
+  rotate: false
+  xy: 979, 91
+  size: 485, 281
+  orig: 485, 281
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 549, 24
+  size: 348, 428
+  orig: 350, 430
+  offset: 1, 1
+  index: -1
+yingzi
+  rotate: false
+  xy: 979, 11
+  size: 230, 78
+  orig: 242, 82
+  offset: 3, 2
+  index: -1
+youshou
+  rotate: false
+  xy: 392, 14
+  size: 155, 358
+  orig: 157, 360
+  offset: 1, 1
+  index: -1
+图层 39
+  rotate: false
+  xy: 1936, 133
+  size: 97, 133
+  orig: 97, 133
+  offset: 0, 0
+  index: -1

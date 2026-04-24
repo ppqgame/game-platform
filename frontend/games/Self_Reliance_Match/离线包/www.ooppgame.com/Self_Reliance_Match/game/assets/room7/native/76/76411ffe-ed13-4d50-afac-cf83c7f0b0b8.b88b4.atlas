@@ -1,0 +1,104 @@
+
+jingtou6.png
+size: 1884, 1301
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 1662, 698
+  size: 200, 195
+  orig: 201, 197
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 1357, 391
+  size: 238, 320
+  orig: 238, 320
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 1120, 435
+  size: 141, 235
+  orig: 141, 235
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 0, 366
+  size: 782, 935
+  orig: 783, 936
+  offset: 1, 1
+  index: -1
+13
+  rotate: false
+  xy: 1753, 1174
+  size: 131, 127
+  orig: 133, 129
+  offset: 1, 1
+  index: -1
+14
+  rotate: true
+  xy: 0, 14
+  size: 350, 380
+  orig: 352, 382
+  offset: 1, 1
+  index: -1
+15
+  rotate: true
+  xy: 784, 388
+  size: 188, 334
+  orig: 190, 336
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 1096, 8
+  size: 779, 378
+  orig: 779, 378
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 784, 578
+  size: 519, 723
+  orig: 519, 723
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 382, 74
+  size: 290, 398
+  orig: 292, 400
+  offset: 1, 1
+  index: -1
+5
+  rotate: false
+  xy: 782, 29
+  size: 312, 335
+  orig: 314, 337
+  offset: 1, 1
+  index: -1
+7
+  rotate: true
+  xy: 1305, 631
+  size: 262, 355
+  orig: 268, 360
+  offset: 3, 2
+  index: -1
+8
+  rotate: false
+  xy: 382, 0
+  size: 160, 72
+  orig: 162, 74
+  offset: 1, 1
+  index: -1
+9
+  rotate: true
+  xy: 1305, 895
+  size: 406, 446
+  orig: 408, 448
+  offset: 1, 1
+  index: -1

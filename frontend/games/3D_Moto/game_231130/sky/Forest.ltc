@@ -1,0 +1,8 @@
+{
+	"front":"Forest_PositiveZ.png",
+	"back":"Forest_NegativeZ.png",
+	"left":"Forest_PositiveX.png",
+	"right":"Forest_NegativeX.png",
+	"up":"Forest_PositiveY.png",
+	"down":"Forest_NegativeY.png"
+}

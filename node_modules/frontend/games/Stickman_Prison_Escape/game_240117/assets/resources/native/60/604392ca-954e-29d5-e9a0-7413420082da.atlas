@@ -1,0 +1,139 @@
+
+bear.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b_eye_1
+  rotate: true
+  xy: 223, 152
+  size: 46, 30
+  orig: 49, 32
+  offset: 2, 1
+  index: -1
+b_eye_2
+  rotate: true
+  xy: 2, 2
+  size: 46, 34
+  orig: 49, 36
+  offset: 2, 1
+  index: -1
+b_head
+  rotate: true
+  xy: 142, 313
+  size: 117, 93
+  orig: 117, 93
+  offset: 0, 0
+  index: -1
+b_r_arm
+  rotate: false
+  xy: 2, 50
+  size: 63, 111
+  orig: 63, 111
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 163
+  size: 138, 267
+  orig: 138, 267
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: true
+  xy: 111, 83
+  size: 26, 16
+  orig: 28, 18
+  offset: 1, 1
+  index: -1
+eye_2
+  rotate: true
+  xy: 111, 111
+  size: 20, 19
+  orig: 22, 21
+  offset: 1, 1
+  index: -1
+eye_3
+  rotate: true
+  xy: 38, 13
+  size: 35, 25
+  orig: 37, 27
+  offset: 1, 1
+  index: -1
+eye_4
+  rotate: true
+  xy: 111, 133
+  size: 28, 24
+  orig: 30, 28
+  offset: 1, 2
+  index: -1
+eye_5
+  rotate: true
+  xy: 314, 294
+  size: 23, 12
+  orig: 28, 18
+  offset: 2, 2
+  index: -1
+f_b_body
+  rotate: false
+  xy: 331, 263
+  size: 143, 276
+  orig: 143, 276
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 142, 200
+  size: 111, 84
+  orig: 111, 84
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 228, 200
+  size: 111, 84
+  orig: 111, 84
+  offset: 0, 0
+  index: -1
+heat
+  rotate: false
+  xy: 331, 541
+  size: 155, 156
+  orig: 188, 182
+  offset: 16, 16
+  index: -1
+l_arm
+  rotate: true
+  xy: 314, 182
+  size: 79, 121
+  orig: 79, 121
+  offset: 0, 0
+  index: -1
+lgbt_flag
+  rotate: false
+  xy: 237, 319
+  size: 78, 111
+  orig: 78, 111
+  offset: 0, 0
+  index: -1
+r_arm_1
+  rotate: false
+  xy: 142, 77
+  size: 79, 121
+  orig: 79, 121
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 432
+  size: 327, 265
+  orig: 327, 265
+  offset: 0, 0
+  index: -1
+vodkar
+  rotate: false
+  xy: 67, 24
+  size: 42, 137
+  orig: 50, 139
+  offset: 4, 2
+  index: -1

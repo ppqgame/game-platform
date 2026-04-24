@@ -1,0 +1,1 @@
+{"package":"com.qd.tkjjs.nearme.gamecenter","name":"坦克狙击手","versionName":"1.0.0","versionCode":100,"minPlatformVersion":1060,"icon":"./icon.png","orientation":"portrait","type":"game","config":{"logLevel":"off"},"subpackages":[{"name":"package1","root":"res/Scene/Conventional/"}]}

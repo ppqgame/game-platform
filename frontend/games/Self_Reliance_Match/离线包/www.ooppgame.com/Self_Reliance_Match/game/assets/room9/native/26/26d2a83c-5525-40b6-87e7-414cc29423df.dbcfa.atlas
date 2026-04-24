@@ -1,0 +1,34 @@
+
+jingtou18.png
+size: 837,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoyuan0
+  rotate: true
+  xy: 784, 257
+  size: 101, 51
+  orig: 101, 51
+  offset: 0, 0
+  index: -1
+baoyuan1
+  rotate: true
+  xy: 784, 180
+  size: 75, 45
+  orig: 75, 45
+  offset: 0, 0
+  index: -1
+baoyuan2
+  rotate: true
+  xy: 2, 2
+  size: 356, 590
+  orig: 356, 590
+  offset: 0, 0
+  index: -1
+baoyuan3
+  rotate: false
+  xy: 594, 23
+  size: 188, 335
+  orig: 188, 335
+  offset: 0, 0
+  index: -1

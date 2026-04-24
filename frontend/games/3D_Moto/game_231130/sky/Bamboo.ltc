@@ -1,0 +1,8 @@
+{
+	"front":"Bamboo_PositiveZ.png",
+	"back":"Bamboo_NegativeZ.png",
+	"left":"Bamboo_PositiveX.png",
+	"right":"Bamboo_NegativeX.png",
+	"up":"Bamboo_PositiveY.png",
+	"down":"Bamboo_NegativeY.png"
+}

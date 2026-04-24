@@ -1,0 +1,690 @@
+[
+    {
+        "level": "2",
+        "allExp": "300",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            29,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "3",
+        "allExp": "600",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            1,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "4",
+        "allExp": "900",
+        "growExp": "300",
+        "reward1": [
+            1,
+            20
+        ],
+        "reward2": [
+            8,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "5",
+        "allExp": "1200",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            13,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "6",
+        "allExp": "1500",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            12,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "7",
+        "allExp": "1800",
+        "growExp": "300",
+        "reward1": [
+            8,
+            20
+        ],
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "8",
+        "allExp": "2100",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "9",
+        "allExp": "2400",
+        "growExp": "300",
+        "reward1": "100",
+        "reward2": [
+            26,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "10",
+        "allExp": "2700",
+        "growExp": "300",
+        "reward1": [
+            9,
+            30
+        ],
+        "reward2": [
+            26,
+            30
+        ],
+        "reward3": 2
+    },
+    {
+        "level": "11",
+        "allExp": "3100",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": "500",
+        "reward3": ""
+    },
+    {
+        "level": "12",
+        "allExp": "3500",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            1,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "13",
+        "allExp": "3900",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            8,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "14",
+        "allExp": "4300",
+        "growExp": "400",
+        "reward1": [
+            1,
+            30
+        ],
+        "reward2": [
+            13,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "15",
+        "allExp": "4700",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            12,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "16",
+        "allExp": "5100",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "17",
+        "allExp": "5500",
+        "growExp": "400",
+        "reward1": [
+            8,
+            30
+        ],
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "18",
+        "allExp": "5900",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            26,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "19",
+        "allExp": "6300",
+        "growExp": "400",
+        "reward1": "150",
+        "reward2": [
+            31,
+            3
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "20",
+        "allExp": "6700",
+        "growExp": "400",
+        "reward1": [
+            14,
+            10
+        ],
+        "reward2": [
+            26,
+            30
+        ],
+        "reward3": 5
+    },
+    {
+        "level": "21",
+        "allExp": "7300",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": "500",
+        "reward3": ""
+    },
+    {
+        "level": "22",
+        "allExp": "7900",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            1,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "23",
+        "allExp": "8500",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            8,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "24",
+        "allExp": "9100",
+        "growExp": "600",
+        "reward1": [
+            10,
+            30
+        ],
+        "reward2": [
+            39,
+            10
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "25",
+        "allExp": "9700",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            38,
+            10
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "26",
+        "allExp": "10300",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "27",
+        "allExp": "10900",
+        "growExp": "600",
+        "reward1": [
+            27,
+            20
+        ],
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "28",
+        "allExp": "11500",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            51,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "29",
+        "allExp": "12100",
+        "growExp": "600",
+        "reward1": "200",
+        "reward2": [
+            31,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "30",
+        "allExp": "12700",
+        "growExp": "600",
+        "reward1": [
+            30,
+            5
+        ],
+        "reward2": [
+            26,
+            30
+        ],
+        "reward3": 8
+    },
+    {
+        "level": "31",
+        "allExp": "13600",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": "500",
+        "reward3": ""
+    },
+    {
+        "level": "32",
+        "allExp": "14500",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            1,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "33",
+        "allExp": "15400",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            8,
+            20
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "34",
+        "allExp": "16300",
+        "growExp": "900",
+        "reward1": [
+            28,
+            10
+        ],
+        "reward2": [
+            39,
+            10
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "35",
+        "allExp": "17200",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            38,
+            10
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "36",
+        "allExp": "18100",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "37",
+        "allExp": "19000",
+        "growExp": "900",
+        "reward1": [
+            29,
+            10
+        ],
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "38",
+        "allExp": "19900",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            51,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "39",
+        "allExp": "20800",
+        "growExp": "900",
+        "reward1": "250",
+        "reward2": [
+            31,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "40",
+        "allExp": "21700",
+        "growExp": "900",
+        "reward1": [
+            51,
+            20
+        ],
+        "reward2": [
+            51,
+            30
+        ],
+        "reward3": 11
+    },
+    {
+        "level": "41",
+        "allExp": "23000",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": "500",
+        "reward3": ""
+    },
+    {
+        "level": "42",
+        "allExp": "24300",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            1,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "43",
+        "allExp": "25600",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            8,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "44",
+        "allExp": "26900",
+        "growExp": "1300",
+        "reward1": [
+            60,
+            10
+        ],
+        "reward2": [
+            39,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "45",
+        "allExp": "28200",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            38,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "46",
+        "allExp": "29500",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "47",
+        "allExp": "30800",
+        "growExp": "1300",
+        "reward1": [
+            59,
+            10
+        ],
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "48",
+        "allExp": "32100",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            71,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "49",
+        "allExp": "33400",
+        "growExp": "1300",
+        "reward1": "300",
+        "reward2": [
+            73,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "50",
+        "allExp": "34700",
+        "growExp": "1300",
+        "reward1": [
+            73,
+            5
+        ],
+        "reward2": [
+            51,
+            30
+        ],
+        "reward3": 14
+    },
+    {
+        "level": "51",
+        "allExp": "36500",
+        "growExp": "1800",
+        "reward1": "350",
+        "reward2": "200",
+        "reward3": ""
+    },
+    {
+        "level": "52",
+        "allExp": "38400",
+        "growExp": "1900",
+        "reward1": "350",
+        "reward2": [
+            1,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "53",
+        "allExp": "40400",
+        "growExp": "2000",
+        "reward1": "350",
+        "reward2": [
+            80,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "54",
+        "allExp": "42500",
+        "growExp": "2100",
+        "reward1": [
+            72,
+            3
+        ],
+        "reward2": [
+            77,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "55",
+        "allExp": "44700",
+        "growExp": "2200",
+        "reward1": "350",
+        "reward2": [
+            76,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "56",
+        "allExp": "47000",
+        "growExp": "2300",
+        "reward1": "350",
+        "reward2": [
+            28,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "57",
+        "allExp": "49400",
+        "growExp": "2400",
+        "reward1": [
+            92,
+            3
+        ],
+        "reward2": [
+            29,
+            15
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "58",
+        "allExp": "51900",
+        "growExp": "2500",
+        "reward1": "350",
+        "reward2": [
+            91,
+            30
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "59",
+        "allExp": "54500",
+        "growExp": "2600",
+        "reward1": "350",
+        "reward2": [
+            73,
+            5
+        ],
+        "reward3": ""
+    },
+    {
+        "level": "60",
+        "allExp": "57200",
+        "growExp": "2700",
+        "reward1": [
+            93,
+            5
+        ],
+        "reward2": [
+            71,
+            30
+        ],
+        "reward3": 16
+    }
+]

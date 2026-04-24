@@ -1,0 +1,90 @@
+
+lock.png
+size: 1971, 1641
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: true
+  xy: 113, 21
+  size: 81, 60
+  orig: 83, 62
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 2, 21
+  size: 109, 81
+  orig: 111, 83
+  offset: 1, 1
+  index: -1
+a1
+  rotate: false
+  xy: 1515, 285
+  size: 451, 314
+  orig: 451, 415
+  offset: 0, 0
+  index: -1
+a2
+  rotate: false
+  xy: 1515, 8
+  size: 437, 275
+  orig: 437, 275
+  offset: 0, 0
+  index: -1
+a3
+  rotate: false
+  xy: 1237, 601
+  size: 515, 283
+  orig: 515, 283
+  offset: 0, 0
+  index: -1
+a4
+  rotate: true
+  xy: 1237, 85
+  size: 514, 276
+  orig: 514, 276
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: false
+  xy: 1781, 1201
+  size: 188, 438
+  orig: 188, 438
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: false
+  xy: 2, 104
+  size: 682, 1535
+  orig: 682, 1535
+  offset: 0, 0
+  index: -1
+lianzi
+  rotate: true
+  xy: 686, 2
+  size: 882, 549
+  orig: 885, 555
+  offset: 2, 2
+  index: -1
+suo
+  rotate: false
+  xy: 1777, 999
+  size: 178, 200
+  orig: 183, 205
+  offset: 2, 2
+  index: -1
+you
+  rotate: true
+  xy: 686, 1247
+  size: 392, 1093
+  orig: 392, 1096
+  offset: 0, 3
+  index: -1
+zuo
+  rotate: true
+  xy: 686, 886
+  size: 359, 1089
+  orig: 359, 1093
+  offset: 0, 4
+  index: -1

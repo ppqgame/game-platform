@@ -1,0 +1,209 @@
+
+dog_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dog1_body
+  rotate: false
+  xy: 2, 499
+  size: 252, 163
+  orig: 254, 166
+  offset: 1, 2
+  index: -1
+dog1_head
+  rotate: false
+  xy: 256, 344
+  size: 154, 160
+  orig: 156, 162
+  offset: 1, 1
+  index: -1
+dog1_head1
+  rotate: false
+  xy: 2, 337
+  size: 154, 160
+  orig: 156, 162
+  offset: 1, 1
+  index: -1
+dog1_head2
+  rotate: false
+  xy: 2, 175
+  size: 154, 160
+  orig: 156, 162
+  offset: 1, 1
+  index: -1
+dog1_head3
+  rotate: true
+  xy: 243, 188
+  size: 154, 160
+  orig: 156, 162
+  offset: 1, 1
+  index: -1
+dog1_jaw
+  rotate: true
+  xy: 158, 230
+  size: 141, 83
+  orig: 143, 86
+  offset: 1, 2
+  index: -1
+dog1_leg_b_bot
+  rotate: true
+  xy: 565, 618
+  size: 44, 56
+  orig: 51, 56
+  offset: 0, 0
+  index: -1
+dog1_leg_b_top
+  rotate: true
+  xy: 496, 472
+  size: 55, 96
+  orig: 55, 97
+  offset: 0, 0
+  index: -1
+dog1_leg_f_bot
+  rotate: false
+  xy: 356, 82
+  size: 47, 104
+  orig: 48, 104
+  offset: 1, 0
+  index: -1
+dog1_leg_f_top
+  rotate: true
+  xy: 413, 529
+  size: 65, 103
+  orig: 66, 103
+  offset: 0, 0
+  index: -1
+dog2_body
+  rotate: true
+  xy: 2, 2
+  size: 171, 135
+  orig: 171, 135
+  offset: 0, 0
+  index: -1
+dog2_ear_1
+  rotate: true
+  xy: 436, 423
+  size: 42, 26
+  orig: 44, 28
+  offset: 1, 1
+  index: -1
+dog2_ear_2
+  rotate: false
+  xy: 518, 574
+  size: 31, 20
+  orig: 33, 22
+  offset: 1, 1
+  index: -1
+dog2_eye_ball_1
+  rotate: false
+  xy: 496, 439
+  size: 32, 31
+  orig: 34, 33
+  offset: 1, 1
+  index: -1
+dog2_eye_ball_2
+  rotate: false
+  xy: 464, 413
+  size: 19, 26
+  orig: 21, 28
+  offset: 1, 1
+  index: -1
+dog2_eyebow
+  rotate: true
+  xy: 412, 365
+  size: 100, 22
+  orig: 102, 24
+  offset: 1, 1
+  index: -1
+dog2_face
+  rotate: true
+  xy: 158, 373
+  size: 124, 96
+  orig: 126, 98
+  offset: 1, 1
+  index: -1
+dog2_jaw
+  rotate: true
+  xy: 158, 107
+  size: 121, 72
+  orig: 123, 74
+  offset: 1, 1
+  index: -1
+dog2_leg_1
+  rotate: false
+  xy: 139, 18
+  size: 72, 87
+  orig: 72, 87
+  offset: 0, 0
+  index: -1
+dog2_leg_2
+  rotate: true
+  xy: 413, 596
+  size: 66, 81
+  orig: 66, 81
+  offset: 0, 0
+  index: -1
+dog2_leg_3
+  rotate: true
+  xy: 518, 532
+  size: 40, 86
+  orig: 40, 86
+  offset: 0, 0
+  index: -1
+dog2_noser
+  rotate: false
+  xy: 413, 467
+  size: 81, 60
+  orig: 83, 62
+  offset: 1, 1
+  index: -1
+dog2_pupil_1
+  rotate: false
+  xy: 464, 441
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+dog2_pupil_2
+  rotate: false
+  xy: 139, 154
+  size: 13, 19
+  orig: 15, 21
+  offset: 1, 1
+  index: -1
+dog2_ribbon
+  rotate: false
+  xy: 232, 41
+  size: 122, 145
+  orig: 123, 146
+  offset: 0, 0
+  index: -1
+dog2_tail
+  rotate: false
+  xy: 565, 574
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+heat
+  rotate: false
+  xy: 256, 506
+  size: 155, 156
+  orig: 188, 182
+  offset: 16, 16
+  index: -1
+meat
+  rotate: true
+  xy: 405, 132
+  size: 210, 110
+  orig: 221, 148
+  offset: 6, 19
+  index: -1
+thoimien_eff
+  rotate: true
+  xy: 496, 596
+  size: 66, 67
+  orig: 78, 81
+  offset: 6, 7
+  index: -1

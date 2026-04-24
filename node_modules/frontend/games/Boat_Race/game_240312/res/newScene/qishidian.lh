@@ -1,0 +1,1 @@
+{"version":"LAYAHIERARCHY:01","data":{"type":"MeshSprite3D","props":{"name":"qishidian","active":true,"isStatic":false,"layer":0,"position":[0,0,0],"rotation":[0,0.7071068,0,-0.7071068],"scale":[1,1,1],"meshPath":"Assets/barrier/qishidian-qishidian.lm","enableRender":true,"materials":[{"path":"Assets/Texture2D/Materials/daoju.lmat"}]},"components":[],"child":[]}}

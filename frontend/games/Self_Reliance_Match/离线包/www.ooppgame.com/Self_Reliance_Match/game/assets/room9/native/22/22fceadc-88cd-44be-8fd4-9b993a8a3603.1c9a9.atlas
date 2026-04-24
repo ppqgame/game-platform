@@ -1,0 +1,41 @@
+
+jingtou5.png
+size: 669,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nv0
+  rotate: false
+  xy: 567, 8
+  size: 94, 63
+  orig: 94, 63
+  offset: 0, 0
+  index: -1
+nv1
+  rotate: true
+  xy: 567, 73
+  size: 117, 64
+  orig: 117, 64
+  offset: 0, 0
+  index: -1
+nv2
+  rotate: true
+  xy: 2, 192
+  size: 339, 665
+  orig: 339, 665
+  offset: 0, 0
+  index: -1
+nv3
+  rotate: false
+  xy: 339, 5
+  size: 226, 185
+  orig: 226, 185
+  offset: 0, 0
+  index: -1
+nv4
+  rotate: true
+  xy: 2, 2
+  size: 188, 335
+  orig: 188, 335
+  offset: 0, 0
+  index: -1

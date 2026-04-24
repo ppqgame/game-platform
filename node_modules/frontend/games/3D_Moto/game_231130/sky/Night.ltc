@@ -1,0 +1,8 @@
+{
+	"front":"Night_PositiveZ.png",
+	"back":"Night_NegativeZ.png",
+	"left":"Night_PositiveX.png",
+	"right":"Night_NegativeX.png",
+	"up":"Night_PositiveY.png",
+	"down":"Night_NegativeY.png"
+}

@@ -1,0 +1,20 @@
+
+jindudiao.png
+size: 485, 43
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+dianguang
+  rotate: false
+  xy: 465, 23
+  size: 20, 20
+  orig: 22, 22
+  offset: 1, 1
+  index: -1
+tiaodi
+  rotate: false
+  xy: 0, 0
+  size: 463, 43
+  orig: 463, 43
+  offset: 0, 0
+  index: -1

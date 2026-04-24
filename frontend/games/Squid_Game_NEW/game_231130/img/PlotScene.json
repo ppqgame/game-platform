@@ -1,0 +1,328 @@
+{
+    "type": "Scene",
+    "props": {
+        "width": 640,
+        "runtime": "sceneui/PlotUI.ts",
+        "positionVariance_0": 100,
+        "mouseThrough": true,
+        "maxPartices": 100,
+        "height": 1450
+    },
+    "compId": 1,
+    "child": [
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 114,
+                "x": 162,
+                "var": "sp_hint"
+            },
+            "compId": 737,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "x": 1,
+                        "width": 308,
+                        "skin": "img/plot/sk1.png",
+                        "sizeGrid": "20,28,10,46",
+                        "height": 68,
+                        "alpha": 1
+                    },
+                    "compId": 736
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "x": 1,
+                        "skin": "img/plot/sk2.png"
+                    },
+                    "compId": 735
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 4,
+                        "x": 4,
+                        "width": 61,
+                        "var": "lb_time_num",
+                        "valign": "middle",
+                        "text": "4",
+                        "height": 61,
+                        "fontSize": 60,
+                        "font": "SimHei",
+                        "color": "#ffffff",
+                        "align": "center"
+                    },
+                    "compId": 718
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 22,
+                        "x": 73,
+                        "width": 168,
+                        "var": "lb_color",
+                        "text": "Pink",
+                        "height": 30,
+                        "fontSize": 28,
+                        "font": "SimHei",
+                        "color": "#000000",
+                        "align": "center"
+                    },
+                    "compId": 731
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 4,
+                        "x": 245,
+                        "var": "img_color",
+                        "skin": "img/plot/sk3.png"
+                    },
+                    "compId": 733
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "props": {
+                "width": 640,
+                "var": "sp_start_hint",
+                "height": 1560
+            },
+            "compId": 730,
+            "child": [
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": -100,
+                        "x": 0,
+                        "width": 640,
+                        "skin": "img/plot/mc3.png",
+                        "sizeGrid": "65,74,72,52",
+                        "height": 1500
+                    },
+                    "compId": 726
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 315,
+                        "x": 90,
+                        "skin": "img/plot/k.png"
+                    },
+                    "compId": 724
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 420,
+                        "x": 128,
+                        "skin": "img/plot/sm_6.png"
+                    },
+                    "compId": 725
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 329,
+                        "x": 248,
+                        "skin": "img/plot/sk_w.png"
+                    },
+                    "compId": 727
+                },
+                {
+                    "type": "Image",
+                    "props": {
+                        "y": 781,
+                        "x": 176,
+                        "var": "btn_sure",
+                        "skin": "img/woodman/sm_7.png"
+                    },
+                    "compId": 728,
+                    "child": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "y": 32,
+                                "x": 87,
+                                "skin": "img/plot/mb.png"
+                            },
+                            "compId": 729
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 68.5,
+                "x": 490,
+                "var": "sp_role"
+            },
+            "compId": 747,
+            "child": [
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 4.5,
+                        "var": "sp_alive"
+                    },
+                    "compId": 739,
+                    "child": [
+                        {
+                            "type": "Sprite",
+                            "props": {
+                                "y": 0,
+                                "x": 20.5,
+                                "texture": "img/woodman/ry2.png"
+                            },
+                            "compId": 741
+                        },
+                        {
+                            "type": "Sprite",
+                            "props": {
+                                "texture": "img/woodman/ry.png"
+                            },
+                            "compId": 742
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": -4.5,
+                                "x": 48.5,
+                                "width": 108,
+                                "var": "lb_alive_num",
+                                "valign": "middle",
+                                "text": "100",
+                                "scaleY": 0.4,
+                                "scaleX": 0.4,
+                                "height": 96,
+                                "font": "sz9",
+                                "color": "#ffffff",
+                                "align": "center"
+                            },
+                            "compId": 743
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 67.5,
+                        "var": "sp_killed"
+                    },
+                    "compId": 740,
+                    "child": [
+                        {
+                            "type": "Sprite",
+                            "props": {
+                                "y": 0,
+                                "x": 20.5,
+                                "texture": "img/woodman/kl2.png"
+                            },
+                            "compId": 744
+                        },
+                        {
+                            "type": "Sprite",
+                            "props": {
+                                "texture": "img/woodman/kl.png"
+                            },
+                            "compId": 745
+                        },
+                        {
+                            "type": "Label",
+                            "props": {
+                                "y": 15.5,
+                                "x": 69,
+                                "width": 144,
+                                "var": "lb_killed_num",
+                                "valign": "middle",
+                                "text": "100",
+                                "scaleY": 0.4,
+                                "scaleX": 0.4,
+                                "height": 97,
+                                "fontSize": 40,
+                                "font": "sz9",
+                                "color": "#ffffff",
+                                "anchorY": 0.5,
+                                "anchorX": 0.5,
+                                "align": "center"
+                            },
+                            "compId": 746
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "animations": [
+        {
+            "nodes": [
+                {
+                    "target": 663,
+                    "keyframes": {
+                        "y": [
+                            {
+                                "value": 80,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 663,
+                                "key": "y",
+                                "index": 0
+                            },
+                            {
+                                "value": 110,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 663,
+                                "key": "y",
+                                "index": 5
+                            },
+                            {
+                                "value": 80,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 663,
+                                "key": "y",
+                                "index": 10
+                            }
+                        ],
+                        "x": [
+                            {
+                                "value": 72,
+                                "tweenMethod": "linearNone",
+                                "tween": true,
+                                "target": 663,
+                                "key": "x",
+                                "index": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "ani1",
+            "id": 1,
+            "frameRate": 24,
+            "action": 2
+        }
+    ],
+    "loadList": [
+        "img/plot/sk1.png",
+        "img/plot/sk2.png",
+        "img/plot/sk3.png",
+        "img/plot/mc3.png",
+        "img/plot/k.png",
+        "img/plot/sm_6.png",
+        "img/plot/sk_w.png",
+        "img/woodman/sm_7.png",
+        "img/plot/mb.png",
+        "img/woodman/ry2.png",
+        "img/woodman/ry.png",
+        "img/woodman/kl2.png",
+        "img/woodman/kl.png"
+    ],
+    "loadList3D": []
+}

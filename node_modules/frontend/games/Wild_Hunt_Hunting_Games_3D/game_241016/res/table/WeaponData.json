@@ -1,0 +1,308 @@
+[
+    {
+        "id": "0",
+        "type": "1",
+        "name": "MOSIN sniper rifle",
+        "hurt": "70",
+        "clip": "3",
+        "clip_max": "25",
+        "stability": "56",
+        "buyingRate": "600",
+        "inStore": "1",
+        "accessary": [
+            1,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "1",
+        "type": "1",
+        "name": "VSV338 sniper rifle",
+        "hurt": "76",
+        "clip": "3",
+        "clip_max": "25",
+        "stability": "65",
+        "buyingRate": "936",
+        "inStore": "1",
+        "accessary": [
+            1,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "2",
+        "type": "2",
+        "name": "AS50",
+        "hurt": "83",
+        "clip": "3",
+        "clip_max": "25",
+        "stability": "72",
+        "buyingRate": "1460",
+        "inStore": "1",
+        "accessary": [
+            3,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "3",
+        "type": "2",
+        "name": "BARRET sniper rifle",
+        "hurt": "88",
+        "clip": "6",
+        "clip_max": "25",
+        "stability": "48",
+        "buyingRate": "2278",
+        "inStore": "1",
+        "accessary": [
+            2,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "4",
+        "type": "1",
+        "name": "BLASER sniper rifle",
+        "hurt": "95",
+        "clip": "4",
+        "clip_max": "25",
+        "stability": "56",
+        "buyingRate": "2961",
+        "inStore": "1",
+        "accessary": [
+            1,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "5",
+        "type": "1",
+        "name": "A CHEYTAC sniper rifle",
+        "hurt": "103",
+        "clip": "4",
+        "clip_max": "25",
+        "stability": "65",
+        "buyingRate": "3850",
+        "inStore": "1",
+        "accessary": [
+            2,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "6",
+        "type": "2",
+        "name": "DRA sniper gun",
+        "hurt": "109",
+        "clip": "6",
+        "clip_max": "25",
+        "stability": "72",
+        "buyingRate": "5004",
+        "inStore": "1",
+        "accessary": [
+            3,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "7",
+        "type": "1",
+        "name": "DSR sniper rifle",
+        "hurt": "114",
+        "clip": "5",
+        "clip_max": "25",
+        "stability": "59",
+        "buyingRate": "6506",
+        "inStore": "1",
+        "accessary": [
+            4,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "8",
+        "type": "2",
+        "name": "FNFAL sniper rifle",
+        "hurt": "125",
+        "clip": "6",
+        "clip_max": "25",
+        "stability": "56",
+        "buyingRate": "8457",
+        "inStore": "1",
+        "accessary": [
+            1,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "9",
+        "type": "1",
+        "name": "AWM",
+        "hurt": "131",
+        "clip": "5",
+        "clip_max": "25",
+        "stability": "65",
+        "buyingRate": "10995",
+        "inStore": "1",
+        "accessary": [
+            2,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "10",
+        "type": "1",
+        "name": "L96 sniper rifle",
+        "hurt": "143",
+        "clip": "5",
+        "clip_max": "30",
+        "stability": "72",
+        "buyingRate": "12644",
+        "inStore": "1",
+        "accessary": [
+            3,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "11",
+        "type": "2",
+        "name": "L186 sniper rifle",
+        "hurt": "156",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "66",
+        "buyingRate": "14541",
+        "inStore": "1",
+        "accessary": [
+            4,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "12",
+        "type": "2",
+        "name": "M14 sniper rifle",
+        "hurt": "169",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "56",
+        "buyingRate": "16722",
+        "inStore": "1",
+        "accessary": [
+            1,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "13",
+        "type": "1",
+        "name": "M24 sniper rifle",
+        "hurt": "183",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "65",
+        "buyingRate": "19230",
+        "inStore": "1",
+        "accessary": [
+            2,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "14",
+        "type": "1",
+        "name": "MR10 sniper rifle",
+        "hurt": "194",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "72",
+        "buyingRate": "22114",
+        "inStore": "1",
+        "accessary": [
+            3,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "15",
+        "type": "2",
+        "name": "PSG sniper gun",
+        "hurt": "210",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "66",
+        "buyingRate": "25432",
+        "inStore": "1",
+        "accessary": [
+            4,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "16",
+        "type": "1",
+        "name": "SCOUT sniper rifle",
+        "hurt": "224",
+        "clip": "7",
+        "clip_max": "30",
+        "stability": "56",
+        "buyingRate": "27466",
+        "inStore": "1",
+        "accessary": [
+            1,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": "17",
+        "type": "1",
+        "name": "New Year's Sound",
+        "hurt": "211",
+        "clip": "6",
+        "clip_max": "30",
+        "stability": "60",
+        "buyingRate": "",
+        "inStore": "0",
+        "accessary": [
+            1,
+            6,
+            8,
+            9
+        ]
+    }
+]

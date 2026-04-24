@@ -1,0 +1,8 @@
+{
+	"front":"Desert_PositiveZ.png",
+	"back":"Desert_NegativeZ.png",
+	"left":"Desert_PositiveX.png",
+	"right":"Desert_NegativeX.png",
+	"up":"Desert_PositiveY.png",
+	"down":"Desert_NegativeY.png"
+}

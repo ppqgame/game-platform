@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":2160,"height":1080},"compId":2,"child":[{"type":"Script","props":{"top":0,"right":0,"left":0,"bottom":0,"runtime":"laya.ui.Widget"},"compId":6,"source":"laya.ui.Widget"},{"type":"Script","props":{"runtime":"GameStart.ts"},"compId":3,"source":"GameStart.ts"}],"loadList":[],"loadList3D":[]}
