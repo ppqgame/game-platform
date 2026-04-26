@@ -57,10 +57,14 @@ export async function apiJson<T>(
 export async function apiUploadFile(
   path: string,
   file: File,
-  fieldName = "file"
+  fieldName = "file",
+  meta?: { gameName?: string; kind?: "icon" | "banner" | "screenshot"; index?: number }
 ): Promise<{ url: string }> {
   const form = new FormData();
   form.append(fieldName, file);
+  if (meta?.gameName?.trim()) form.append("gameName", meta.gameName.trim());
+  if (meta?.kind) form.append("kind", meta.kind);
+  if (typeof meta?.index === "number" && Number.isFinite(meta.index)) form.append("index", String(meta.index));
   const headers = new Headers();
   const token = getAccessToken();
   if (token) headers.set("Authorization", `Bearer ${token}`);

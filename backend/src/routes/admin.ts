@@ -33,7 +33,7 @@ if (!fs.existsSync(pendingUpdatesDir)) {
 const imageUpload = multer({
   storage: multer.diskStorage({
     destination: (_req, _file, cb) => {
-      cb(null, uploadImagesDir);
+      cb(null, uploadTmpDir);
     },
     filename: (_req, file, cb) => {
       const ext = path.extname(file.originalname).toLowerCase();
@@ -115,6 +115,29 @@ function isHttpOrUploadPath(s: string) {
   } catch {
     return false;
   }
+}
+
+function toImageNamePart(input: string) {
+  const s = input
+    .trim()
+    .replace(/\s+/g, "_")
+    .replace(/[\/\\?%*:|"<>]/g, "")
+    .replace(/_+/g, "_")
+    .replace(/^_+|_+$/g, "");
+  return s;
+}
+
+function toUploadIndex(input: unknown, fallback = 1) {
+  const n = Number(input);
+  if (!Number.isFinite(n) || n < 1) return fallback;
+  return Math.floor(n);
+}
+
+function toUploadKind(input: unknown): "icon" | "banner" | "screenshot" {
+  const s = String(input ?? "").toLowerCase();
+  if (s === "banner") return "banner";
+  if (s === "screenshot") return "screenshot";
+  return "icon";
 }
 
 /** http(s)、站内绝对路径 /… 或不含协议的相对路径（禁止 javascript: 等） */
@@ -249,7 +272,33 @@ adminRouter.post(
   },
   (req, res) => {
     if (!req.file) throw new HttpError(400, "请选择要上传的文件");
-    res.json({ url: `/uploads/images/${req.file.filename}` });
+    const gameNameRaw = typeof req.body?.gameName === "string" ? req.body.gameName : "";
+    const gameName = toImageNamePart(gameNameRaw);
+    if (!gameName) {
+      try {
+        fs.unlinkSync(req.file.path);
+      } catch {
+        // ignore temp file cleanup errors
+      }
+      throw new HttpError(400, "请先填写游戏名再上传图片");
+    }
+
+    const kind = toUploadKind(req.body?.kind);
+    const index = toUploadIndex(req.body?.index, 1);
+    const ext = path.extname(req.file.originalname).toLowerCase();
+    const safeExt = ext && [".jpg", ".jpeg", ".png", ".gif", ".webp"].includes(ext) ? ext : ".png";
+
+    const base =
+      kind === "icon" ? gameName : kind === "banner" ? `banner_${gameName}_${index}` : `cut_${gameName}_${index}`;
+    const targetName = `${base}${safeExt}`;
+    const targetPath = path.join(uploadImagesDir, targetName);
+
+    if (fs.existsSync(targetPath)) {
+      fs.rmSync(targetPath, { force: true });
+    }
+    fs.renameSync(req.file.path, targetPath);
+
+    res.json({ url: `/uploads/images/${targetName}` });
   }
 );
 

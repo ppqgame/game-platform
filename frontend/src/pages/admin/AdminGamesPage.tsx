@@ -205,7 +205,6 @@ export function AdminGamesPage() {
       <div className="tableScroll">
         <div className="table table--wide">
           <div className="tableRow tableRow--head">
-            <div>ID</div>
             <div>标题</div>
             <div>开发商</div>
             <div>状态</div>
@@ -220,14 +219,11 @@ export function AdminGamesPage() {
 
           {(data?.games ?? []).map((g) => (
             <div key={g.id} className="tableRow">
-              <div className="mono" title={g.id}>
-                {g.id.slice(0, 8)}…
-              </div>
               <div className="tableStrong">
                 {g.title}
                 {g.deletedAt ? <span className="pill pill--ghost" style={{ marginLeft: 8 }}>已软删</span> : null}
               </div>
-              <div>{g.developer || "—"}</div>
+              <div title={g.developer || ""}>{g.developer ? g.developer.slice(0, 3) : "—"}</div>
               <div>
                 <span className="pill pill--ghost">{STATUS_LABEL[g.status]}</span>
               </div>
@@ -237,7 +233,7 @@ export function AdminGamesPage() {
               <div>{g.launchCount}</div>
               <div className="mono muted">{formatDt(g.createdAt)}</div>
               <div className="mono muted">{formatDt(g.updatedAt)}</div>
-              <div className="rowActions" style={{ flexWrap: "wrap" }}>
+              <div className="rowActions">
                 <Link className="btn btn--ghost btn--sm" to={`/admin/games/${encodeURIComponent(g.id)}`}>
                   编辑
                 </Link>

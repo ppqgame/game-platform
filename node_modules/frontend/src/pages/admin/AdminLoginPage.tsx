@@ -7,7 +7,7 @@ import type { AdminLoginResponse } from "../../types";
 
 export function AdminLoginPage() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("admin@example.com");
+  const [email, setEmail] = useState("262825016@qq.com");
   const [password, setPassword] = useState("adminadmin");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);

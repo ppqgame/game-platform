@@ -1203,26 +1203,34 @@ code {
   align-items: center;
 }
 
+.table--wide {
+  --admin-games-cols: minmax(150px, 1.3fr) minmax(48px, 0.42fr) minmax(56px, 0.48fr) minmax(56px, 0.48fr)
+    minmax(34px, 0.28fr) minmax(34px, 0.28fr) minmax(46px, 0.32fr) minmax(90px, 0.7fr) minmax(90px, 0.7fr)
+    minmax(156px, 0.95fr);
+}
+
 .tableScroll {
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  padding-right: 8px;
 }
 
 .table--wide .tableRow {
-  min-width: 1260px;
-  grid-template-columns: 100px 1.2fr 0.75fr 0.6fr 0.55fr 0.4fr 0.45fr 0.45fr 0.85fr 0.85fr minmax(220px, 1fr);
+  min-width: 0;
+  width: 100%;
+  grid-template-columns: var(--admin-games-cols);
 }
 
 .table--wide .tableRow--head {
-  min-width: 1260px;
+  min-width: 0;
 }
 
 .table {
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  overflow: hidden;
+  overflow: visible;
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -1255,10 +1263,22 @@ code {
 }
 
 .rowActions {
-  display: flex;
-  gap: 8px;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  justify-content: stretch;
+  align-items: stretch;
+  min-width: 0;
+}
+
+.rowActions .btn {
+  white-space: nowrap;
+  width: 100%;
+  min-width: 0;
+  padding: 6px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.2;
 }
 
 .adminForm {

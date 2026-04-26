@@ -91,6 +91,7 @@ export function AdminGameEditorPage() {
   const [gameSlug, setGameSlug] = useState<string>("");
 
   const header = useMemo(() => (isNew ? "新建游戏" : "编辑游戏"), [isNew]);
+  const currentGameName = useMemo(() => title.trim(), [title]);
 
   const loadGame = useCallback(
     async (gameIdToLoad: string) => {
@@ -508,11 +509,18 @@ export function AdminGameEditorPage() {
                   const f = e.target.files?.[0];
                   e.target.value = "";
                   if (!f) return;
+                  if (!currentGameName) {
+                    setError("请先填写游戏名，再上传 ICON");
+                    return;
+                  }
                   setError(null);
                   setCoverUploading(true);
                   void (async () => {
                     try {
-                      const { url } = await apiUploadFile("/api/admin/upload", f);
+                      const { url } = await apiUploadFile("/api/admin/upload", f, "file", {
+                        gameName: currentGameName,
+                        kind: "icon",
+                      });
                       setCoverUrl(url);
                     } catch (err) {
                       setError(err instanceof ApiError ? err.message : "ICON 上传失败");
@@ -568,11 +576,19 @@ export function AdminGameEditorPage() {
                   const f = e.target.files?.[0];
                   e.target.value = "";
                   if (!f) return;
+                  if (!currentGameName) {
+                    setError("请先填写游戏名，再上传横幅");
+                    return;
+                  }
                   setError(null);
                   setBannerUploading(true);
                   void (async () => {
                     try {
-                      const { url } = await apiUploadFile("/api/admin/upload", f);
+                      const { url } = await apiUploadFile("/api/admin/upload", f, "file", {
+                        gameName: currentGameName,
+                        kind: "banner",
+                        index: 1,
+                      });
                       setBannerUrl(url);
                     } catch (err) {
                       setError(err instanceof ApiError ? err.message : "横幅上传失败");
@@ -631,12 +647,21 @@ export function AdminGameEditorPage() {
                 const files = Array.from(e.target.files ?? []);
                 e.target.value = "";
                 if (!files.length) return;
+                  if (!currentGameName) {
+                    setError("请先填写游戏名，再上传截图");
+                    return;
+                  }
                 setError(null);
                 setScreenshotUploading(true);
                 void (async () => {
                   try {
+                      let nextIndex = screenshotUrls.length + 1;
                     for (const f of files) {
-                      const { url } = await apiUploadFile("/api/admin/upload", f);
+                        const { url } = await apiUploadFile("/api/admin/upload", f, "file", {
+                          gameName: currentGameName,
+                          kind: "screenshot",
+                          index: nextIndex++,
+                        });
                       setScreenshotUrls((prev) => (prev.length >= MAX_SCREENSHOTS ? prev : [...prev, url]));
                     }
                   } catch (err) {
