@@ -9,7 +9,16 @@ export function GameCard({ game }: { game: PublicGameCard }) {
     <Link className="gameCard" to={`/games/${encodeURIComponent(game.slug)}`}>
       <div className="gameCardCover">
         <img src={cover} alt="" loading="lazy" />
-        {game.category ? <span className="pill pill--onImage">{game.category.name}</span> : null}
+        {game.category ? (
+          <span className="pill pill--onImage gameCategoryBadge" title={game.category.name}>
+            <span className="gameCategoryHamburger" aria-hidden>
+              <span />
+              <span />
+              <span />
+            </span>
+            <span className="gameCategoryText">{game.category.name}</span>
+          </span>
+        ) : null}
         <span className="playBadge">Play</span>
       </div>
       <div className="gameCardBody">

@@ -634,6 +634,19 @@ code {
     left: auto;
     right: 8px;
     bottom: 30px;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 4px;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
+  .gameCategoryText {
+    display: none;
+  }
+
+  .gameCategoryHamburger {
+    display: inline-flex;
   }
 
   .playBadge {
@@ -758,6 +771,27 @@ code {
   bottom: 10px;
   background: rgba(0, 0, 0, 0.45);
   border-color: rgba(255, 255, 255, 0.14);
+}
+
+.gameCategoryBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gameCategoryHamburger {
+  display: none;
+  width: 12px;
+  height: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gameCategoryHamburger span {
+  display: block;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .pageHeader {
