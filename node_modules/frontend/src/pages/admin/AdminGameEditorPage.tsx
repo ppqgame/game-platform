@@ -28,6 +28,14 @@ function isValidImageUrl(value: string) {
 }
 
 const MAX_SCREENSHOTS = 5;
+const MAX_IMAGE_UPLOAD_BYTES = 5 * 1024 * 1024;
+const MAX_ZIP_UPLOAD_BYTES = 300 * 1024 * 1024;
+
+function formatUploadError(err: unknown, fallback: string) {
+  if (!(err instanceof ApiError)) return fallback;
+  if (err.status === 413) return "上传文件过大（413）。请压缩文件，或让运维调大 Nginx 的 client_max_body_size。";
+  return err.message || fallback;
+}
 
 /** 与后端 `isAllowedPlayUrl` 一致：http(s)、/… 或相对路径 */
 function isValidPlayUrl(value: string): boolean {
@@ -451,6 +459,10 @@ export function AdminGameEditorPage() {
                 const f = e.target.files?.[0];
                 e.target.value = "";
                 if (!f) return;
+                if (f.size > MAX_ZIP_UPLOAD_BYTES) {
+                  setError("ZIP 过大（最大 300MB），请压缩后再上传。");
+                  return;
+                }
                 setError(null);
                 setPlayZipUploading(true);
                 void (async () => {
@@ -463,7 +475,7 @@ export function AdminGameEditorPage() {
                     setPlayUrl(generatedPlayUrl);
                     setSuccess("ZIP 上传并解压成功，已自动填入 playUrl。");
                   } catch (err) {
-                    setError(err instanceof ApiError ? err.message : "ZIP 上传失败");
+                    setError(formatUploadError(err, "ZIP 上传失败"));
                   } finally {
                     setPlayZipUploading(false);
                   }
@@ -509,6 +521,10 @@ export function AdminGameEditorPage() {
                   const f = e.target.files?.[0];
                   e.target.value = "";
                   if (!f) return;
+                  if (f.size > MAX_IMAGE_UPLOAD_BYTES) {
+                    setError("ICON 过大（最大 5MB），请压缩后再上传。");
+                    return;
+                  }
                   if (!currentGameName) {
                     setError("请先填写游戏名，再上传 ICON");
                     return;
@@ -523,7 +539,7 @@ export function AdminGameEditorPage() {
                       });
                       setCoverUrl(url);
                     } catch (err) {
-                      setError(err instanceof ApiError ? err.message : "ICON 上传失败");
+                      setError(formatUploadError(err, "ICON 上传失败"));
                     } finally {
                       setCoverUploading(false);
                     }
@@ -576,6 +592,10 @@ export function AdminGameEditorPage() {
                   const f = e.target.files?.[0];
                   e.target.value = "";
                   if (!f) return;
+                  if (f.size > MAX_IMAGE_UPLOAD_BYTES) {
+                    setError("横幅图片过大（最大 5MB），请压缩后再上传。");
+                    return;
+                  }
                   if (!currentGameName) {
                     setError("请先填写游戏名，再上传横幅");
                     return;
@@ -591,7 +611,7 @@ export function AdminGameEditorPage() {
                       });
                       setBannerUrl(url);
                     } catch (err) {
-                      setError(err instanceof ApiError ? err.message : "横幅上传失败");
+                      setError(formatUploadError(err, "横幅上传失败"));
                     } finally {
                       setBannerUploading(false);
                     }
@@ -647,6 +667,11 @@ export function AdminGameEditorPage() {
                 const files = Array.from(e.target.files ?? []);
                 e.target.value = "";
                 if (!files.length) return;
+                const oversize = files.find((f) => f.size > MAX_IMAGE_UPLOAD_BYTES);
+                if (oversize) {
+                  setError(`截图 ${oversize.name} 过大（最大 5MB），请压缩后再上传。`);
+                  return;
+                }
                   if (!currentGameName) {
                     setError("请先填写游戏名，再上传截图");
                     return;
@@ -665,7 +690,7 @@ export function AdminGameEditorPage() {
                       setScreenshotUrls((prev) => (prev.length >= MAX_SCREENSHOTS ? prev : [...prev, url]));
                     }
                   } catch (err) {
-                    setError(err instanceof ApiError ? err.message : "截图上传失败");
+                    setError(formatUploadError(err, "截图上传失败"));
                   } finally {
                     setScreenshotUploading(false);
                   }

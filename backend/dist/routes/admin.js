@@ -3,6 +3,7 @@ import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { Router } from "express";
 import multer from "multer";
+import { MulterError } from "multer";
 import AdmZip from "adm-zip";
 import { z } from "zod";
 import { prisma } from "../db.js";
@@ -14,6 +15,8 @@ const uploadImagesDir = path.join(process.cwd(), "uploads", "images");
 const uploadGamesDir = path.join(process.cwd(), "uploads", "games");
 const uploadTmpDir = path.join(process.cwd(), "uploads", "tmp");
 const pendingUpdatesDir = path.join(process.cwd(), "uploads", "pending-updates");
+const IMAGE_UPLOAD_LIMIT_BYTES = 5 * 1024 * 1024;
+const ZIP_UPLOAD_LIMIT_BYTES = 300 * 1024 * 1024;
 if (!fs.existsSync(uploadImagesDir)) {
     fs.mkdirSync(uploadImagesDir, { recursive: true });
 }
@@ -37,7 +40,7 @@ const imageUpload = multer({
             cb(null, `${randomUUID()}${safe}`);
         },
     }),
-    limits: { fileSize: 5 * 1024 * 1024 },
+    limits: { fileSize: IMAGE_UPLOAD_LIMIT_BYTES },
     fileFilter: (_req, file, cb) => {
         if (!/^image\/(jpeg|jpe|pjpeg|png|gif|webp)$/i.test(file.mimetype)) {
             cb(new Error("仅支持 JPEG、PNG、GIF、WebP 图片"));
@@ -55,7 +58,7 @@ const gameZipUpload = multer({
             cb(null, `${randomUUID()}.zip`);
         },
     }),
-    limits: { fileSize: 300 * 1024 * 1024 },
+    limits: { fileSize: ZIP_UPLOAD_LIMIT_BYTES },
     fileFilter: (_req, file, cb) => {
         const name = (file.originalname || "").toLowerCase();
         const type = (file.mimetype || "").toLowerCase();
@@ -257,6 +260,10 @@ const mediaUrl = z.preprocess((v) => {
 adminRouter.post("/upload", requireAdmin, (req, res, next) => {
     imageUpload.single("file")(req, res, (err) => {
         if (err) {
+            if (err instanceof MulterError && err.code === "LIMIT_FILE_SIZE") {
+                next(new HttpError(413, "图片过大（最大 5MB）"));
+                return;
+            }
             const msg = err instanceof Error ? err.message : "Upload failed";
             next(new HttpError(400, msg));
             return;
@@ -293,6 +300,10 @@ adminRouter.post("/upload", requireAdmin, (req, res, next) => {
 adminRouter.post("/upload-game-zip", requireAdmin, (req, res, next) => {
     gameZipUpload.single("file")(req, res, (err) => {
         if (err) {
+            if (err instanceof MulterError && err.code === "LIMIT_FILE_SIZE") {
+                next(new HttpError(413, "ZIP 过大（最大 300MB），请调高 Nginx client_max_body_size"));
+                return;
+            }
             const msg = err instanceof Error ? err.message : "Upload failed";
             next(new HttpError(400, msg));
             return;

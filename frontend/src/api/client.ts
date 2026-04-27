@@ -9,6 +9,15 @@ export class ApiError extends Error {
   }
 }
 
+function parseErrorMessage(json: unknown, status: number) {
+  if (json && typeof json === "object") {
+    const maybe = json as { error?: unknown };
+    if (typeof maybe.error === "string") return maybe.error;
+  }
+  if (status === 413) return "上传文件过大（413）。请压缩文件，或让运维调大 Nginx 的 client_max_body_size。";
+  return `Request failed (${status})`;
+}
+
 export function getAccessToken() {
   return localStorage.getItem("gp_token") || localStorage.getItem("gp_admin_token");
 }
@@ -43,11 +52,7 @@ export async function apiJson<T>(
   }
 
   if (!res.ok) {
-    const msg = (() => {
-      if (!json || typeof json !== "object") return `Request failed (${res.status})`;
-      const maybe = json as { error?: unknown };
-      return typeof maybe.error === "string" ? maybe.error : `Request failed (${res.status})`;
-    })();
+    const msg = parseErrorMessage(json, res.status);
     throw new ApiError(msg, res.status, text);
   }
 
@@ -78,11 +83,7 @@ export async function apiUploadFile(
     json = null;
   }
   if (!res.ok) {
-    const msg = (() => {
-      if (!json || typeof json !== "object") return `Request failed (${res.status})`;
-      const maybe = json as { error?: unknown };
-      return typeof maybe.error === "string" ? maybe.error : `Request failed (${res.status})`;
-    })();
+    const msg = parseErrorMessage(json, res.status);
     throw new ApiError(msg, res.status, text);
   }
   if (!json || typeof json !== "object" || typeof (json as { url?: unknown }).url !== "string") {
@@ -113,11 +114,7 @@ export async function apiUploadGameZip(
     json = null;
   }
   if (!res.ok) {
-    const msg = (() => {
-      if (!json || typeof json !== "object") return `Request failed (${res.status})`;
-      const maybe = json as { error?: unknown };
-      return typeof maybe.error === "string" ? maybe.error : `Request failed (${res.status})`;
-    })();
+    const msg = parseErrorMessage(json, res.status);
     throw new ApiError(msg, res.status, text);
   }
   if (
