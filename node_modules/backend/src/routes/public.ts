@@ -15,6 +15,23 @@ const paginationSchema = z.object({
   pageSize: z.coerce.number().int().positive().max(50).default(20),
 });
 
+function normalizePlayableUrlForResponse(v: string | null) {
+  if (!v) return v;
+  if (v.startsWith("/games/")) return v.replace(/^\/games\//, "/play/");
+  if (/^https?:\/\//i.test(v)) {
+    try {
+      const u = new URL(v);
+      if (u.pathname.startsWith("/games/")) {
+        u.pathname = u.pathname.replace(/^\/games\//, "/play/");
+        return u.toString();
+      }
+    } catch {
+      return v;
+    }
+  }
+  return v;
+}
+
 publicRouter.get("/health", (_req, res) => {
   res.json({ ok: true });
 });
@@ -255,7 +272,7 @@ function mapPublicGameDetail(game: {
     title: game.title,
     shortPitch: game.shortPitch,
     description: game.description,
-    playUrl: game.playUrl,
+    playUrl: normalizePlayableUrlForResponse(game.playUrl),
     embedUrl: game.embedUrl,
     coverUrl: cover,
     bannerUrl: banner,

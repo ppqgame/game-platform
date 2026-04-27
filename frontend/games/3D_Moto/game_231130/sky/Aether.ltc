@@ -1,8 +1,0 @@
-{
-	"front":"Aether_PositiveZ.png",
-	"back":"Aether_NegativeZ.png",
-	"left":"Aether_PositiveX.png",
-	"right":"Aether_NegativeX.png",
-	"up":"Aether_PositiveY.png",
-	"down":"Aether_NegativeY.png"
-}

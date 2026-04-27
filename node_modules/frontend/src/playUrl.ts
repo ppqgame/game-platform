@@ -21,10 +21,11 @@ export function resolvePlayUrl(href: string, baseHref: string = typeof window !=
     }
   }
 
-  if (t.startsWith("/games/")) {
-    // 开发环境改走 /_games 代理，避免与前端 /games/:slug 详情路由冲突。
-    if (import.meta.env.DEV) return t.replace(/^\/games\//, "/_games/");
-    if (backendOrigin) return `${backendOrigin}${t}`;
+  if (t.startsWith("/games/") || t.startsWith("/play/")) {
+    const normalized = t.startsWith("/games/") ? t.replace(/^\/games\//, "/play/") : t;
+    // 开发环境改走 /_play 代理，避免与前端 /games/:slug 详情路由冲突。
+    if (import.meta.env.DEV) return normalized.replace(/^\/play\//, "/_play/");
+    if (backendOrigin) return `${backendOrigin}${normalized}`;
   }
   try {
     return new URL(t, baseHref).href;

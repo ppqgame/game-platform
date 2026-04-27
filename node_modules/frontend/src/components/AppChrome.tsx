@@ -158,10 +158,15 @@ export function AppChrome() {
               type="button"
               className="sidebarFab"
               onClick={() => setSidebarCollapsed((v) => !v)}
+              aria-label={sidebarCollapsed ? "Open categories" : "Close categories"}
               aria-expanded={!sidebarCollapsed}
               aria-controls="app-sidebar-categories"
             >
-              {sidebarCollapsed ? "Categories" : "Close"}
+              <span className={cx("sidebarFabIcon", !sidebarCollapsed && "sidebarFabIcon--open")} aria-hidden="true">
+                <span />
+                <span />
+                <span />
+              </span>
             </button>
           ) : null}
 

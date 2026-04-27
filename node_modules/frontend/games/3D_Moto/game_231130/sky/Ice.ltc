@@ -1,8 +1,0 @@
-{
-	"front":"Ice_PositiveZ.png",
-	"back":"Ice_NegativeZ.png",
-	"left":"Ice_PositiveX.png",
-	"right":"Ice_NegativeX.png",
-	"up":"Ice_PositiveY.png",
-	"down":"Ice_NegativeY.png"
-}

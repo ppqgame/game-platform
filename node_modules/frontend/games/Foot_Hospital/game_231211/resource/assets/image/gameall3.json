@@ -1,7 +1,0 @@
-{"file":"gameall3.png","frames":{
-"gamebgfront_png":{"x":1,"y":909,"w":510,"h":906,"offX":0,"offY":0,"sourceW":510,"sourceH":906},
-"adAlertBg_png":{"x":513,"y":909,"w":469,"h":291,"offX":0,"offY":1,"sourceW":469,"sourceH":292},
-"gamebgback_png":{"x":513,"y":1,"w":510,"h":906,"offX":0,"offY":0,"sourceW":510,"sourceH":906},
-"adAlertOk_png":{"x":513,"y":1202,"w":231,"h":105,"offX":2,"offY":2,"sourceW":235,"sourceH":109},
-"adAlertNo_png":{"x":746,"y":1202,"w":231,"h":105,"offX":2,"offY":2,"sourceW":235,"sourceH":109},
-"gamebg2_png":{"x":1,"y":1,"w":510,"h":906,"offX":0,"offY":0,"sourceW":510,"sourceH":906}}}

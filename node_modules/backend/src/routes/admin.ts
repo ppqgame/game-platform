@@ -160,16 +160,42 @@ function isAllowedPlayUrl(s: string): boolean {
   return true;
 }
 
-/** 存库前归一化：本站 /games/* 的绝对 URL 一律转相对路径。 */
+function normalizePlayablePath(pathname: string) {
+  if (pathname.startsWith("/play/")) return pathname;
+  if (pathname.startsWith("/games/")) return pathname.replace(/^\/games\//, "/play/");
+  return pathname;
+}
+
+function normalizePlayableUrlForResponse(v: string | null) {
+  if (!v) return v;
+  if (v.startsWith("/games/") || v.startsWith("/play/")) return normalizePlayablePath(v);
+  if (/^https?:\/\//i.test(v)) {
+    try {
+      const u = new URL(v);
+      if (u.pathname.startsWith("/games/") || u.pathname.startsWith("/play/")) {
+        u.pathname = normalizePlayablePath(u.pathname);
+        return u.toString();
+      }
+    } catch {
+      return v;
+    }
+  }
+  return v;
+}
+
+/** 存库前归一化：本站 /games/* 或 /play/* 的绝对 URL 一律转相对路径，并统一为 /play/*。 */
 function normalizePlayUrlForStorage(v: string | null | undefined) {
   if (v == null) return v;
   const t = v.trim();
   if (!t) return t;
+  if (t.startsWith("/play/") || t.startsWith("/games/")) {
+    return normalizePlayablePath(t);
+  }
   if (!/^https?:\/\//i.test(t)) return t;
   try {
     const u = new URL(t);
-    if (u.pathname.startsWith("/games/")) {
-      return `${u.pathname}${u.search}${u.hash}`;
+    if (u.pathname.startsWith("/games/") || u.pathname.startsWith("/play/")) {
+      return `${normalizePlayablePath(u.pathname)}${u.search}${u.hash}`;
     }
     return t;
   } catch {
@@ -356,8 +382,8 @@ adminRouter.post(
         throw new HttpError(400, "ZIP 包需在根目录提供 index.html");
       }
 
-      const playUrl = `/games/${gameFolder}/index.html`;
-      const basePath = `/games/${gameFolder}/`;
+      const playUrl = `/play/${gameFolder}/index.html`;
+      const basePath = `/play/${gameFolder}/`;
       res.json({ playUrl, basePath });
     } finally {
       try {
@@ -1250,7 +1276,7 @@ function mapAdminGame(game: AdminGamePayload) {
     launchCount: game.launchCount,
     cacheBust: game.cacheBust,
     lastReviewNote: game.lastReviewNote,
-    playUrl: game.playUrl,
+    playUrl: normalizePlayableUrlForResponse(game.playUrl),
     embedUrl: game.embedUrl,
     categorySlug: game.category?.slug ?? null,
     tagSlugs: game.tags.map((t) => t.tag.slug),

@@ -1,8 +1,0 @@
-{
-	"front":"Crystal_PositiveZ.png",
-	"back":"Crystal_NegativeZ.png",
-	"left":"Crystal_PositiveX.png",
-	"right":"Crystal_NegativeX.png",
-	"up":"Crystal_PositiveY.png",
-	"down":"Crystal_NegativeY.png"
-}

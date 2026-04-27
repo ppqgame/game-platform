@@ -18,7 +18,7 @@ app.use(cors({
 }));
 app.use(express.json({ limit: "1mb" }));
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
-app.use("/games", express.static(path.join(process.cwd(), "uploads", "games")));
+app.use("/play", express.static(path.join(process.cwd(), "uploads", "games")));
 app.get("/", (_req, res) => {
     res.json({ name: "game-platform-api", ok: true });
 });

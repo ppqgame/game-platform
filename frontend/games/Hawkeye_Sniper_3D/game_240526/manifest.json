@@ -1,1 +1,0 @@
-{"package":"com.more.wwjzz.nearme.gamecenter","name":"我玩狙贼准","versionName":"1.0.0","versionCode":100,"minPlatformVersion":1060,"icon":"./icon.png","orientation":"portrait","type":"game","config":{"logLevel":"off"},"subpackages":[{"name":"package1","root":"res/Scene/Conventional/"}]}

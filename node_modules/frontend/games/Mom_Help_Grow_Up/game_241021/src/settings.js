@@ -1,1 +1,0 @@
-window._CCSettings={platform:"cocos-runtime",groupList:["default","magnifier","rigid_1","rigid_2"],collisionMatrix:[[true,null,true,true],[false,false],[true,false,true,false],[true,false,false,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Scene/StartScene.fire",orientation:"",server:"",jsList:[]};

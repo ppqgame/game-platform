@@ -490,7 +490,7 @@ export function AdminGameEditorPage() {
           <input
             value={playUrl}
             onChange={(e) => setPlayUrl(e.target.value)}
-            placeholder="https://… /games/<游戏名>/index.html /play/… ./games/my/index.html"
+            placeholder="https://… /play/<游戏名>/index.html（兼容旧 /games/...）"
           />
           {fieldErrors.playUrl ? <div className="fieldError">{fieldErrors.playUrl}</div> : null}
         </label>

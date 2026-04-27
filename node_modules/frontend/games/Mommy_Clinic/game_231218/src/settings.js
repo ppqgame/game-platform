@@ -1,1 +1,0 @@
-window._CCSettings={platform:"fb-instant-games",groupList:["default","Capture"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Scene/PreloadScene.fire",orientation:"",jsList:[]};
