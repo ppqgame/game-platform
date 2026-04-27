@@ -2,9 +2,25 @@
 export function resolvePlayUrl(href: string, baseHref: string = typeof window !== "undefined" ? window.location.href : "http://localhost/"): string {
   const t = href.trim();
   if (!t) return "";
-  if (/^https?:\/\//i.test(t)) return t;
 
   const backendOrigin = (import.meta.env.VITE_BACKEND_ORIGIN as string | undefined) || "";
+  if (/^https?:\/\//i.test(t)) {
+    try {
+      const u = new URL(t);
+      const host = u.hostname.toLowerCase();
+      const isLoopbackHost = host === "localhost" || host === "127.0.0.1" || host === "::1";
+      if (!isLoopbackHost) return t;
+
+      const fallbackOrigin = backendOrigin || new URL(baseHref).origin;
+      const target = new URL(fallbackOrigin);
+      u.protocol = target.protocol;
+      u.host = target.host;
+      return u.toString();
+    } catch {
+      return t;
+    }
+  }
+
   if (t.startsWith("/games/")) {
     // 开发环境改走 /_games 代理，避免与前端 /games/:slug 详情路由冲突。
     if (import.meta.env.DEV) return t.replace(/^\/games\//, "/_games/");
